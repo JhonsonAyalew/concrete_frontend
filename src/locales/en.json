@@ -1,0 +1,2068 @@
+{
+  "common": {
+    "appName": "Concrete",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "from": "From",
+    "to": "To",
+    "status": "Status",
+    "actions": "Actions",
+    "date": "Date",
+    "amount": "Amount",
+    "total": "Total",
+    "noData": "No data found",
+    "optional": "Optional",
+    "required": "Required",
+    "page": "Page",
+    "of": "of",
+    "perPage": "Per page",
+    "showing": "Showing",
+    "results": "results",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "language": "Language",
+    "notifications": "Notifications",
+    "markAllRead": "Mark all read",
+    "noNotifications": "No notifications",
+    "viewAll": "View all",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "yes": "Yes",
+    "no": "No",
+    "verified": "Verified",
+    "unverified": "Unverified",
+    "active": "Active",
+    "suspended": "Suspended"
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Create Account",
+    "logout": "Sign Out",
+    "email": "Email address",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "name": "Full name",
+    "phone": "Phone number",
+    "city": "City",
+    "role": "I am a",
+    "customer": "Customer",
+    "owner": "Equipment Owner",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset Password",
+    "sendResetLink": "Send reset link",
+    "backToLogin": "Back to sign in",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "signIn": "Sign in",
+    "welcomeBack": "Welcome back",
+    "loginSubtitle": "Sign in to your Concrete account",
+    "registerSubtitle": "Join Ethiopia's leading equipment rental platform",
+    "forgotSubtitle": "Enter your email to receive a reset link",
+    "loginSuccess": "Welcome back!",
+    "registerSuccess": "Account created! Please sign in.",
+    "resetSent": "Reset link sent to your email"
+  },
+  "nav": {
+    "home": "Home",
+    "equipment": "Equipment",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Sign In",
+    "register": "Create Account",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Sign Out",
+    "language": "Language",
+    "logoAlt": "Concrete Logo",
+    "switchLanguage": "Switch language",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "equipment": {
+    "searchPlaceholder": "Search equipment by name, brand...",
+    "filterByCategory": "Category",
+    "filterByCity": "City",
+    "filterByCondition": "Condition",
+    "priceRange": "Price Range",
+    "perDay": "/ day",
+    "perHour": "/ hour",
+    "perWeek": "/ week",
+    "perMonth": "/ month",
+    "bookNow": "Book Now",
+    "viewDetails": "View Details",
+    "condition": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair"
+    },
+    "availability": "Availability",
+    "delivery": "Delivery available",
+    "noDelivery": "Pickup only",
+    "owner": "Listed by",
+    "specifications": "Specifications",
+    "attachments": "Attachments",
+    "reviews": "Reviews",
+    "similarEquipment": "Similar Equipment",
+    "deposit": "Deposit",
+    "minRental": "Min rental",
+    "days": "days",
+    "rating": "Rating",
+    "bookings": "bookings",
+    "featured": "Featured Equipment",
+    "noEquipment": "No equipment found",
+    "addedToFavorites": "Added to favorites",
+    "removedFromFavorites": "Removed from favorites"
+  },
+  "booking": {
+    "createBooking": "Create Booking",
+    "pricingMode": "Pricing Mode",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "timeSlot": "Time Slot",
+    "notes": "Notes",
+    "deliveryAddress": "Delivery Address",
+    "summary": "Booking Summary",
+    "unitPrice": "Unit Price",
+    "totalDays": "Total Days",
+    "subtotal": "Subtotal",
+    "platformFee": "Platform Fee (12%)",
+    "totalAmount": "Total Amount",
+    "depositAmount": "Deposit",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "confirmBooking": "Confirm Booking",
+    "cancelBooking": "Cancel Booking",
+    "completeBooking": "Mark Complete",
+    "bookingRef": "Booking Reference",
+    "noBookings": "No bookings yet",
+    "bookingCreated": "Booking created successfully!",
+    "bookingConfirmed": "Booking confirmed!",
+    "bookingCancelled": "Booking cancelled",
+    "cancellationReason": "Reason for cancellation"
+  },
+  "submission": {
+    "title": "List Your Equipment",
+    "subtitle": "Fill out the form to list your equipment for rent",
+    "step1": "Basic Info",
+    "step2": "Details",
+    "step3": "Pricing",
+    "step4": "Location",
+    "step5": "Media",
+    "status": {
+      "pending": "Pending Review",
+      "review": "Under Review",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "submissionCreated": "Submission sent for review!",
+    "noSubmissions": "No submissions yet",
+    "reviewNote": "Review Note",
+    "rejectionReason": "Rejection Reason"
+  },
+  "admin": {
+    "overview": "Overview",
+    "totalRevenue": "Total Revenue",
+    "thisMonth": "This Month",
+    "totalBookings": "Total Bookings",
+    "totalUsers": "Total Users",
+    "totalEquipment": "Total Equipment",
+    "pendingApprovals": "Pending Approvals",
+    "activeTimeSlots": "Active Time Slots",
+    "approveSubmission": "Approve",
+    "rejectSubmission": "Reject",
+    "suspendUser": "Suspend User",
+    "activateUser": "Activate User",
+    "deleteUser": "Delete User",
+    "addAdmin": "Add Admin",
+    "commissionRate": "Commission Rate",
+    "maintenanceMode": "Maintenance Mode",
+    "platformName": "Platform Name"
+  },
+  "review": {
+    "writeReview": "Write a Review",
+    "rating": "Rating",
+    "comment": "Your experience",
+    "submitReview": "Submit Review",
+    "noReviews": "No reviews yet",
+    "reviewSubmitted": "Review submitted!"
+  },
+
+    "landing": {
+      "hero": {
+        "badge": "🇪🇹 ETHIOPIA'S #1 EQUIPMENT RENTAL PLATFORM",
+        "titleLine1": "Rent Any",
+        "titleLine2": "Heavy Machine",
+        "titleLine3": "Across Ethiopia",
+        "description": "Connect with 200+ verified equipment owners. Excavators, bulldozers, cranes and 20+ categories — delivered to your site in hours.",
+        "searchPlaceholder": "Search for excavator, crane, loader...",
+        "searchButton": "Search",
+        "getStartedButton": "Get Started Now",
+        "browseButton": "Browse Equipment",
+        "successfulRentals": "1,000+ successful rentals",
+        "verifiedOwners": "200+ Verified Owners",
+        "trustScore": "4.9 / 5.0 TrustScore",
+        "confirmationTime": "< 24h Confirmation"
+      },
+      "categories": {
+        "sectionBadge": "Equipment Categories",
+        "title": "Browse by Category",
+        "description": "Find exactly the equipment you need from our wide range of categories",
+        "available": "available",
+        "viewAllButton": "View All Equipment"
+      },
+      "howItWorks": {
+        "sectionBadge": "Simple Process",
+        "title": "How It Works",
+        "description": "From browsing to booking in under 5 minutes",
+        "step1": {
+          "title": "Browse Equipment",
+          "description": "Search and filter from hundreds of verified heavy equipment listings across Ethiopia."
+        },
+        "step2": {
+          "title": "Book & Confirm",
+          "description": "Request a booking with your preferred dates. Owner confirms within 24 hours."
+        },
+        "step3": {
+          "title": "Get to Work",
+          "description": "Equipment is delivered or ready for pickup. Start your project with confidence."
+        }
+      },
+      "featured": {
+        "sectionBadge": "Top Listings",
+        "title": "Featured Equipment",
+        "viewAllButton": "View All"
+      },
+      "testimonials": {
+        "sectionBadge": "Testimonials",
+        "title": "What Our",
+        "titleHighlight": "Customers Say",
+        "description": "Real stories from satisfied customers across Ethiopia",
+        "readMoreButton": "Read More Stories",
+        "verifiedCustomer": "Verified Customer"
+      },
+      "trustSection": {
+        "sectionBadge": "Why Choose Us",
+        "title": "Built for Trust & Reliability",
+        "features": {
+          "verifiedOwners": {
+            "title": "Verified Owners",
+            "description": "All equipment owners are ID-verified and their listings are inspected before approval."
+          },
+          "fastBooking": {
+            "title": "Fast Booking",
+            "description": "Book in minutes. Get confirmation within 24 hours. No endless back-and-forth."
+          },
+          "support": {
+            "title": "24/7 Support",
+            "description": "Our team is always available to help resolve any issues during your rental."
+          },
+          "securePayments": {
+            "title": "Secure Payments",
+            "description": "Your payments are protected. We hold deposits until the job is done right."
+          }
+        }
+      },
+      "ctaBanner": {
+        "title": "Ready to Get Started?",
+        "description": "Join hundreds of businesses and equipment owners already using Concrete Ethiopia.",
+        "rentButton": "Rent Equipment",
+        "listButton": "List Equipment"
+      },
+      "equipmentCard": {
+        "perDay": "/day",
+        "viewDetails": "View Details"
+      },
+      "tickerItems": [
+        "Excavator",
+        "Loader",
+        "Bulldozer",
+        "Crane",
+        "Grader",
+        "Compactor",
+        "Dump Truck",
+        "Generator",
+        "Backhoe",
+        "Forklift",
+        "Scraper",
+        "Paver",
+        "Roller",
+        "Drill Rig"
+      ]
+    },
+    
+    "about": {
+      "hero": {
+        "badge": "About Concrete",
+        "titleLine1": "Connecting Ethiopia's",
+        "titleLine2": "Construction Industry",
+        "description": "Concrete Ethiopia is the country's leading digital marketplace for heavy equipment rental. We bridge the gap between equipment owners and businesses that need reliable machinery — making construction projects faster, safer, and more affordable."
+      },
+      "stats": {
+        "citiesCovered": {
+          "value": "15+",
+          "label": "Cities Covered"
+        },
+        "verifiedOwners": {
+          "value": "200+",
+          "label": "Verified Owners"
+        },
+        "jobsCompleted": {
+          "value": "1,000+",
+          "label": "Jobs Completed"
+        },
+        "averageRating": {
+          "value": "4.8★",
+          "label": "Average Rating"
+        }
+      },
+      "mission": {
+        "badge": "Our Mission",
+        "title": "Making Equipment Accessible to Every Ethiopian Business",
+        "paragraph1": "We started Concrete because we saw a clear problem: Ethiopian construction companies were losing time and money trying to find reliable equipment through informal networks and word-of-mouth.",
+        "paragraph2": "Our platform creates a transparent, trusted marketplace where equipment owners can list their assets and earn income, while businesses can quickly find exactly what they need — with verified quality, clear pricing, and professional service.",
+        "paragraph3": "Today we operate across 15+ cities in Ethiopia, with a growing network of verified owners and thousands of successful rentals completed."
+      },
+      "values": {
+        "trustAndSafety": {
+          "title": "Trust & Safety",
+          "description": "Every owner and listing is verified. Your security is our top priority."
+        },
+        "communityFirst": {
+          "title": "Community First",
+          "description": "We empower Ethiopian businesses and equipment owners to grow together."
+        },
+        "fastAndReliable": {
+          "title": "Fast & Reliable",
+          "description": "Quick bookings, real-time availability, and dependable support."
+        },
+        "qualityAssurance": {
+          "title": "Quality Assurance",
+          "description": "All equipment is inspected and meets our strict quality standards."
+        }
+      },
+      "team": {
+        "title": "Built for Ethiopia, by Ethiopians",
+        "description": "Our team is passionate about Ethiopia's economic growth and the role construction plays in building the country's future. We're committed to creating technology that works for real people, in real conditions, across Ethiopia."
+      }
+    },
+    "contact": {
+      "header": {
+        "badge": "Contact Us",
+        "title": "Get In Touch",
+        "description": "Have a question, need support, or want to partner with us? We'd love to hear from you."
+      },
+      "form": {
+        "title": "Send a Message",
+        "fullNameLabel": "Full Name",
+        "fullNamePlaceholder": "Abebe Girma",
+        "emailLabel": "Email",
+        "emailPlaceholder": "abebe@example.com",
+        "phoneLabel": "Phone (optional)",
+        "phonePlaceholder": "+251 9XX XXX XXX",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "How can we help?",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Tell us more about your inquiry…",
+        "submitButton": "Send Message",
+        "successTitle": "Message Sent!",
+        "successMessage": "We'll get back to you within 24 hours.",
+        "sendAnother": "Send another message",
+        "errorMessage": "Failed to send message. Please try again.",
+        "nameRequired": "Name required",
+        "emailRequired": "Email required",
+        "emailInvalid": "Invalid email",
+        "subjectRequired": "Subject required",
+        "messageRequired": "Message required",
+        "messageTooShort": "Please be more descriptive"
+      },
+      "info": {
+        "title": "Contact Information",
+        "phone": {
+          "label": "Phone",
+          "value": "+251 986 253 798",
+          "sub": "Mon–Sat, 8am–6pm"
+        },
+        "email": {
+          "label": "Email",
+          "value": "info@Concrete.et",
+          "sub": "We reply within 24 hours"
+        },
+        "address": {
+          "label": "Address",
+          "value": "Addis Ababa (Yetebaberut), Jimma",
+          "sub": "Ethiopia"
+        },
+        "hours": {
+          "label": "Hours",
+          "value": "Mon–Sat 8am–6pm",
+          "sub": "Closed Sundays"
+        }
+      },
+      "cta": {
+        "title": "List Your Equipment",
+        "description": "Do you have heavy equipment sitting idle? Start earning by listing it on Concrete.",
+        "button": "Get Started"
+      }
+    },
+    "equipment": {
+      "header": {
+        "title": "Browse Equipment",
+        "subtitle": "{{count}} equipment available across Ethiopia"
+      },
+      "searchPlaceholder": "Search by name, brand, model…",
+      "filtersButton": "Filters",
+      "filtersPanel": {
+        "title": "Filters",
+        "clear": "Clear",
+        "allCategories": "All Categories",
+        "allCities": "All Cities",
+        "anyCondition": "Any Condition",
+        "minPrice": "Min price/day",
+        "maxPrice": "Max price/day"
+      },
+      "sort": {
+        "newestFirst": "Newest First",
+        "priceLowToHigh": "Price: Low to High",
+        "priceHighToLow": "Price: High to Low",
+        "topRated": "Top Rated"
+      },
+      "conditions": {
+        "excellent": "Excellent",
+        "good": "Good",
+        "fair": "Fair"
+      },
+      "cities": [
+        "Addis Ababa",
+        "Dire Dawa",
+        "Hawassa",
+        "Bahir Dar",
+        "Mekelle",
+        "Adama",
+        "Gondar",
+        "Jimma"
+      ],
+      "emptyState": {
+        "title": "No Equipment Found",
+        "description": "Try adjusting your search or filters",
+        "clearButton": "Clear Filters"
+      },
+      "deliveryBadge": "Delivery",
+      "perDay": "/day",
+      "perHour": "/hr",
+      "viewDetails": "View Details"
+    },
+    "equipmentDetail": {
+    "notFound": "Equipment not found.",
+    "breadcrumb": {
+      "home": "Home",
+      "equipment": "Equipment"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "specs": "Specifications",
+      "reviews": "Reviews",
+      "timeSlots": "Time Slots"
+    },
+    "overview": {
+      "description": "Description",
+      "noDescription": "No description provided.",
+      "attachments": "Attachments",
+      "brand": "Brand",
+      "model": "Model",
+      "year": "Year",
+      "condition": "Condition",
+      "city": "City",
+      "minRental": "Min. Rental",
+      "days": "day(s)"
+    },
+    "specs": {
+      "title": "Technical Specifications",
+      "noSpecs": "No specifications listed."
+    },
+    "reviews": {
+      "reviewCount": "reviews",
+      "noReviews": "No reviews yet.",
+      "anonymous": "Anonymous"
+    },
+    "timeSlots": {
+      "title": "Available Time Slots",
+      "noSlots": "No time slots configured.",
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    },
+    "conditions": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "perHour": "Per Hour",
+      "perDay": "Per Day",
+      "perWeek": "Per Week",
+      "perMonth": "Per Month",
+      "deposit": "Deposit"
+    },
+    "owner": {
+      "title": "Equipment Owner"
+    },
+    "deliveryBadge": "Delivery",
+    "rentals": "rentals",
+    "bookButton": {
+      "request": "Request Booking",
+      "loginToBook": "Login to Book",
+      "createAccount": "Create Account",
+      "customersOnly": "Only customers can book equipment"
+    }
+  },
+  "auth": {
+  "login": "Sign In",
+  "register": "Create Account",
+  "logout": "Sign Out",
+  "email": "Email address",
+  "password": "Password",
+  "confirmPassword": "Confirm password",
+  "name": "Full name",
+  "phone": "Phone number",
+  "city": "City",
+  "role": "I am a",
+  "customer": "Customer",
+  "owner": "Equipment Owner",
+  "forgotPassword": "Forgot password?",
+  "resetPassword": "Reset Password",
+  "sendResetLink": "Send reset link",
+  "backToLogin": "Back to sign in",
+  "noAccount": "Don't have an account?",
+  "hasAccount": "Already have an account?",
+  "signUp": "Sign up",
+  "signIn": "Sign in",
+  "welcomeBack": "Welcome back",
+  "loginSubtitle": "Sign in to continue to your account",
+  "registerSubtitle": "Join Ethiopia's leading equipment rental platform",
+  "forgotSubtitle": "Enter your email to receive a reset link",
+  "loginSuccess": "Welcome back, {{name}}!",
+  "registerSuccess": "Account created! Please sign in.",
+  "resetSent": "Reset link sent to your email",
+  "badge": "Ethiopia's #1 Platform",
+  "emailPlaceholder": "abebe@example.com",
+  "passwordPlaceholder": "Enter your password",
+  "createAccount": "Create Account",
+  "loginError": "Invalid email or password",
+  "emailRequired": "Email is required",
+  "passwordRequired": "Password is required",
+  "passwordMinLength": "Minimum 6 characters",
+  "leftPanel": {
+    "titleLine1": "Heavy Equipment",
+    "titleLine2": "Rental Made",
+    "titleLine3": "Simple",
+    "description": "Connect with verified owners across Ethiopia. From excavators to graders — find any equipment you need."
+  },
+  "stats": {
+    "equipment": "Equipment",
+    "owners": "Owners",
+    "rentals": "Rentals"
+  },
+  "footer": {
+    "copyright": "Concrete Ethiopia. All rights reserved."
+  }
+},
+"register": {
+    "steps": {
+      "role": "Role",
+      "details": "Details",
+      "verifyId": "Verify ID"
+    },
+    "buttons": {
+      "continue": "Continue",
+      "createAccount": "Create Account"
+    },
+    "role": {
+      "title": "Choose Your Role",
+      "subtitle": "Tell us how you'll use Concrete",
+      "customerTitle": "Rent Equipment",
+      "customerDesc": "Find heavy equipment for construction, excavation, or project work",
+      "ownerTitle": "List Equipment",
+      "ownerDesc": "Own equipment and want to rent it to reliable customers",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign In"
+    },
+    "details": {
+      "ownerTitle": "Become an Equipment Owner",
+      "customerTitle": "Create Customer Account",
+      "subtitle": "Fill in the details below to get started",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Abebe Girma",
+      "email": "Email Address",
+      "emailPlaceholder": "abebe@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+251911000000",
+      "password": "Password",
+      "passwordPlaceholder": "Create a password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "city": "City",
+      "selectCity": "Select your city",
+      "companyName": "Company Name",
+      "companyPlaceholder": "Enter your company name"
+    },
+    "validation": {
+      "nameRequired": "Full name is required",
+      "emailRequired": "Email address is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "cityRequired": "Please select your city",
+      "companyRequired": "Company name is required"
+    },
+    "verify": {
+      "title": "Verify Your Identity",
+      "subtitle": "To keep our platform secure, please verify your identity",
+      "idType": "ID Type",
+      "nationalId": "National ID Card",
+      "fin": "Tax Identification Number (FIN)",
+      "passport": "Passport",
+      "idNumber": "ID Number",
+      "idNumberPlaceholder": "Enter your ID number",
+      "fullName": "Full Name on ID",
+      "fullNamePlaceholder": "Enter the full name as shown on your ID",
+      "dateOfBirth": "Date of Birth",
+      "sendOtp": "Send Verification Code",
+      "skipLater": "Verify Later",
+      "otpSentMessage": "Verification code has been sent to your registered phone number",
+      "otpCode": "Verification Code",
+      "otpPlaceholder": "Enter 6-digit code",
+      "verifyButton": "Verify & Complete"
+    },
+    "messages": {
+      "accountCreated": "Account created successfully!",
+      "registrationFailed": "Registration failed. Please try again.",
+      "fillIdFields": "Please fill in ID number and full name",
+      "otpSent": "Verification code sent!",
+      "verificationFailed": "Verification failed. Please check your information.",
+      "idVerified": "Identity verified successfully!",
+      "completionTitle": "Registration Complete!",
+      "redirecting": "Redirecting to login page..."
+    },
+    "cities": [
+      "Addis Ababa",
+      "Dire Dawa",
+      "Hawassa",
+      "Bahir Dar",
+      "Mekelle",
+      "Adama",
+      "Gondar",
+      "Jimma",
+      "Dessie",
+      "Jijiga"
+    ]
+  },
+  "resetPassword": {
+  "title": "Reset Password",
+  "subtitle": "Choose a strong new password for your account.",
+  "newPasswordLabel": "New Password",
+  "newPasswordPlaceholder": "Min 8 characters",
+  "confirmPasswordLabel": "Confirm New Password",
+  "confirmPasswordPlaceholder": "Repeat password",
+  "submitButton": "Reset Password",
+  "successTitle": "Password Reset!",
+  "successMessage": "Redirecting to login…",
+  "errors": {
+    "invalidLink": "Invalid reset link",
+    "resetFailed": "Reset failed",
+    "passwordRequired": "Password required",
+    "confirmRequired": "Confirm password",
+    "passwordMismatch": "Passwords don't match"
+  }
+},
+
+"forgotPassword": {
+    "title": "Forgot Password?",
+    "description": "Enter your email and we'll send you a reset link.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "abebe@example.com",
+    "resetButton": "Send Reset Link",
+    "successTitle": "Check Your Email",
+    "successMessage": "We sent a reset link to",
+    "spamHint": "Didn't receive it? Check spam folder.",
+    "backToLogin": "Back to Login",
+    "errors": {
+      "emailRequired": "Email required",
+      "emailInvalid": "Invalid email",
+      "emailNotFound": "Email not found in our system"
+    }
+  },
+  "dashboardNavbar": {
+    "notifications": {
+      "title": "Notifications",
+      "markAllRead": "Mark all read",
+      "allCaughtUp": "All caught up!",
+      "noNotifications": "No notifications yet.",
+      "viewDetails": "View details",
+      "footer": "{{count}} total · click any to open"
+    },
+    "userMenu": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    }
+  },
+  "customerDashboard": {
+    "welcome": "Hello, {{name}}",
+    "subtitle": "Manage your equipment rentals from here.",
+    "stats": {
+      "totalBookings": "Total Bookings",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed"
+    },
+    "findEquipment": {
+      "title": "Find Equipment",
+      "description": "Browse verified heavy equipment listings across Ethiopia.",
+      "button": "Browse Equipment"
+    },
+    "recentBookings": {
+      "title": "Recent Bookings",
+      "viewAll": "View All",
+      "noBookings": "No bookings yet",
+      "browseButton": "Browse Equipment"
+    },
+    "currency": "ETB"
+  },
+   "bookEquipment": {
+    "backButton": "Back",
+    "pricingModes": {
+      "daily": "Daily",
+      "hourly": "Hourly",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "form": {
+      "title": "Booking Details",
+      "pricingModeLabel": "Pricing Mode",
+      "startDateLabel": "Start Date",
+      "endDateLabel": "End Date",
+      "timeSlotLabel": "Time Slot (optional)",
+      "timeSlotNoPreference": "No preference",
+      "deliveryAddressLabel": "Delivery Address (optional)",
+      "deliveryAddressPlaceholder": "Within {{radius}}km of {{city}}",
+      "notesLabel": "Special Notes (optional)",
+      "notesPlaceholder": "Any special requirements, delivery instructions, etc…",
+      "submitButton": "Request Booking",
+      "startTimeLabel": "Start Time",
+      "endTimeLabel": "End Time"
+    },
+    "summary": {
+      "title": "Price Summary",
+      "days": "days",
+      "hours": "hours",
+      "weeks": "weeks",
+      "months": "months",
+      "platformFee": "Platform fee (12%)",
+      "deposit": "Security deposit",
+      "total": "Total"
+    },
+    "success": {
+      "title": "Booking Requested!",
+      "referenceLabel": "Your booking reference is",
+      "message": "The owner will confirm or contact you within 24 hours. You'll receive a notification when your booking is confirmed.",
+      "viewBookingsButton": "View My Bookings",
+      "bookingSent": "Booking request sent!"
+    },
+    "errors": {
+      "notFound": "Equipment not found",
+      "equipmentNotFound": "Equipment not found.",
+      "selectDates": "Please select dates",
+      "invalidDates": "End date must be after start date",
+      "bookingFailed": "Booking failed"
+    }
+  },
+  "customerBookings": {
+    "header": {
+      "title": "My Bookings",
+      "subtitle": "Track and manage your equipment rentals",
+      "bookButton": "Book Equipment"
+    },
+    "tabs": {
+      "all": "All",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "columns": {
+      "ref": "Ref",
+      "equipment": "Equipment",
+      "dates": "Dates",
+      "amount": "Amount",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "newBadge": "NEW",
+    "justConfirmed": "Just confirmed!",
+    "recentlyCancelled": "Recently cancelled",
+    "currency": "ETB",
+    "emptyText": "No bookings found",
+    "newActivity": {
+      "title": "{{count}} new update in the last 48 hours",
+      "description": "Bookings marked with",
+      "suffix": "badge are recently created or updated."
+    },
+    "actions": {
+      "viewDetails": "View details",
+      "viewEquipment": "View equipment",
+      "cancel": "Cancel booking",
+      "leaveReview": "Leave review",
+      "alreadyReviewed": "Already reviewed"
+    },
+    "detailModal": {
+      "title": "Booking Detail",
+      "viewEquipment": "View Equipment",
+      "cancelButton": "Cancel",
+      "leaveReview": "Leave Review",
+      "alreadyReviewed": "Already Reviewed",
+      "view": "View"
+    },
+    "detailFields": {
+      "owner": "Owner",
+      "ownerPhone": "Owner Phone",
+      "pricingMode": "Pricing Mode",
+      "totalDays": "Total Days",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "platformFee": "Platform Fee",
+      "notes": "Your Notes",
+      "cancellationReason": "Cancellation Reason"
+    },
+    "statusMessages": {
+      "pending": "Waiting for owner confirmation",
+      "confirmed": "Your booking has been confirmed!",
+      "completed": "This rental was completed successfully",
+      "cancelled": "This booking was cancelled"
+    },
+    "cancelModal": {
+      "title": "Cancel Booking",
+      "goBack": "Go Back",
+      "confirmButton": "Confirm Cancellation",
+      "warning": "Cancel booking",
+      "reasonLabel": "Reason for cancellation",
+      "reasonPlaceholder": "Please tell us why you're cancelling…"
+    },
+    "reviewModal": {
+      "title": "Leave a Review",
+      "cancel": "Cancel",
+      "submit": "Submit Review",
+      "booking": "Booking",
+      "ratingLabel": "Your Rating",
+      "reviewLabel": "Your Review",
+      "reviewPlaceholder": "Share your experience — was the equipment in good condition? Was the owner professional?",
+      "ratingLabels": {
+        "excellent": "Excellent!",
+        "veryGood": "Very Good",
+        "average": "Average",
+        "poor": "Poor",
+        "veryPoor": "Very Poor"
+      }
+    },
+    "alreadyReviewedModal": {
+      "title": "Already Reviewed",
+      "gotIt": "Got it",
+      "subtitle": "Review Already Submitted",
+      "description": "You have already reviewed this booking. Each booking can only be reviewed once.",
+      "thanks": "Thank you for your feedback!"
+    },
+    "messages": {
+      "cancelSuccess": "Booking cancelled",
+      "cancelFailed": "Failed to cancel",
+      "commentRequired": "Please write a comment",
+      "reviewSuccess": "Review submitted! Thank you.",
+      "reviewFailed": "Failed to submit review"
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "My Profile",
+      "subtitle": "Manage your account information"
+    },
+    "role": {
+      "customer": "Customer"
+    },
+    "avatar": {
+      "uploadPhoto": "Upload profile photo",
+      "changePhoto": "Change profile photo",
+      "uploading": "Uploading profile photo...",
+      "success": "Profile photo updated successfully!",
+      "errors": {
+        "fileTooLarge": "Image must be under 5 MB",
+        "invalidType": "Please select an image file",
+        "uploadFailed": "Photo upload failed. Please try again."
+      }
+    },
+    "form": {
+      "fullName": "Full Name",
+      "namePlaceholder": "Abebe Girma",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+251 9XX XXX XXX",
+      "city": "City",
+      "selectCity": "Select city",
+      "saveButton": "Save Changes",
+      "success": "Profile updated successfully!",
+      "error": "Update failed. Please try again.",
+      "errors": {
+        "nameRequired": "Name is required"
+      }
+    },
+    "verification": {
+      "idVerified": "ID Verified",
+      "notVerified": "Not Verified",
+      "verifyTitle": "Verify Your Identity",
+      "verifyDescription": "Verified users get faster booking approvals and more trust from equipment owners. Your national ID is encrypted and stored securely.",
+      "verifyButton": "Verify My Identity",
+      "verifiedBadge": "Identity Verified ✓",
+      "verifiedDescription": "Your identity has been verified. You get priority booking approvals.",
+      "otpSent": "OTP sent to your registered phone number!",
+      "verifiedSuccess": "Identity verified successfully! ✓",
+      "benefits": {
+        "fasterApprovals": "✓ Faster approvals",
+        "ownerTrust": "✓ Owner trust",
+        "secureEncrypted": "✓ Secure & encrypted"
+      },
+      "errors": {
+        "fillAllFields": "Please fill in all ID fields",
+        "requestFailed": "Verification request failed",
+        "enterOtp": "Please enter the OTP code",
+        "otpFailed": "OTP verification failed"
+      },
+      "idTypes": {
+        "nationalId": "National ID",
+        "fin": "FIN",
+        "passport": "Passport"
+      },
+      "modal": {
+        "title": "Verify Your Identity",
+        "otpTitle": "Enter OTP Code",
+        "description": "Enter your national ID details. We'll send an OTP to your phone to confirm.",
+        "idType": "ID Type",
+        "idNumber": "FAN / ID Number",
+        "idNumberPlaceholder": "Enter your ID number",
+        "fullName": "Full Name (as on ID)",
+        "fullNamePlaceholder": "Abebe Girma",
+        "dateOfBirth": "Date of Birth",
+        "sendOtp": "Send OTP",
+        "otpSent": "OTP Sent!",
+        "otpDescription": "Check your phone — enter the 6-digit code below",
+        "enterOtp": "Enter OTP Code",
+        "verify": "Verify",
+        "resendOtp": "Didn't receive it? Resend OTP"
+      }
+    },
+    "cities": [
+      "Addis Ababa",
+      "Dire Dawa",
+      "Hawassa",
+      "Bahir Dar",
+      "Mekelle",
+      "Adama",
+      "Gondar",
+      "Jimma",
+      "Dessie",
+      "Jijiga",
+      "other"
+    ]
+  },
+  "ownerDashboard": {
+    "welcome": "Welcome back, {{name}}",
+    "subtitle": "Here's your equipment performance overview.",
+    "addEquipmentButton": "Add Equipment",
+    "apiError": "Analytics API unavailable — showing empty state. Data will appear once backend is connected.",
+    "stats": {
+      "totalEarnings": "Total Earnings",
+      "thisMonth": "This Month",
+      "totalBookings": "Total Bookings",
+      "activeBookings": "Active Bookings",
+      "equipmentListed": "Equipment Listed",
+      "avgRating": "Avg Rating"
+    },
+    "monthlyEarnings": {
+      "title": "Monthly Earnings (ETB)",
+      "fullReport": "Full Report",
+      "noData": "No revenue data yet",
+      "noDataHint": "Appears once you have completed bookings",
+      "tooltipEarnings": "Earnings"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "addEquipment": {
+        "label": "Add New Equipment",
+        "description": "List a new machine for rental"
+      },
+      "myEquipment": {
+        "label": "My Equipment",
+        "description": "View, edit or remove your listings"
+      },
+      "mySubmissions": {
+        "label": "My Submissions",
+        "description": "Track your listing approvals"
+      },
+      "manageBookings": {
+        "label": "Manage Bookings",
+        "description": "Confirm or review rental requests"
+      }
+    }
+  },
+   "ownerEquipment": {
+    "title": "Add Equipment",
+    "subtitle": "Submit your equipment for listing review",
+    "steps": {
+      "basicInfo": "Basic Info",
+      "details": "Details",
+      "pricing": "Pricing",
+      "location": "Location",
+      "media": "Media"
+    },
+    "navigation": {
+      "back": "Back",
+      "continue": "Continue",
+      "submit": "Submit for Review"
+    },
+    "basicInfo": {
+      "title": "Basic Information",
+      "name": "Equipment Name *",
+      "namePlaceholder": "CAT 320 Excavator",
+      "brand": "Brand *",
+      "brandPlaceholder": "Caterpillar",
+      "model": "Model *",
+      "modelPlaceholder": "320 GX",
+      "year": "Year",
+      "condition": "Condition *",
+      "selectCondition": "Select condition",
+      "category": "Category *",
+      "selectCategory": "Select category"
+    },
+    "details": {
+      "title": "Equipment Details",
+      "description": "Description *",
+      "descriptionPlaceholder": "Describe your equipment, its condition, and what it can do…",
+      "specifications": "Specifications (optional)",
+      "weight": "Weight",
+      "weightPlaceholder": "20 tons",
+      "engine": "Engine",
+      "enginePlaceholder": "CAT C7.1",
+      "power": "Power",
+      "powerPlaceholder": "148 kW",
+      "maxReach": "Max Reach",
+      "maxReachPlaceholder": "9.6 m",
+      "attachments": "Attachments (comma-separated)",
+      "attachmentsPlaceholder": "Hydraulic Hammer, Bucket, Ripper"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "Set at least one price. All prices in Ethiopian Birr (ETB).",
+      "perHour": "Price per Hour (ETB)",
+      "perDay": "Price per Day (ETB) *",
+      "perWeek": "Price per Week (ETB)",
+      "perMonth": "Price per Month (ETB)",
+      "deposit": "Security Deposit (ETB)",
+      "minRentalDays": "Min Rental Days",
+      "availableFrom": "Available From",
+      "availableTo": "Available To"
+    },
+    "location": {
+      "title": "Location",
+      "city": "City *",
+      "selectCity": "Select city",
+      "address": "Specific Address",
+      "addressPlaceholder": "Bole, near airport",
+      "deliveryAvailable": "Delivery Available",
+      "noDelivery": "No — Customer picks up",
+      "yesDelivery": "Yes — I can deliver",
+      "deliveryRadius": "Delivery Radius (km)"
+    },
+    "media": {
+      "title": "Photos & Documents",
+      "photos": "Equipment Photos * (up to 10)",
+      "documents": "Documents (ownership, registration — optional, up to 5)",
+      "dragDropImages": "Drag & drop images or",
+      "dragDropDocuments": "Drag & drop PDFs or",
+      "clickToBrowse": "click to browse",
+      "imageConstraints": "JPEG, PNG, WebP up to 10MB each",
+      "documentConstraints": "PDF, JPEG, PNG up to 20MB each",
+      "preview": "Preview",
+      "infoText": "📸 Photos are required for listing approval. Documents help verify ownership and speed up the approval process."
+    },
+    "conditions": {
+      "poor": "Poor",
+      "new": "New"
+    },
+    "validation": {
+      "nameRequired": "Equipment name is required",
+      "nameMinLength": "Name must be at least 3 characters",
+      "brandRequired": "Brand is required",
+      "modelRequired": "Model is required",
+      "yearMin": "Year must be 1990 or later",
+      "yearMax": "Year cannot be in the future",
+      "conditionRequired": "Please select condition",
+      "categoryRequired": "Please select a category",
+      "descriptionRequired": "Description is required",
+      "descriptionMinLength": "Description must be at least 20 characters",
+      "descriptionMaxLength": "Description cannot exceed 2000 characters",
+      "priceNegative": "Price cannot be negative",
+      "dailyPriceRequired": "Daily price is required",
+      "pricePositive": "Price must be greater than 0",
+      "depositNegative": "Deposit cannot be negative",
+      "minRentalDaysMin": "Minimum rental days must be at least 1",
+      "cityRequired": "Please select a city",
+      "radiusNegative": "Radius cannot be negative"
+    },
+    "errors": {
+      "loadCategories": "Could not load categories. Please refresh the page.",
+      "noImages": "Please upload at least one photo of your equipment",
+      "selectCategory": "Please select a category",
+      "submissionFailed": "Submission failed. Please try again.",
+      "uploadImagesFailed": "Failed to upload images",
+      "uploadDocumentsFailed": "Failed to upload documents",
+      "fileTooLarge": "{{name}} is too large. Max {{max}}",
+      "invalidImageType": "{{name}} is not a valid image. Use JPEG, PNG, or WebP",
+      "invalidDocumentType": "{{name}} is not a valid document. Use PDF, JPEG, or PNG"
+    },
+    "success": {
+      "imagesAdded": "{{count}} image(s) added",
+      "documentsAdded": "{{count}} document(s) added",
+      "imagesUploaded": "{{count}} image(s) uploaded successfully",
+      "documentsUploaded": "{{count}} document(s) uploaded successfully",
+      "imageRemoved": "Image removed",
+      "documentRemoved": "Document removed",
+      "submitted": "Equipment submitted successfully! Admin will review shortly."
+    },
+    "uploading": {
+      "images": "Uploading images...",
+      "documents": "Uploading documents..."
+    }
+  },
+   "ownerSubmissions": {
+    "header": {
+      "title": "My Submissions",
+      "subtitle": "Track your equipment listing requests",
+      "newButton": "New Submission"
+    },
+    "columns": {
+      "equipment": "Equipment",
+      "status": "Status",
+      "adminNote": "Admin Note",
+      "submitted": "Submitted"
+    },
+    "table": {
+      "emptyText": "No submissions yet. Add your first equipment!"
+    },
+    "modal": {
+      "title": "Submission Detail",
+      "fields": {
+        "name": "Name",
+        "brand": "Brand",
+        "model": "Model",
+        "year": "Year",
+        "condition": "Condition",
+        "city": "City",
+        "pricePerDay": "Price/Day"
+      },
+      "rejectionReason": "Rejection Reason",
+      "adminNote": "Admin Note"
+    }
+  },
+  "ownerBookings": {
+    "header": {
+      "title": "Bookings",
+      "subtitle": "Manage rental requests for your equipment"
+    },
+    "tabs": {
+      "all": "All",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "table": {
+      "ref": "Ref",
+      "equipment": "Equipment",
+      "customer": "Customer",
+      "period": "Period",
+      "payout": "Payout",
+      "status": "Status",
+      "emptyText": "No bookings found"
+    },
+    "modal": {
+      "title": "Booking {{ref}}",
+      "customer": "Customer",
+      "phone": "Phone",
+      "dates": "Dates",
+      "totalDays": "Total Days",
+      "totalAmount": "Total Amount",
+      "yourPayout": "Your Payout",
+      "customerNotes": "Customer Notes"
+    },
+    "cancelModal": {
+      "title": "Cancel Booking",
+      "description": "Please provide a reason for cancelling booking {{ref}}:",
+      "placeholder": "Cancellation reason…",
+      "backButton": "Back",
+      "confirmButton": "Cancel Booking"
+    },
+    "messages": {
+      "confirmSuccess": "Confirmed!",
+      "confirmFailed": "Failed to confirm booking",
+      "cancelSuccess": "Booking cancelled",
+      "cancelFailed": "Failed to cancel booking"
+    },
+    "currency": "ETB"
+  },
+   "ownerAnalytics": {
+    "title": "Analytics",
+    "subtitle": "Your equipment performance insights",
+    "apiError": "Analytics API not available. Data will appear once connected to backend.",
+    "revenueTrend": "Revenue Trend",
+    "equipmentPerformance": "Equipment Performance",
+    "bookingsPerMonth": "Bookings per Month",
+    "revenue": "Revenue",
+    "bookings": "bookings",
+    "bookingsCount": "Bookings",
+    "noRevenueData": "No revenue data yet",
+    "noRevenueSubtext": "Appears after completed bookings",
+    "noEquipmentData": "No equipment data yet",
+    "noEquipmentSubtext": "Appears once you have approved equipment",
+    "stats": {
+      "totalEarnings": "Total Earnings",
+      "thisMonth": "This Month",
+      "totalBookings": "Total Bookings",
+      "avgRating": "Avg Rating",
+      "summary": "Summary Statistics"
+    },
+    "period": {
+      "last3Months": "Last 3 months",
+      "last6Months": "Last 6 months",
+      "last12Months": "Last 12 months"
+    },
+    "export": {
+      "pdf": "Export PDF",
+      "csv": "Export CSV"
+    },
+    "equipmentTable": {
+      "name": "Equipment Name",
+      "bookings": "Total Bookings",
+      "earnings": "Total Earnings"
+    },
+    "csv": {
+      "month": "Month",
+      "revenue": "Revenue (ETB)",
+      "bookings": "Bookings",
+      "revenueReport": "=== REVENUE REPORT ===",
+      "equipmentReport": "=== EQUIPMENT PERFORMANCE REPORT ===",
+      "equipmentName": "Equipment Name",
+      "totalBookings": "Total Bookings",
+      "totalEarnings": "Total Earnings (ETB)"
+    }
+  },
+  "ownerSettings": {
+    "title": "Settings",
+    "saveChanges": "Save Changes",
+    "saveSuccess": "Settings saved successfully!",
+    "saveError": "Failed to save settings. Please try again.",
+    "notifications": {
+      "title": "Notification Preferences",
+      "emailLabel": "Email Notifications",
+      "emailDesc": "Receive updates via email",
+      "smsLabel": "SMS Notifications",
+      "smsDesc": "Receive updates via SMS",
+      "newBookingLabel": "New Booking Alerts",
+      "newBookingDesc": "Alert when someone books your equipment",
+      "bookingConfirmedLabel": "Booking Confirmation Alerts",
+      "bookingConfirmedDesc": "Alert when a booking is confirmed",
+      "bookingCancelledLabel": "Cancellation Alerts",
+      "bookingCancelledDesc": "Alert when a booking is cancelled",
+      "paymentReceivedLabel": "Payment Received Alerts",
+      "paymentReceivedDesc": "Alert when a payment is received"
+    },
+    "payout": {
+      "title": "Payout Settings",
+      "description": "Bank account details for receiving your rental earnings.",
+      "bankNameLabel": "Bank Name",
+      "bankNamePlaceholder": "Commercial Bank of Ethiopia",
+      "accountNumberLabel": "Account Number",
+      "accountNumberPlaceholder": "1000123456789",
+      "accountNameLabel": "Account Holder Name",
+      "accountNamePlaceholder": "As on bank account"
+    }
+  },
+  "ownerProfile": {
+    "header": {
+      "title": "My Profile",
+      "subtitle": "Manage your account information"
+    },
+    "badge": {
+      "owner": "Owner",
+      "idVerified": "ID Verified",
+      "notVerified": "Not Verified"
+    },
+    "avatar": {
+      "uploadTitle": "Upload photo",
+      "uploadPhoto": "Upload profile photo",
+      "changePhoto": "Change profile photo",
+      "uploading": "Uploading profile photo...",
+      "success": "Profile photo updated successfully!",
+      "errors": {
+        "fileTooLarge": "Image must be under 5 MB",
+        "invalidType": "Please select an image file",
+        "uploadFailed": "Photo upload failed. Please try again."
+      }
+    },
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Abebe Girma",
+      "nameRequired": "Name is required",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+251 9XX XXX XXX",
+      "city": "City",
+      "selectCity": "Select city",
+      "companyName": "Company Name",
+      "companyPlaceholder": "Your Company Name",
+      "bio": "Bio / About",
+      "bioPlaceholder": "Tell customers about your experience and equipment…",
+      "saveButton": "Save Changes"
+    },
+    "profileUpdateSuccess": "Profile updated successfully!",
+    "profileUpdateFailed": "Update failed. Please try again.",
+    "verificationCard": {
+      "title": "Verify Your Identity",
+      "description": "Verified owners get more customer trust and faster approvals. Your national ID is encrypted and stored securely.",
+      "benefit1": "✓ More customer trust",
+      "benefit2": "✓ Faster bookings",
+      "benefit3": "✓ Secure & encrypted",
+      "verifyButton": "Verify My Identity"
+    },
+    "verifiedCard": {
+      "title": "Identity Verified ✓",
+      "description": "Your identity has been verified. This builds trust with customers."
+    },
+    "verification": {
+      "fillAllFields": "Please fill in all ID fields",
+      "otpSent": "OTP sent to your registered phone number!",
+      "requestFailed": "Verification request failed",
+      "enterOtp": "Please enter the OTP code",
+      "verifySuccess": "Identity verified successfully! ✓",
+      "verifyFailed": "OTP verification failed"
+    },
+    "modal": {
+      "verifyTitle": "Verify Your Identity",
+      "otpTitle": "Enter OTP Code",
+      "verifyDescription": "Enter your national ID details. We'll send an OTP to your phone to confirm.",
+      "idType": "ID Type",
+      "idTypes": {
+        "nationalId": "National ID",
+        "fin": "FIN",
+        "passport": "Passport"
+      },
+      "idNumber": "FAN / ID Number",
+      "idNumberPlaceholder": "Enter your ID number",
+      "fullName": "Full Name (as on ID)",
+      "fullNamePlaceholder": "Abebe Girma",
+      "dob": "Date of Birth",
+      "sendOtp": "Send OTP",
+      "otpSent": "OTP Sent!",
+      "otpDescription": "Check your phone — enter the 6-digit code below",
+      "enterOtp": "Enter OTP Code",
+      "verifyButton": "Verify",
+      "resendOtp": "Didn't receive it? Resend OTP"
+    }
+  },
+  "admin": {
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "header": {
+      "live": "Live Dashboard"
+    },
+    "timeRange": {
+      "lastMonths": "Last {{months}} months"
+    },
+    "pendingSubmissions": {
+      "message_one": "{{count}} submission awaiting review",
+      "message_other": "{{count}} submissions awaiting review",
+      "description": "Equipment owners are waiting for approval",
+      "review": "Review"
+    },
+    "kpi": {
+      "totalRevenue": "Total Revenue",
+      "vsLastMonth": "vs last month",
+      "thisMonth": "This Month",
+      "target": "Target",
+      "totalUsers": "Total Users",
+      "activeListings": "Active Listings",
+      "totalBookings": "Total Bookings",
+      "pending": "pending",
+      "completed": "completed"
+    },
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "charts": {
+      "revenueVsTarget": "Revenue vs Target",
+      "monthlyPerformance": "Monthly performance trend",
+      "actual": "Actual",
+      "target": "Target",
+      "revenue": "Revenue",
+      "bookingStatus": "Booking Status",
+      "allTimeDistribution": "All-time distribution",
+      "bookingTrend": "Booking Trend",
+      "monthlyBookingsByOutcome": "Monthly bookings by outcome",
+      "categoryRevenue": "Category Revenue",
+      "topPerformingCategories": "Top performing equipment types",
+      "units": "units"
+    },
+    "topPerformers": {
+      "topBookings": "Top Bookings",
+      "topCustomers": "Top Customers",
+      "topOwners": "Top Owners",
+      "topEquipment": "Top Equipment",
+      "viewAll": "View All",
+      "noData": "No data yet",
+      "bookings": "bookings",
+      "listings": "listings",
+      "rentals": "rentals"
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "viewAll": "View All",
+      "booking": "Booking",
+      "noActivity": "No recent activity"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "submissions": "Submissions",
+      "bookings": "Bookings",
+      "owners": "Owners",
+      "customers": "Customers",
+      "equipment": "Equipment",
+      "reports": "Reports"
+    },
+    "platformHealth": {
+      "title": "Platform Health",
+      "activeEquipment": "Active Equipment Rate",
+      "bookingSuccess": "Booking Success Rate",
+      "ownerVerification": "Owner Verification",
+      "systemStatus": "System Status",
+      "operational": "Operational",
+      "commissionRate": "Commission Rate",
+      "activeTimeSlots": "Active Time Slots"
+    },
+    "errors": {
+      "loadFailed": "Unable to load dashboard data. Please check your connection and try again.",
+      "title": "Unable to Load Dashboard",
+      "retry": "Try Again",
+      "noData": "No dashboard data available",
+      "noRevenueData": "No revenue data available",
+      "noTrendData": "No booking trend data available",
+      "noCategoryData": "No category data available"
+    }
+  },
+  "adminEquipment": {
+    "title": "Equipment",
+    "subtitle": "{{count}} total listings",
+    "searchPlaceholder": "Search equipment…",
+    "emptyText": "No equipment found",
+    "currency": "ETB",
+    "pendingApproval": "Pending Approval",
+    "deleteSuccess": "Equipment deleted successfully",
+    "deleteError": "Failed to delete equipment",
+    "columns": {
+      "name": "Name",
+      "category": "Category",
+      "city": "City",
+      "pricePerDay": "Price/Day",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "modal": {
+      "title": "Equipment Detail",
+      "brand": "Brand",
+      "model": "Model",
+      "year": "Year",
+      "condition": "Condition",
+      "city": "City",
+      "pricePerDay": "Price/Day",
+      "owner": "Owner",
+      "status": "Status",
+      "description": "Description"
+    },
+    "deleteDialog": {
+      "title": "Delete Equipment",
+      "message": "Permanently delete \"{{name}}\"? All associated data will be lost."
+    }
+  },
+  
+  "adminSubmissions": {
+    "pageTitle": "Equipment Submissions",
+    "pageSubtitle": "{{count}} submissions",
+    "backToSubmissions": "Back to Submissions",
+    "ownerNotFound": "Owner not found",
+    "backButton": "Back",
+    "verified": "Verified",
+    "unverified": "Unverified",
+    "contactInformation": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "City",
+    "company": "Company",
+    "joined": "Joined",
+    "idType": "ID Type",
+    "about": "About",
+    "accountStatus": "Account Status",
+    "status": "Status",
+    "emailVerified": "Email Verified",
+    "idVerified": "ID Verified",
+    "submissionInfo": "Submission Info",
+    "statusLabel": "Status",
+    "submittedLabel": "Submitted",
+    "rejectionReason": "Rejection Reason",
+    "documents": "Documents",
+    "document": "Document",
+    "unnamedEquipment": "Unnamed Equipment",
+    "category": "Category",
+    "brand": "Brand",
+    "model": "Model",
+    "year": "Year",
+    "condition": "Condition",
+    "description": "Description",
+    "pricing": "Pricing",
+    "location": "Location",
+    "address": "Address",
+    "deliveryAvailable": "Delivery Available",
+    "deliveryRadius": "Delivery Radius",
+    "specifications": "Specifications",
+    "attachments": "Attachments",
+    "noImages": "No images uploaded",
+    "currency": "ETB",
+    "unknown": "Unknown",
+    "noBrand": "No brand",
+    "noLocation": "No location",
+    "approveTitle": "✅ Approve Submission",
+    "rejectTitle": "❌ Reject Submission",
+    "approveButton": "Approve",
+    "rejectButton": "Reject",
+    "equipmentLabel": "Equipment",
+    "noteOptional": "Note to owner (optional)",
+    "rejectionReasonRequired": "Rejection reason is required",
+    "approveSuccess": "Submission approved! Equipment listing created.",
+    "rejectSuccess": "Submission rejected. Owner has been notified.",
+    "actionFailed": "Failed to {{type}}",
+    "approvePlaceholder": "E.g. Great listing! Equipment verified.",
+    "rejectPlaceholder": "E.g. Images are too blurry, pricing is missing weekly rate…",
+    "tabs": {
+      "pending": "Pending",
+      "inReview": "In Review",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "all": "All"
+    },
+    "searchPlaceholder": "Search by equipment name or owner...",
+    "table": {
+      "equipment": "Equipment",
+      "owner": "Owner",
+      "location": "Location",
+      "pricePerDay": "Price/Day",
+      "status": "Status",
+      "submitted": "Submitted",
+      "actions": "Actions"
+    },
+    "noSubmissions": "No submissions found",
+    "fetchError": "Failed to load submissions",
+    "deleteSuccess": "Submission deleted successfully",
+    "deleteFailed": "Delete failed",
+    "deleteConfirmTitle": "Delete Submission",
+    "deleteConfirmMessage": "Delete {{name}}? This cannot be undone.",
+    "equipmentDetail": "Equipment Detail",
+    "viewOwner": "View Owner"
+  },
+  "adminBookings": {
+    "title": "Bookings Management",
+    "subtitle": "{{count}} total bookings",
+    "searchPlaceholder": "Search by ref, equipment, customer...",
+    "tabs": {
+      "all": "All",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "table": {
+      "reference": "Reference",
+      "equipment": "Equipment",
+      "customer": "Customer",
+      "owner": "Owner",
+      "dates": "Dates",
+      "amount": "Amount",
+      "status": "Status",
+      "actions": "Actions",
+      "payout": "Payout",
+      "noData": "No bookings found",
+      "viewDetails": "View Details",
+      "quickConfirm": "Quick Confirm",
+      "quickComplete": "Mark Complete"
+    },
+    "detail": {
+      "backToList": "Back to Bookings List",
+      "equipment": "Equipment",
+      "bookingDetails": "Booking Details",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "totalDays": "Total Days",
+      "pricingMode": "Pricing Mode",
+      "unitPrice": "Unit Price",
+      "totalAmount": "Total Amount",
+      "platformFee": "Platform Fee (12%)",
+      "ownerPayout": "Owner Payout",
+      "deposit": "Deposit",
+      "timeSlot": "Time Slot",
+      "customerNotes": "Customer Notes",
+      "deliveryAddress": "Delivery Address",
+      "cancelReason": "Cancellation Reason",
+      "confirmButton": "Confirm Booking",
+      "completeButton": "Mark Complete",
+      "cancelButton": "Cancel Booking",
+      "cancelPlaceholder": "Reason for cancellation (required)…",
+      "confirmCancel": "Confirm Cancel",
+      "customer": "Customer",
+      "owner": "Equipment Owner",
+      "noPhone": "No phone provided",
+      "financialSummary": "Financial Summary",
+      "grossAmount": "Gross Amount",
+      "platformFeeLabel": "Platform Fee (12%)",
+      "ownerPayoutLabel": "Owner Payout",
+      "timeline": "Timeline",
+      "created": "Created",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "toasts": {
+      "confirmSuccess": "Booking confirmed successfully!",
+      "confirmFailed": "Failed to confirm booking",
+      "cancelSuccess": "Booking cancelled successfully",
+      "cancelFailed": "Failed to cancel booking",
+      "completeSuccess": "Booking marked as complete!",
+      "completeFailed": "Failed to complete booking",
+      "reasonRequired": "Please provide a cancellation reason",
+      "loadFailed": "Failed to load bookings"
+    }
+  },
+   "adminCustomers": {
+    "header": {
+      "title": "Customers",
+      "subtitle": "{{count}} registered customers"
+    },
+    "searchPlaceholder": "Search customers by name or email…",
+    "emptyText": "No customers found",
+    "columns": {
+      "name": "Name",
+      "idNumber": "ID Number",
+      "phone": "Phone",
+      "city": "City",
+      "bookings": "Bookings",
+      "idVerified": "ID Verified",
+      "status": "Status",
+      "joined": "Joined",
+      "actions": "Actions"
+    },
+    "filters": {
+      "button": "Filters",
+      "title": "Filter Customers",
+      "clear": "Clear all",
+      "active": "Active filters",
+      "allVerification": "All verification status",
+      "allBookings": "All booking counts",
+      "allStatus": "All account status",
+      "allCities": "All cities",
+      "topCustomers": "Top Customers",
+      "mediumCustomers": "Active Customers",
+      "lowCustomers": "New Customers"
+    },
+    "modal": {
+      "title": "Customer Profile",
+      "idNumber": "ID Number",
+      "phone": "Phone",
+      "city": "City",
+      "totalBookings": "Total Bookings",
+      "joined": "Joined"
+    },
+    "confirm": {
+      "suspendTitle": "Suspend User",
+      "activateTitle": "Activate User",
+      "suspendMessage": "Suspend user \"{{name}}\"?",
+      "activateMessage": "Activate user \"{{name}}\"?"
+    },
+    "toast": {
+      "success": "User status updated",
+      "error": "Action failed"
+    }
+  },
+ 
+   "adminOwners": {
+    "header": {
+      "title": "Equipment Owners",
+      "subtitle": "{{count}} registered owners"
+    },
+    "searchPlaceholder": "Search owners…",
+    "emptyText": "No owners found",
+    "columns": {
+      "owner": "Owner",
+      "city": "City",
+      "verified": "Verified",
+      "status": "Status",
+      "joined": "Joined",
+      "actions": "Actions"
+    },
+    "verified": {
+      "verified": "Verified",
+      "unverified": "Unverified"
+    },
+    "modal": {
+      "title": "Owner Profile",
+      "fields": {
+        "phone": "Phone",
+        "city": "City",
+        "company": "Company",
+        "idVerified": "ID Verified",
+        "bio": "Bio",
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "confirm": {
+      "activateTitle": "Activate Owner",
+      "suspendTitle": "Suspend Owner",
+      "activate": "Activate",
+      "suspend": "Suspend",
+      "message": "{{action}} owner \"{{name}}\"?"
+    },
+    "toast": {
+      "success": "Updated",
+      "error": "Failed"
+    }
+  },
+  "adminReports": {
+    "header": {
+      "title": "Reports & Analytics",
+      "subtitle": "Comprehensive insights and performance metrics"
+    },
+    "filters": {
+      "title": "Filters",
+      "reportType": "Report Type",
+      "allReports": "All Reports",
+      "revenueOnly": "Revenue Only",
+      "bookingsOnly": "Bookings Only",
+      "usersOnly": "Users Only",
+      "timeRange": "Time Range",
+      "last3Months": "Last 3 Months",
+      "last6Months": "Last 6 Months",
+      "last12Months": "Last 12 Months"
+    },
+    "export": {
+      "csv": "CSV",
+      "pdf": "PDF",
+      "print": "Print",
+      "title": "Admin Report - {{date}}",
+      "csvSuccess": "CSV exported successfully!",
+      "pdfSuccess": "Print window opened. Use Ctrl+P to save as PDF.",
+      "exportFailed": "Export failed: {{error}}",
+      "generatedOn": "Generated on {{date}}",
+      "pdfTitle": "Admin Report - {{date}}",
+      "pdfHeader": "Concrete Ethiopia - Admin Report",
+      "sections": {
+        "overview": "OVERVIEW",
+        "revenueTrend": "REVENUE TREND",
+        "bookingTrend": "BOOKING TREND",
+        "categoryPerformance": "CATEGORY PERFORMANCE"
+      },
+      "headers": {
+        "metric": "Metric",
+        "value": "Value",
+        "month": "Month",
+        "revenue": "Revenue",
+        "totalBookings": "Total Bookings",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "pending": "Pending",
+        "category": "Category",
+        "equipmentCount": "Equipment Count"
+      },
+      "metrics": {
+        "totalRevenue": "Total Revenue",
+        "monthlyRevenue": "Monthly Revenue",
+        "totalBookings": "Total Bookings",
+        "completedBookings": "Completed Bookings",
+        "pendingBookings": "Pending Bookings",
+        "cancelledBookings": "Cancelled Bookings",
+        "totalUsers": "Total Users",
+        "customers": "Customers",
+        "owners": "Owners",
+        "activeEquipment": "Active Equipment",
+        "totalEquipment": "Total Equipment",
+        "averageRating": "Average Rating"
+        
+      },
+      "footer": "Concrete Ethiopia - Admin Dashboard",
+      "disclaimer": "This is an automatically generated report"
+    },
+    "dateRange": {
+      "last30Days": "Last 30 Days",
+      "last90Days": "Last 90 Days",
+      "last6Months": "Last 6 Months",
+      "last12Months": "Last 12 Months",
+      "allTime": "All Time"
+    },
+    "chartTypes": {
+      "revenue": "Revenue",
+      "bookings": "Bookings",
+      "categories": "Categories"
+    },
+    "kpi": {
+      "totalRevenue": "Total Revenue",
+      "monthlyRevenue": "Monthly Revenue",
+      "totalBookings": "Total Bookings",
+      "completionRate": "Completion Rate",
+      "activeEquipment": "Active Equipment"
+    },
+    "metrics": {
+      "totalUsers": "Total Users",
+      "completed": "Completed",
+      "listings": "Listings",
+      "avgRating": "Avg Rating",
+      "satisfaction": "Satisfaction",
+      "growthRate": "Growth Rate",
+      "completedBookings": "Completed Bookings",
+      "totalEquipment": "Total Equipment"
+    },
+    "charts": {
+      "revenueAnalytics": "Revenue Analytics",
+      "monthlyRevenueTrend": "Monthly revenue trend",
+      "revenue": "Revenue",
+      "bookingDistribution": "Booking Distribution",
+      "statusBreakdown": "Status breakdown",
+      "bookingTrend": "Booking Trend",
+      "monthlyPerformance": "Monthly performance",
+      "total": "Total",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "categoryPerformance": "Category Performance"
+    },
+    "status": {
+      "completed": "Completed",
+      "pending": "Pending",
+      "cancelled": "Cancelled"
+    },
+    "health": {
+      "responseTime": "Response Time",
+      "verificationRate": "Verification Rate",
+      "avgBookingLead": "Avg Booking Lead",
+      "pendingActions": "Pending Actions",
+      "totalRevenue": "Total Revenue",
+      "completedBookings": "Completed Bookings",
+      "activeUsers": "Active Users"
+    },
+    "errors": {
+      "loadFailed": "Failed to load report data",
+      "noRevenueData": "No revenue data available",
+      "noBookingData": "No booking data available",
+      "noCategoryData": "No category data available"
+    },
+    "units": "units",
+    "days": "days",
+    "footer": {
+      "generatedOn": "Report generated on {{date}} · Concrete Ethiopia Admin Panel",
+      "disclaimer": "Data represents all-time metrics unless specified otherwise"
+    }
+  },
+  "adminSettings": {
+    "title": "Platform Settings",
+    "subtitle": "Configure global platform behavior",
+    "saveButton": "Save Changes",
+    "saveSuccess": "Settings saved!",
+    "saveError": "Failed to save settings",
+    "general": {
+      "title": "General",
+      "platformName": "Platform Name",
+      "commissionRate": "Commission Rate (e.g. 0.12 = 12%)",
+      "maxImages": "Max Images per Equipment",
+      "maintenanceMode": {
+        "title": "Maintenance Mode",
+        "description": "Disable public access temporarily"
+      }
+    }
+  },
+   "adminProfile": {
+    "title": "My Profile",
+    "form": {
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "city": "City",
+      "bio": "Bio",
+      "submitButton": "Save Changes",
+      "successMessage": "Profile updated!",
+      "errorMessage": "Update failed",
+      "nameRequired": "Name is required"
+    },
+    "avatar":{
+    "changePhoto": "Change photo"
+    }
+  },
+  "adminCategories": {
+    "title": "Equipment Categories",
+    "subtitle": "{{count}} categories total",
+    "addButton": "Add Category",
+    "searchPlaceholder": "Search by name or slug...",
+    "emptyText": "No categories found",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "columns": {
+      "icon": "Icon",
+      "name": "Category Name",
+      "slugLabel": "Slug",
+      "description": "Description",
+      "equipment": "Equipment",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "nameLabel": "Category Name",
+      "namePlaceholder": "e.g., Excavators",
+      "slugLabel": "Slug",
+      "slugPlaceholder": "auto-generated from name",
+      "slugHelper": "URL-friendly identifier",
+      "iconLabel": "Icon",
+      "iconPlaceholder": "🔧",
+      "iconHelper": "Emoji or icon code",
+      "sortOrderLabel": "Sort Order",
+      "sortOrderHelper": "Lower numbers appear first",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Describe this category...",
+      "activeLabel": "Active",
+      "activeHelper": "Inactive categories won't appear on the website"
+    },
+    "modal": {
+      "createTitle": "Create Category",
+      "editTitle": "Edit Category"
+    },
+    "messages": {
+      "createSuccess": "Category created successfully!",
+      "updateSuccess": "Category updated successfully!",
+      "deleteSuccess": "Category deleted successfully!"
+    },
+    "errors": {
+      "fetchFailed": "Failed to load categories",
+      "deleteFailed": "Failed to delete category",
+      "nameRequired": "Category name is required"
+    },
+    "deleteDialog": {
+      "title": "Delete Category",
+      "message": "Are you sure you want to delete category \"{{name}}\"?",
+      "warning": "⚠️ This category has {{count}} equipment items. Deleting it will affect these equipment listings."
+    }
+  },
+   "sidebar": {
+    "dashboard": "Dashboard",
+    "timeSlots": "Time Slots",
+    "equipment": "Equipment",
+    "categories": "Categories",
+    "submissions": "Submissions",
+    "bookings": "Bookings",
+    "customers": "Customers",
+    "owners": "Owners",
+    "reports": "Reports",
+    "settings": "Settings",
+    "profile": "Profile",
+    "admins": "Admins",
+    "addEquipment": "Add Equipment",
+    "mySubmissions": "My Submissions",
+    "calendar": "Calendar",
+    "analytics": "Analytics",
+    "search": "Search Equipment",
+    "myBookings": "My Bookings",
+    "rolePanel": {
+      "admin": "Admin Panel",
+      "superAdmin": "Super Admin Panel",
+      "owner": "Owner Panel",
+      "customer": "Customer Panel"
+    },
+    "superAdminLabel": "Super Admin"
+  },
+  "footer": {
+    "description": "Ethiopia's premier heavy Concrete rental platform connecting owners with businesses.",
+    "platform": "Platform",
+    "support": "Support",
+    "cities": "Cities",
+    "browseEquipment": "Browse Equipment",
+    "listEquipment": "List Equipment",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "phone": "+251 986 253 798",
+    "email": "info@equiprent.et",
+    "allRightsReserved": "All rights reserved.",
+    "operational": "All systems operational"
+  },
+  "cities": {
+    "addisAbaba": "Addis Ababa",
+    "direDawa": "Dire Dawa",
+    "hawassa": "Hawassa",
+    "bahirDar": "Bahir Dar",
+    "mekelle": "Mekelle",
+    "otherCities": "Other Cities"
+  }
+
+
+}

@@ -1,0 +1,2074 @@
+{
+  "common": {
+    "appName": "埃塞俄比亚设备租赁平台",
+    "loading": "加载中...",
+    "error": "出错了",
+    "retry": "重试",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "submit": "提交",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "export": "导出",
+    "all": "全部",
+    "yes": "是",
+    "no": "否",
+    "or": "或",
+    "and": "和",
+    "from": "从",
+    "to": "到",
+    "status": "状态",
+    "actions": "操作",
+    "date": "日期",
+    "amount": "金额",
+    "total": "总计",
+    "noData": "未找到数据",
+    "optional": "可选",
+    "required": "必填",
+    "page": "第",
+    "of": "页，共",
+    "perPage": "每页显示",
+    "showing": "显示",
+    "results": "条结果",
+    "darkMode": "暗色模式",
+    "lightMode": "亮色模式",
+    "language": "语言",
+    "notifications": "通知",
+    "markAllRead": "全部标记为已读",
+    "noNotifications": "暂无通知",
+    "viewAll": "查看全部",
+    "profile": "个人资料",
+    "settings": "设置",
+    "logout": "退出登录",
+    "dashboard": "仪表板",
+    "yes": "是",
+    "no": "否",
+    "verified": "已验证",
+    "unverified": "未验证",
+    "active": "正常",
+    "suspended": "已封禁"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册账户",
+    "logout": "退出",
+    "email": "电子邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "name": "全名",
+    "phone": "电话号码",
+    "city": "城市",
+    "role": "我是",
+    "customer": "客户",
+    "owner": "设备所有者",
+    "forgotPassword": "忘记密码？",
+    "resetPassword": "重置密码",
+    "sendResetLink": "发送重置链接",
+    "backToLogin": "返回登录",
+    "noAccount": "没有账户？",
+    "hasAccount": "已有账户？",
+    "signUp": "注册",
+    "signIn": "登录",
+    "welcomeBack": "欢迎回来",
+    "loginSubtitle": "登录您的设备租赁账户",
+    "registerSubtitle": "加入埃塞俄比亚领先的设备租赁平台",
+    "forgotSubtitle": "输入您的邮箱以接收重置链接",
+    "loginSuccess": "欢迎回来！",
+    "registerSuccess": "账户创建成功！请登录。",
+    "resetSent": "重置链接已发送至您的邮箱"
+  },
+  "nav": {
+    "home": "首页",
+    "equipment": "设备",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "login": "登录",
+    "register": "注册",
+    "dashboard": "仪表板",
+    "profile": "个人资料",
+    "settings": "设置",
+    "logout": "退出登录",
+    "language": "语言",
+    "logoAlt": "混凝土标志",
+    "switchLanguage": "切换语言",
+    "darkMode": "暗色模式",
+    "lightMode": "亮色模式",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
+  },
+  "equipment": {
+    "searchPlaceholder": "按名称、品牌搜索设备...",
+    "filterByCategory": "分类",
+    "filterByCity": "城市",
+    "filterByCondition": "状况",
+    "priceRange": "价格范围",
+    "perDay": "/天",
+    "perHour": "/小时",
+    "perWeek": "/周",
+    "perMonth": "/月",
+    "bookNow": "立即预订",
+    "viewDetails": "查看详情",
+    "condition": {
+      "excellent": "极好",
+      "good": "良好",
+      "fair": "一般"
+    },
+    "availability": "可用性",
+    "delivery": "可配送",
+    "noDelivery": "仅限自提",
+    "owner": "发布者",
+    "specifications": "规格参数",
+    "attachments": "附件",
+    "reviews": "用户评价",
+    "similarEquipment": "相似设备",
+    "deposit": "押金",
+    "minRental": "最短租期",
+    "days": "天",
+    "rating": "评分",
+    "bookings": "次预订",
+    "featured": "推荐设备",
+    "noEquipment": "未找到设备",
+    "addedToFavorites": "已添加到收藏",
+    "removedFromFavorites": "已从收藏中移除"
+  },
+  "booking": {
+    "createBooking": "创建预订",
+    "pricingMode": "计价方式",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "startTime": "开始时间",
+    "endTime": "结束时间",
+    "timeSlot": "时间段",
+    "notes": "备注",
+    "deliveryAddress": "配送地址",
+    "summary": "预订摘要",
+    "unitPrice": "单价",
+    "totalDays": "总天数",
+    "subtotal": "小计",
+    "platformFee": "平台服务费 (12%)",
+    "totalAmount": "总计金额",
+    "depositAmount": "押金",
+    "status": {
+      "pending": "待确认",
+      "confirmed": "已确认",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "confirmBooking": "确认预订",
+    "cancelBooking": "取消预订",
+    "completeBooking": "标记完成",
+    "bookingRef": "预订编号",
+    "noBookings": "暂无预订记录",
+    "bookingCreated": "预订创建成功！",
+    "bookingConfirmed": "预订已确认！",
+    "bookingCancelled": "预订已取消",
+    "cancellationReason": "取消原因"
+  },
+  "submission": {
+    "title": "发布您的设备",
+    "subtitle": "填写表单以发布您的设备出租",
+    "step1": "基本信息",
+    "step2": "详细信息",
+    "step3": "定价",
+    "step4": "位置",
+    "step5": "媒体文件",
+    "status": {
+      "pending": "待审核",
+      "review": "审核中",
+      "approved": "已批准",
+      "rejected": "已拒绝"
+    },
+    "submissionCreated": "提交已发送，等待审核！",
+    "noSubmissions": "暂无提交记录",
+    "reviewNote": "审核备注",
+    "rejectionReason": "拒绝原因"
+  },
+  "admin": {
+    "overview": "概览",
+    "totalRevenue": "总收入",
+    "thisMonth": "本月",
+    "totalBookings": "总预订数",
+    "totalUsers": "总用户数",
+    "totalEquipment": "设备总数",
+    "pendingApprovals": "待审核",
+    "activeTimeSlots": "活跃时段",
+    "approveSubmission": "批准",
+    "rejectSubmission": "拒绝",
+    "suspendUser": "暂停用户",
+    "activateUser": "启用用户",
+    "deleteUser": "删除用户",
+    "addAdmin": "添加管理员",
+    "commissionRate": "佣金比例",
+    "maintenanceMode": "维护模式",
+    "platformName": "平台名称"
+  },
+  "review": {
+    "writeReview": "撰写评价",
+    "rating": "评分",
+    "comment": "您的体验",
+    "submitReview": "提交评价",
+    "noReviews": "暂无评价",
+    "reviewSubmitted": "评价已提交！"
+  },
+  "landing": {
+    "hero": {
+      "badge": "🇪🇹 埃塞俄比亚第一设备租赁平台",
+      "titleLine1": "租赁任何",
+      "titleLine2": "重型机械",
+      "titleLine3": "遍布埃塞俄比亚",
+      "description": "与200多家经过验证的设备所有者建立联系。挖掘机、推土机、起重机等20多个品类——数小时内送达您的工地。",
+      "searchPlaceholder": "搜索挖掘机、起重机、装载机...",
+      "searchButton": "搜索",
+      "getStartedButton": "立即开始",
+      "browseButton": "浏览设备",
+      "successfulRentals": "1000+ 成功租赁",
+      "verifiedOwners": "200+ 认证所有者",
+      "trustScore": "4.9 / 5.0 信任评分",
+      "confirmationTime": "< 24小时确认"
+    },
+    "categories": {
+      "sectionBadge": "设备分类",
+      "title": "按分类浏览",
+      "description": "从我们广泛的分类中准确找到您需要的设备",
+      "available": "可用",
+      "viewAllButton": "查看所有设备"
+    },
+    "howItWorks": {
+      "sectionBadge": "简单流程",
+      "title": "如何运作",
+      "description": "从浏览到预订只需不到5分钟",
+      "step1": {
+        "title": "浏览设备",
+        "description": "在埃塞俄比亚数百个经过验证的重型设备列表中搜索和筛选。"
+      },
+      "step2": {
+        "title": "预订并确认",
+        "description": "选择您偏好的日期提交预订请求。业主将在24小时内确认。"
+      },
+      "step3": {
+        "title": "开始工作",
+        "description": "设备将配送上门或准备自提。满怀信心地开始您的项目。"
+      }
+    },
+    "featured": {
+      "sectionBadge": "热门推荐",
+      "title": "推荐设备",
+      "viewAllButton": "查看全部"
+    },
+    "testimonials": {
+      "sectionBadge": "客户评价",
+      "title": "我们的",
+      "titleHighlight": "客户说",
+      "description": "来自埃塞俄比亚各地满意客户的真实故事",
+      "readMoreButton": "阅读更多故事",
+      "verifiedCustomer": "认证客户"
+    },
+    "trustSection": {
+      "sectionBadge": "为什么选择我们",
+      "title": "为信任与可靠而生",
+      "features": {
+        "verifiedOwners": {
+          "title": "认证所有者",
+          "description": "所有设备所有者的身份都经过验证，其列表在批准前都经过检查。"
+        },
+        "fastBooking": {
+          "title": "快速预订",
+          "description": "几分钟内完成预订。24小时内获得确认。无休止的来回沟通。"
+        },
+        "support": {
+          "title": "全天候支持",
+          "description": "我们的团队随时为您服务，帮助解决租赁期间的任何问题。"
+        },
+        "securePayments": {
+          "title": "安全支付",
+          "description": "您的付款受到保护。我们保留押金直到工作圆满完成。"
+        }
+      }
+    },
+    "ctaBanner": {
+      "title": "准备好开始了吗？",
+      "description": "加入数百家已经在使用Concrete埃塞俄比亚的企业和设备所有者。",
+      "rentButton": "租赁设备",
+      "listButton": "发布设备"
+    },
+    "equipmentCard": {
+      "perDay": "/天",
+      "viewDetails": "查看详情"
+    },
+    "tickerItems": [
+      "挖掘机",
+      "装载机",
+      "推土机",
+      "起重机",
+      "平地机",
+      "压路机",
+      "自卸卡车",
+      "发电机",
+      "反铲挖土机",
+      "叉车",
+      "铲运机",
+      "摊铺机",
+      "压路滚筒",
+      "钻机"
+    ]
+  },
+  "about": {
+    "hero": {
+      "badge": "关于Concrete",
+      "titleLine1": "连接埃塞俄比亚的",
+      "titleLine2": "建筑行业",
+      "description": "Concrete埃塞俄比亚是该国领先的重型设备租赁数字市场。我们架起了设备所有者与需要可靠机械的企业之间的桥梁——让建筑项目更快、更安全、更经济。"
+    },
+    "stats": {
+      "citiesCovered": {
+        "value": "15+",
+        "label": "覆盖城市"
+      },
+      "verifiedOwners": {
+        "value": "200+",
+        "label": "认证所有者"
+      },
+      "jobsCompleted": {
+        "value": "1000+",
+        "label": "已完成项目"
+      },
+      "averageRating": {
+        "value": "4.8★",
+        "label": "平均评分"
+      }
+    },
+    "mission": {
+      "badge": "我们的使命",
+      "title": "让每个埃塞俄比亚企业都能获得设备",
+      "paragraph1": "我们创立Concrete是因为我们看到了一个明显的问题：埃塞俄比亚的建筑公司通过非正式网络和口口相传寻找可靠设备，浪费了大量时间和金钱。",
+      "paragraph2": "我们的平台创建了一个透明、可信的市场，设备所有者可以列出他们的资产并赚取收入，而企业可以快速找到他们需要的东西——经过验证的质量、明确的价格和专业的服务。",
+      "paragraph3": "如今，我们在埃塞俄比亚的15多个城市运营，拥有不断增长的认证所有者网络，并已完成数千次成功的租赁。"
+    },
+    "values": {
+      "trustAndSafety": {
+        "title": "信任与安全",
+        "description": "每个所有者和列表都经过验证。您的安全是我们的首要任务。"
+      },
+      "communityFirst": {
+        "title": "社区优先",
+        "description": "我们赋能埃塞俄比亚企业和设备所有者共同成长。"
+      },
+      "fastAndReliable": {
+        "title": "快速可靠",
+        "description": "快速预订、实时可用性和可靠的支持。"
+      },
+      "qualityAssurance": {
+        "title": "质量保证",
+        "description": "所有设备都经过检查，符合我们严格的质量标准。"
+      }
+    },
+    "team": {
+      "title": "为埃塞俄比亚打造，由埃塞俄比亚人打造",
+      "description": "我们的团队对埃塞俄比亚的经济增长以及建筑在建设国家未来中的作用充满热情。我们致力于创造能够在埃塞俄比亚各地为真实的人、在真实条件下工作的技术。"
+    }
+  },
+  "contact": {
+    "header": {
+      "badge": "联系我们",
+      "title": "取得联系",
+      "description": "有问题、需要支持或想与我们合作？我们很乐意听到您的消息。"
+    },
+    "form": {
+      "title": "发送消息",
+      "fullNameLabel": "全名",
+      "fullNamePlaceholder": "阿贝贝·吉尔马",
+      "emailLabel": "电子邮箱",
+      "emailPlaceholder": "abebe@example.com",
+      "phoneLabel": "电话（可选）",
+      "phonePlaceholder": "+251 9XX XXX XXX",
+      "subjectLabel": "主题",
+      "subjectPlaceholder": "我们可以如何帮助您？",
+      "messageLabel": "消息内容",
+      "messagePlaceholder": "告诉我们更多关于您的咨询…",
+      "submitButton": "发送消息",
+      "successTitle": "消息已发送！",
+      "successMessage": "我们将在24小时内回复您。",
+      "sendAnother": "发送另一条消息",
+      "errorMessage": "发送消息失败。请重试。",
+      "nameRequired": "姓名必填",
+      "emailRequired": "邮箱必填",
+      "emailInvalid": "邮箱格式无效",
+      "subjectRequired": "主题必填",
+      "messageRequired": "消息内容必填",
+      "messageTooShort": "请更详细地描述"
+    },
+    "info": {
+      "title": "联系信息",
+      "phone": {
+        "label": "电话",
+        "value": "+251 911 000 000",
+        "sub": "周一至周六，上午8点至下午6点"
+      },
+      "email": {
+        "label": "邮箱",
+        "value": "info@Concrete.et",
+        "sub": "我们将在24小时内回复"
+      },
+      "address": {
+        "label": "地址",
+        "value": "博莱区，亚的斯亚贝巴",
+        "sub": "埃塞俄比亚"
+      },
+      "hours": {
+        "label": "营业时间",
+        "value": "周一至周六 上午8点至下午6点",
+        "sub": "周日休息"
+      }
+    },
+    "cta": {
+      "title": "发布您的设备",
+      "description": "您有闲置的重型设备吗？立即在Concrete上发布，开始赚钱。",
+      "button": "立即开始"
+    }
+  },
+  "equipment": {
+    "header": {
+      "title": "浏览设备",
+      "subtitle": "埃塞俄比亚各地有{{count}}台设备可用"
+    },
+    "searchPlaceholder": "按名称、品牌、型号搜索…",
+    "filtersButton": "筛选",
+    "filtersPanel": {
+      "title": "筛选条件",
+      "clear": "清除",
+      "allCategories": "全部分类",
+      "allCities": "所有城市",
+      "anyCondition": "任何状况",
+      "minPrice": "最低价格/天",
+      "maxPrice": "最高价格/天"
+    },
+    "sort": {
+      "newestFirst": "最新优先",
+      "priceLowToHigh": "价格：从低到高",
+      "priceHighToLow": "价格：从高到低",
+      "topRated": "评分最高"
+    },
+    "conditions": {
+      "excellent": "极好",
+      "good": "良好",
+      "fair": "一般"
+    },
+    "cities": [
+      "亚的斯亚贝巴",
+      "迪雷达瓦",
+      "哈瓦萨",
+      "巴赫达尔",
+      "默克莱",
+      "阿达玛",
+      "贡德尔",
+      "吉马"
+    ],
+    "emptyState": {
+      "title": "未找到设备",
+      "description": "尝试调整您的搜索或筛选条件",
+      "clearButton": "清除筛选"
+    },
+    "deliveryBadge": "可配送",
+    "perDay": "/天",
+    "perHour": "/小时",
+    "viewDetails": "查看详情"
+  },
+  "equipmentDetail": {
+    "notFound": "未找到设备。",
+    "breadcrumb": {
+      "home": "首页",
+      "equipment": "设备"
+    },
+    "tabs": {
+      "overview": "概述",
+      "specs": "规格参数",
+      "reviews": "用户评价",
+      "timeSlots": "时间段"
+    },
+    "overview": {
+      "description": "描述",
+      "noDescription": "暂无描述。",
+      "attachments": "附件",
+      "brand": "品牌",
+      "model": "型号",
+      "year": "年份",
+      "condition": "状况",
+      "city": "城市",
+      "minRental": "最短租期",
+      "days": "天"
+    },
+    "specs": {
+      "title": "技术规格",
+      "noSpecs": "未列出规格信息。"
+    },
+    "reviews": {
+      "reviewCount": "条评价",
+      "noReviews": "暂无评价。",
+      "anonymous": "匿名用户"
+    },
+    "timeSlots": {
+      "title": "可用时间段",
+      "noSlots": "未配置时间段。",
+      "days": {
+        "monday": "星期一",
+        "tuesday": "星期二",
+        "wednesday": "星期三",
+        "thursday": "星期四",
+        "friday": "星期五",
+        "saturday": "星期六",
+        "sunday": "星期日"
+      }
+    },
+    "conditions": {
+      "excellent": "极好",
+      "good": "良好",
+      "fair": "一般"
+    },
+    "pricing": {
+      "title": "价格",
+      "perHour": "每小时",
+      "perDay": "每天",
+      "perWeek": "每周",
+      "perMonth": "每月",
+      "deposit": "押金"
+    },
+    "owner": {
+      "title": "设备所有者"
+    },
+    "deliveryBadge": "可配送",
+    "rentals": "次租赁",
+    "bookButton": {
+      "request": "申请预订",
+      "loginToBook": "登录后预订",
+      "createAccount": "创建账户",
+      "customersOnly": "只有客户可以预订设备"
+    }
+  },
+  "auth": {
+  "login": "登录",
+  "register": "注册",
+  "logout": "退出",
+  "email": "电子邮箱",
+  "password": "密码",
+  "confirmPassword": "确认密码",
+  "name": "全名",
+  "phone": "电话号码",
+  "city": "城市",
+  "role": "我是",
+  "customer": "客户",
+  "owner": "设备所有者",
+  "forgotPassword": "忘记密码？",
+  "resetPassword": "重置密码",
+  "sendResetLink": "发送重置链接",
+  "backToLogin": "返回登录",
+  "noAccount": "没有账户？",
+  "hasAccount": "已有账户？",
+  "signUp": "注册",
+  "signIn": "登录",
+  "welcomeBack": "欢迎回来",
+  "loginSubtitle": "登录以继续访问您的账户",
+  "registerSubtitle": "加入埃塞俄比亚领先的设备租赁平台",
+  "forgotSubtitle": "输入您的邮箱以接收重置链接",
+  "loginSuccess": "欢迎回来，{{name}}！",
+  "registerSuccess": "账户创建成功！请登录。",
+  "resetSent": "重置链接已发送至您的邮箱",
+  "badge": "埃塞俄比亚第一平台",
+  "emailPlaceholder": "abebe@example.com",
+  "passwordPlaceholder": "输入您的密码",
+  "createAccount": "创建账户",
+  "loginError": "邮箱或密码无效",
+  "emailRequired": "邮箱必填",
+  "passwordRequired": "密码必填",
+  "passwordMinLength": "至少6个字符",
+  "leftPanel": {
+    "titleLine1": "重型设备",
+    "titleLine2": "租赁变得",
+    "titleLine3": "简单",
+    "description": "与埃塞俄比亚各地经过验证的所有者联系。从挖掘机到平地机 — 找到您需要的任何设备。"
+  },
+  "stats": {
+    "equipment": "设备",
+    "owners": "所有者",
+    "rentals": "租赁"
+  },
+  "footer": {
+    "copyright": "Concrete埃塞俄比亚。版权所有。"
+  }
+},
+
+  "register": {
+    "steps": {
+      "role": "选择角色",
+      "details": "填写信息",
+      "verifyId": "验证身份"
+    },
+    "buttons": {
+      "continue": "继续",
+      "createAccount": "创建账户"
+    },
+    "role": {
+      "title": "选择您的角色",
+      "subtitle": "告诉我们您将如何使用 Concrete",
+      "customerTitle": "租赁设备",
+      "customerDesc": "寻找重型设备进行建筑、挖掘或工程项目",
+      "ownerTitle": "发布设备",
+      "ownerDesc": "拥有设备并希望出租给可靠客户",
+      "hasAccount": "已有账户？",
+      "signIn": "登录"
+    },
+    "details": {
+      "ownerTitle": "成为设备所有者",
+      "customerTitle": "创建客户账户",
+      "subtitle": "填写以下信息开始使用",
+      "fullName": "全名",
+      "fullNamePlaceholder": "阿贝贝·吉尔马",
+      "email": "电子邮箱",
+      "emailPlaceholder": "abebe@example.com",
+      "phone": "电话号码",
+      "phonePlaceholder": "+251911000000",
+      "password": "密码",
+      "passwordPlaceholder": "创建密码",
+      "confirmPassword": "确认密码",
+      "confirmPasswordPlaceholder": "再次输入密码",
+      "city": "城市",
+      "selectCity": "选择您的城市",
+      "companyName": "公司名称",
+      "companyPlaceholder": "输入您的公司名称"
+    },
+    "validation": {
+      "nameRequired": "姓名必填",
+      "emailRequired": "邮箱必填",
+      "emailInvalid": "邮箱格式无效",
+      "phoneRequired": "电话号码必填",
+      "passwordRequired": "密码必填",
+      "passwordMin": "密码至少需要8个字符",
+      "passwordMismatch": "密码不匹配",
+      "cityRequired": "请选择您的城市",
+      "companyRequired": "公司名称必填"
+    },
+    "verify": {
+      "title": "验证您的身份",
+      "subtitle": "为确保平台安全，请验证您的身份信息",
+      "idType": "证件类型",
+      "nationalId": "国民身份证",
+      "fin": "纳税人识别号 (FIN)",
+      "passport": "护照",
+      "idNumber": "证件号码",
+      "idNumberPlaceholder": "输入您的证件号码",
+      "fullName": "证件上的姓名",
+      "fullNamePlaceholder": "输入证件上的全名",
+      "dateOfBirth": "出生日期",
+      "sendOtp": "发送验证码",
+      "skipLater": "稍后验证",
+      "otpSentMessage": "验证码已发送到您注册的手机号码",
+      "otpCode": "验证码",
+      "otpPlaceholder": "输入6位验证码",
+      "verifyButton": "验证并完成"
+    },
+    "messages": {
+      "accountCreated": "账户创建成功！",
+      "registrationFailed": "注册失败，请重试",
+      "fillIdFields": "请填写证件号码和姓名",
+      "otpSent": "验证码已发送！",
+      "verificationFailed": "验证失败，请检查信息",
+      "idVerified": "身份验证成功！",
+      "completionTitle": "注册完成！",
+      "redirecting": "正在跳转到登录页面..."
+    },
+    "cities": [
+      "亚的斯亚贝巴",
+      "迪雷达瓦",
+      "哈瓦萨",
+      "巴赫达尔",
+      "默克莱",
+      "阿达玛",
+      "贡德尔",
+      "吉马",
+      "德西",
+      "吉吉加"
+    ]
+  },
+  "resetPassword": {
+  "title": "重置密码",
+  "subtitle": "为您的账户选择一个强新密码。",
+  "newPasswordLabel": "新密码",
+  "newPasswordPlaceholder": "至少8个字符",
+  "confirmPasswordLabel": "确认新密码",
+  "confirmPasswordPlaceholder": "重复输入密码",
+  "submitButton": "重置密码",
+  "successTitle": "密码重置成功！",
+  "successMessage": "正在跳转到登录页面…",
+  "errors": {
+    "invalidLink": "无效的重置链接",
+    "resetFailed": "重置失败",
+    "passwordRequired": "密码为必填项",
+    "confirmRequired": "请确认密码",
+    "passwordMismatch": "两次输入的密码不匹配"
+  }
+},
+ "forgotPassword": {
+    "title": "忘记密码？",
+    "description": "输入您的邮箱，我们将向您发送重置链接。",
+    "emailLabel": "电子邮箱",
+    "emailPlaceholder": "abebe@example.com",
+    "resetButton": "发送重置链接",
+    "successTitle": "查看您的邮箱",
+    "successMessage": "我们已将重置链接发送至",
+    "spamHint": "没有收到？请检查垃圾邮件文件夹。",
+    "backToLogin": "返回登录",
+    "errors": {
+      "emailRequired": "邮箱必填",
+      "emailInvalid": "邮箱格式无效",
+      "emailNotFound": "系统中未找到该邮箱"
+    }
+    
+  },
+  "dashboardNavbar": {
+    "notifications": {
+      "title": "通知",
+      "markAllRead": "全部标记为已读",
+      "allCaughtUp": "全部已读！",
+      "noNotifications": "暂无通知。",
+      "viewDetails": "查看详情",
+      "footer": "共{{count}}条 · 点击任意通知打开"
+    },
+    "userMenu": {
+      "profile": "个人资料",
+      "settings": "设置",
+      "logout": "退出登录"
+    }
+  },
+   "customerDashboard": {
+    "welcome": "您好, {{name}}",
+    "subtitle": "从这里管理您的设备租赁",
+    "stats": {
+      "totalBookings": "总预订",
+      "pending": "待确认",
+      "confirmed": "已确认",
+      "completed": "已完成"
+    },
+    "findEquipment": {
+      "title": "寻找设备",
+      "description": "浏览埃塞俄比亚各个经过验证的重型设备列表。",
+      "button": "浏览设备"
+    },
+    "recentBookings": {
+      "title": "最近预订",
+      "viewAll": "查看全部",
+      "noBookings": "暂无预订记录",
+      "browseButton": "浏览设备"
+    },
+    "currency": "ETB"
+  },
+  "bookEquipment": {
+    "backButton": "返回",
+    "pricingModes": {
+      "daily": "按天",
+      "hourly": "按小时",
+      "weekly": "按周",
+      "monthly": "按月"
+    },
+    "form": {
+      "title": "预订详情",
+      "pricingModeLabel": "计价方式",
+      "startDateLabel": "开始日期",
+      "endDateLabel": "结束日期",
+      "timeSlotLabel": "时间段（可选）",
+      "timeSlotNoPreference": "无偏好",
+      "deliveryAddressLabel": "配送地址（可选）",
+      "deliveryAddressPlaceholder": "{{city}}半径{{radius}}公里内",
+      "notesLabel": "特别说明（可选）",
+      "notesPlaceholder": "任何特殊要求、配送说明等…",
+      "submitButton": "申请预订",
+      "startTimeLabel": "开始时间",
+      "endTimeLabel": "结束时间"
+    },
+    "summary": {
+      "title": "价格摘要",
+      "days": "天",
+      "hours": "小时",
+      "weeks": "周",
+      "months": "月",
+      "platformFee": "平台服务费 (12%)",
+      "deposit": "安全押金",
+      "total": "总计"
+    },
+    "success": {
+      "title": "预订已申请！",
+      "referenceLabel": "您的预订编号是",
+      "message": "业主将在24小时内确认或联系您。预订确认后您将收到通知。",
+      "viewBookingsButton": "查看我的预订",
+      "bookingSent": "预订请求已发送！"
+    },
+    "errors": {
+      "notFound": "设备未找到",
+      "equipmentNotFound": "未找到设备。",
+      "selectDates": "请选择日期",
+      "invalidDates": "结束日期必须晚于开始日期",
+      "bookingFailed": "预订失败"
+    }
+  },
+   "customerBookings": {
+    "header": {
+      "title": "我的预订",
+      "subtitle": "追踪和管理您的设备租赁",
+      "bookButton": "预订设备"
+    },
+    "tabs": {
+      "all": "全部",
+      "pending": "待确认",
+      "confirmed": "已确认",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "columns": {
+      "ref": "编号",
+      "equipment": "设备",
+      "dates": "日期",
+      "amount": "金额",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "newBadge": "新",
+    "justConfirmed": "刚刚确认！",
+    "recentlyCancelled": "最近取消",
+    "currency": "ETB",
+    "emptyText": "未找到预订记录",
+    "newActivity": {
+      "title": "过去48小时内有{{count}}条新更新",
+      "description": "带有",
+      "suffix": "标记的预订是最近创建或更新的。"
+    },
+    "actions": {
+      "viewDetails": "查看详情",
+      "viewEquipment": "查看设备",
+      "cancel": "取消预订",
+      "leaveReview": "发表评价",
+      "alreadyReviewed": "已评价"
+    },
+    "detailModal": {
+      "title": "预订详情",
+      "viewEquipment": "查看设备",
+      "cancelButton": "取消",
+      "leaveReview": "发表评价",
+      "alreadyReviewed": "已评价",
+      "view": "查看"
+    },
+    "detailFields": {
+      "owner": "所有者",
+      "ownerPhone": "所有者电话",
+      "pricingMode": "计价方式",
+      "totalDays": "总天数",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "unitPrice": "单价",
+      "total": "总计",
+      "platformFee": "平台服务费",
+      "notes": "您的备注",
+      "cancellationReason": "取消原因"
+    },
+    "statusMessages": {
+      "pending": "等待所有者确认",
+      "confirmed": "您的预订已确认！",
+      "completed": "此租赁已成功完成",
+      "cancelled": "此预订已取消"
+    },
+    "cancelModal": {
+      "title": "取消预订",
+      "goBack": "返回",
+      "confirmButton": "确认取消",
+      "warning": "取消预订",
+      "reasonLabel": "取消原因",
+      "reasonPlaceholder": "请告诉我们您取消的原因…"
+    },
+    "reviewModal": {
+      "title": "发表评价",
+      "cancel": "取消",
+      "submit": "提交评价",
+      "booking": "预订编号",
+      "ratingLabel": "您的评分",
+      "reviewLabel": "您的评价",
+      "reviewPlaceholder": "分享您的体验 — 设备状况良好吗？所有者专业吗？",
+      "ratingLabels": {
+        "excellent": "优秀！",
+        "veryGood": "非常好",
+        "average": "一般",
+        "poor": "差",
+        "veryPoor": "非常差"
+      }
+    },
+    "alreadyReviewedModal": {
+      "title": "已评价",
+      "gotIt": "知道了",
+      "subtitle": "评价已提交",
+      "description": "您已经评价过此预订。每个预订只能评价一次。",
+      "thanks": "感谢您的反馈！"
+    },
+    "messages": {
+      "cancelSuccess": "预订已取消",
+      "cancelFailed": "取消失败",
+      "commentRequired": "请填写评论",
+      "reviewSuccess": "评价已提交！谢谢您。",
+      "reviewFailed": "提交评价失败"
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "我的资料",
+      "subtitle": "管理您的账户信息"
+    },
+    "role": {
+      "customer": "客户"
+    },
+    "avatar": {
+      "uploadPhoto": "上传头像",
+      "changePhoto": "更换头像",
+      "uploading": "正在上传头像...",
+      "success": "头像更新成功！",
+      "errors": {
+        "fileTooLarge": "图片大小必须小于5MB",
+        "invalidType": "请选择图片文件",
+        "uploadFailed": "头像上传失败，请重试。"
+      }
+    },
+    "form": {
+      "fullName": "全名",
+      "namePlaceholder": "阿贝贝·吉尔马",
+      "phone": "手机号码",
+      "phonePlaceholder": "+251 9XX XXX XXX",
+      "city": "城市",
+      "selectCity": "选择城市",
+      "saveButton": "保存更改",
+      "success": "资料更新成功！",
+      "error": "更新失败，请重试。",
+      "errors": {
+        "nameRequired": "姓名必填"
+      }
+    },
+    "verification": {
+      "idVerified": "身份已验证",
+      "notVerified": "未验证",
+      "verifyTitle": "验证您的身份",
+      "verifyDescription": "经过验证的用户可以获得更快的预订批准和装备所有者的更多信任。您的身份证件将被加密并安全存储。",
+      "verifyButton": "验证我的身份",
+      "verifiedBadge": "身份已验证 ✓",
+      "verifiedDescription": "您的身份已验证通过。您将获得优先预订批准。",
+      "otpSent": "验证码已发送到您注册的手机号码！",
+      "verifiedSuccess": "身份验证成功！✓",
+      "benefits": {
+        "fasterApprovals": "✓ 更快的批准",
+        "ownerTrust": "✓ 业主信任",
+        "secureEncrypted": "✓ 安全加密"
+      },
+      "errors": {
+        "fillAllFields": "请填写所有身份证件字段",
+        "requestFailed": "验证请求失败",
+        "enterOtp": "请输入验证码",
+        "otpFailed": "验证码验证失败"
+      },
+      "idTypes": {
+        "nationalId": "国民身份证",
+        "fin": "FIN编号",
+        "passport": "护照"
+      },
+      "modal": {
+        "title": "验证您的身份",
+        "otpTitle": "输入验证码",
+        "description": "请输入您的身份证件信息。我们将向您的手机发送验证码以确认。",
+        "idType": "证件类型",
+        "idNumber": "证件号码",
+        "idNumberPlaceholder": "输入您的证件号码",
+        "fullName": "全名（与证件一致）",
+        "fullNamePlaceholder": "阿贝贝·吉尔马",
+        "dateOfBirth": "出生日期",
+        "sendOtp": "发送验证码",
+        "otpSent": "验证码已发送！",
+        "otpDescription": "请查收您的手机 — 输入下方的6位验证码",
+        "enterOtp": "输入验证码",
+        "verify": "验证",
+        "resendOtp": "没收到验证码？重新发送"
+      }
+    },
+    "cities": [
+      "亚的斯亚贝巴",
+      "迪雷达瓦",
+      "哈瓦萨",
+      "巴赫达尔",
+      "默克莱",
+      "阿达玛",
+      "贡德尔",
+      "吉马",
+      "德塞",
+      "吉吉加"
+    ]
+  },
+   "ownerDashboard": {
+    "welcome": "欢迎回来, {{name}}",
+    "subtitle": "这是您的设备绩效概览。",
+    "addEquipmentButton": "添加设备",
+    "apiError": "分析API不可用 — 显示空状态。后端连接后数据将出现。",
+    "stats": {
+      "totalEarnings": "总收益",
+      "thisMonth": "本月",
+      "totalBookings": "总预订",
+      "activeBookings": "活跃预订",
+      "equipmentListed": "已发布设备",
+      "avgRating": "平均评分"
+    },
+    "monthlyEarnings": {
+      "title": "月收益 (ETB)",
+      "fullReport": "完整报告",
+      "noData": "暂无收益数据",
+      "noDataHint": "完成预订后将会显示",
+      "tooltipEarnings": "收益"
+    },
+    "quickActions": {
+      "title": "快速操作",
+      "addEquipment": {
+        "label": "添加新设备",
+        "description": "发布新机器出租"
+      },
+      "myEquipment": {
+        "label": "我的设备",
+        "description": "查看、编辑或删除您的列表"
+      },
+      "mySubmissions": {
+        "label": "我的提交",
+        "description": "跟踪您的列表审批状态"
+      },
+      "manageBookings": {
+        "label": "管理预订",
+        "description": "确认或审核租赁请求"
+      }
+    }
+  },
+  "ownerEquipment": {
+    "title": "添加设备",
+    "subtitle": "提交您的设备以供审核",
+    "steps": {
+      "basicInfo": "基本信息",
+      "details": "详细信息",
+      "pricing": "定价",
+      "location": "位置",
+      "media": "媒体文件"
+    },
+    "navigation": {
+      "back": "返回",
+      "continue": "继续",
+      "submit": "提交审核"
+    },
+    "basicInfo": {
+      "title": "基本信息",
+      "name": "设备名称 *",
+      "namePlaceholder": "CAT 320 挖掘机",
+      "brand": "品牌 *",
+      "brandPlaceholder": "卡特彼勒",
+      "model": "型号 *",
+      "modelPlaceholder": "320 GX",
+      "year": "年份",
+      "condition": "状况 *",
+      "selectCondition": "选择状况",
+      "category": "分类 *",
+      "selectCategory": "选择分类"
+    },
+    "details": {
+      "title": "设备详细信息",
+      "description": "描述 *",
+      "descriptionPlaceholder": "描述您的设备、状况及其功能…",
+      "specifications": "规格参数（可选）",
+      "weight": "重量",
+      "weightPlaceholder": "20 吨",
+      "engine": "发动机",
+      "enginePlaceholder": "CAT C7.1",
+      "power": "功率",
+      "powerPlaceholder": "148 kW",
+      "maxReach": "最大工作范围",
+      "maxReachPlaceholder": "9.6 米",
+      "attachments": "附件（用逗号分隔）",
+      "attachmentsPlaceholder": "液压破碎锤、铲斗、松土器"
+    },
+    "pricing": {
+      "title": "定价",
+      "description": "至少设置一个价格。所有价格以埃塞俄比亚比尔（ETB）为单位。",
+      "perHour": "每小时价格 (ETB)",
+      "perDay": "每日价格 (ETB) *",
+      "perWeek": "每周价格 (ETB)",
+      "perMonth": "每月价格 (ETB)",
+      "deposit": "押金 (ETB)",
+      "minRentalDays": "最短租赁天数",
+      "availableFrom": "可用起始日期",
+      "availableTo": "可用截止日期"
+    },
+    "location": {
+      "title": "位置",
+      "city": "城市 *",
+      "selectCity": "选择城市",
+      "address": "详细地址",
+      "addressPlaceholder": "博莱区，机场附近",
+      "deliveryAvailable": "是否可配送",
+      "noDelivery": "否 — 客户自提",
+      "yesDelivery": "是 — 我可以配送",
+      "deliveryRadius": "配送半径（公里）"
+    },
+    "media": {
+      "title": "照片和文档",
+      "photos": "设备照片 *（最多10张）",
+      "documents": "文档（所有权证明、注册证明 — 可选，最多5个）",
+      "dragDropImages": "拖放图片或",
+      "dragDropDocuments": "拖放PDF文件或",
+      "clickToBrowse": "点击浏览",
+      "imageConstraints": "JPEG、PNG、WebP格式，每个最大10MB",
+      "documentConstraints": "PDF、JPEG、PNG格式，每个最大20MB",
+      "preview": "预览",
+      "infoText": "📸 照片是列表批准所必需的。文档有助于验证所有权并加快审批过程。"
+    },
+    "conditions": {
+      "poor": "较差",
+      "new": "全新"
+    },
+    "validation": {
+      "nameRequired": "设备名称是必填项",
+      "nameMinLength": "名称至少需要3个字符",
+      "brandRequired": "品牌是必填项",
+      "modelRequired": "型号是必填项",
+      "yearMin": "年份必须是1990年或之后",
+      "yearMax": "年份不能是未来年份",
+      "conditionRequired": "请选择状况",
+      "categoryRequired": "请选择分类",
+      "descriptionRequired": "描述是必填项",
+      "descriptionMinLength": "描述至少需要20个字符",
+      "descriptionMaxLength": "描述不能超过2000个字符",
+      "priceNegative": "价格不能为负数",
+      "dailyPriceRequired": "每日价格是必填项",
+      "pricePositive": "价格必须大于0",
+      "depositNegative": "押金不能为负数",
+      "minRentalDaysMin": "最短租赁天数至少为1天",
+      "cityRequired": "请选择城市",
+      "radiusNegative": "半径不能为负数"
+    },
+    "errors": {
+      "loadCategories": "无法加载分类。请刷新页面。",
+      "noImages": "请至少上传一张您的设备照片",
+      "selectCategory": "请选择一个分类",
+      "submissionFailed": "提交失败。请重试。",
+      "uploadImagesFailed": "上传图片失败",
+      "uploadDocumentsFailed": "上传文档失败",
+      "fileTooLarge": "{{name}} 文件过大。最大 {{max}}",
+      "invalidImageType": "{{name}} 不是有效的图片格式。请使用 JPEG、PNG 或 WebP 格式",
+      "invalidDocumentType": "{{name}} 不是有效的文档格式。请使用 PDF、JPEG 或 PNG 格式"
+    },
+    "success": {
+      "imagesAdded": "已添加 {{count}} 张图片",
+      "documentsAdded": "已添加 {{count}} 个文档",
+      "imagesUploaded": "{{count}} 张图片上传成功",
+      "documentsUploaded": "{{count}} 个文档上传成功",
+      "imageRemoved": "图片已移除",
+      "documentRemoved": "文档已移除",
+      "submitted": "设备提交成功！管理员将尽快审核。"
+    },
+    "uploading": {
+      "images": "正在上传图片...",
+      "documents": "正在上传文档..."
+    }
+  },
+  "ownerSubmissions": {
+    "header": {
+      "title": "我的提交",
+      "subtitle": "跟踪您的设备上架请求",
+      "newButton": "新建提交"
+    },
+    "columns": {
+      "equipment": "设备",
+      "status": "状态",
+      "adminNote": "管理员备注",
+      "submitted": "提交日期"
+    },
+    "table": {
+      "emptyText": "暂无提交记录。添加您的第一台设备！"
+    },
+    "modal": {
+      "title": "提交详情",
+      "fields": {
+        "name": "名称",
+        "brand": "品牌",
+        "model": "型号",
+        "year": "年份",
+        "condition": "状况",
+        "city": "城市",
+        "pricePerDay": "价格/天"
+      },
+      "rejectionReason": "拒绝原因",
+      "adminNote": "管理员备注"
+    }
+  },
+  "ownerBookings": {
+    "header": {
+      "title": "预订管理",
+      "subtitle": "管理您设备的租赁请求"
+    },
+    "tabs": {
+      "all": "全部",
+      "pending": "待确认",
+      "confirmed": "已确认",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "table": {
+      "ref": "编号",
+      "equipment": "设备",
+      "customer": "客户",
+      "period": "租期",
+      "payout": "收益",
+      "status": "状态",
+      "emptyText": "未找到预订记录"
+    },
+    "modal": {
+      "title": "预订 {{ref}}",
+      "customer": "客户",
+      "phone": "电话",
+      "dates": "日期",
+      "totalDays": "总天数",
+      "totalAmount": "总金额",
+      "yourPayout": "您的收益",
+      "customerNotes": "客户备注"
+    },
+    "cancelModal": {
+      "title": "取消预订",
+      "description": "请提供取消预订 {{ref}} 的原因：",
+      "placeholder": "取消原因…",
+      "backButton": "返回",
+      "confirmButton": "确认取消"
+    },
+    "messages": {
+      "confirmSuccess": "已确认！",
+      "confirmFailed": "确认预订失败",
+      "cancelSuccess": "预订已取消",
+      "cancelFailed": "取消预订失败"
+    },
+    "currency": "ETB"
+  },
+   "ownerAnalytics": {
+    "title": "数据分析",
+    "subtitle": "您的设备绩效洞察",
+    "apiError": "分析API不可用。连接到后端后将显示数据。",
+    "revenueTrend": "收入趋势",
+    "equipmentPerformance": "设备绩效",
+    "bookingsPerMonth": "每月预订量",
+    "revenue": "收入",
+    "bookings": "次预订",
+    "bookingsCount": "预订量",
+    "noRevenueData": "暂无收入数据",
+    "noRevenueSubtext": "完成预订后显示",
+    "noEquipmentData": "暂无设备数据",
+    "noEquipmentSubtext": "拥有已批准设备后显示",
+    "stats": {
+      "totalEarnings": "总收入",
+      "thisMonth": "本月",
+      "totalBookings": "总预订量",
+      "avgRating": "平均评分",
+      "summary": "统计摘要"
+    },
+    "period": {
+      "last3Months": "最近3个月",
+      "last6Months": "最近6个月",
+      "last12Months": "最近12个月"
+    },
+    "export": {
+      "pdf": "导出PDF",
+      "csv": "导出CSV"
+    },
+    "equipmentTable": {
+      "name": "设备名称",
+      "bookings": "总预订量",
+      "earnings": "总收入"
+    },
+    "csv": {
+      "month": "月份",
+      "revenue": "收入 (ETB)",
+      "bookings": "预订量",
+      "revenueReport": "=== 收入报告 ===",
+      "equipmentReport": "=== 设备绩效报告 ===",
+      "equipmentName": "设备名称",
+      "totalBookings": "总预订量",
+      "totalEarnings": "总收入 (ETB)"
+    }
+  },
+  "ownerSettings": {
+    "title": "设置",
+    "saveChanges": "保存更改",
+    "saveSuccess": "设置保存成功！",
+    "saveError": "保存设置失败，请重试。",
+    "notifications": {
+      "title": "通知偏好",
+      "emailLabel": "邮件通知",
+      "emailDesc": "通过邮件接收更新",
+      "smsLabel": "短信通知",
+      "smsDesc": "通过短信接收更新",
+      "newBookingLabel": "新预订提醒",
+      "newBookingDesc": "有人预订您的设备时提醒",
+      "bookingConfirmedLabel": "预订确认提醒",
+      "bookingConfirmedDesc": "预订确认时提醒",
+      "bookingCancelledLabel": "取消提醒",
+      "bookingCancelledDesc": "预订取消时提醒",
+      "paymentReceivedLabel": "收款提醒",
+      "paymentReceivedDesc": "收到付款时提醒"
+    },
+    "payout": {
+      "title": "收款设置",
+      "description": "用于接收租赁收入的银行账户信息。",
+      "bankNameLabel": "银行名称",
+      "bankNamePlaceholder": "埃塞俄比亚商业银行",
+      "accountNumberLabel": "账号",
+      "accountNumberPlaceholder": "1000123456789",
+      "accountNameLabel": "账户持有人姓名",
+      "accountNamePlaceholder": "与银行账户一致"
+    }
+  },
+  "ownerProfile": {
+    "header": {
+      "title": "我的个人资料",
+      "subtitle": "管理您的账户信息"
+    },
+    "badge": {
+      "owner": "所有者",
+      "idVerified": "身份已验证",
+      "notVerified": "未验证"
+    },
+    "avatar": {
+      "uploadTitle": "上传照片",
+      "uploadPhoto": "上传个人照片",
+      "changePhoto": "更换个人照片",
+      "uploading": "正在上传个人照片...",
+      "success": "个人照片更新成功！",
+      "errors": {
+        "fileTooLarge": "图片大小必须小于5 MB",
+        "invalidType": "请选择图片文件",
+        "uploadFailed": "照片上传失败。请重试。"
+      }
+    },
+    "form": {
+      "fullName": "全名",
+      "fullNamePlaceholder": "阿贝贝·吉尔马",
+      "nameRequired": "姓名必填",
+      "phone": "电话号码",
+      "phonePlaceholder": "+251 9XX XXX XXX",
+      "city": "城市",
+      "selectCity": "选择城市",
+      "companyName": "公司名称",
+      "companyPlaceholder": "您的公司名称",
+      "bio": "个人简介 / 关于",
+      "bioPlaceholder": "告诉客户您的经验和设备情况…",
+      "saveButton": "保存更改"
+    },
+    "profileUpdateSuccess": "个人资料更新成功！",
+    "profileUpdateFailed": "更新失败。请重试。",
+    "verificationCard": {
+      "title": "验证您的身份",
+      "description": "经过验证的所有者获得更多客户信任和更快的批准。您的国民身份证经过加密并安全存储。",
+      "benefit1": "✓ 更多客户信任",
+      "benefit2": "✓ 更快的预订",
+      "benefit3": "✓ 安全加密",
+      "verifyButton": "验证我的身份"
+    },
+    "verifiedCard": {
+      "title": "身份已验证 ✓",
+      "description": "您的身份已验证。这有助于建立与客户的信任。"
+    },
+    "verification": {
+      "fillAllFields": "请填写所有身份信息字段",
+      "otpSent": "验证码已发送至您注册的手机号码！",
+      "requestFailed": "验证请求失败",
+      "enterOtp": "请输入验证码",
+      "verifySuccess": "身份验证成功！✓",
+      "verifyFailed": "验证码验证失败"
+    },
+    "modal": {
+      "verifyTitle": "验证您的身份",
+      "otpTitle": "输入验证码",
+      "verifyDescription": "输入您的国民身份证信息。我们将向您的手机发送验证码以确认。",
+      "idType": "身份证类型",
+      "idTypes": {
+        "nationalId": "国民身份证",
+        "fin": "FIN",
+        "passport": "护照"
+      },
+      "idNumber": "身份证号码",
+      "idNumberPlaceholder": "输入您的身份证号码",
+      "fullName": "全名（与身份证一致）",
+      "fullNamePlaceholder": "阿贝贝·吉尔马",
+      "dob": "出生日期",
+      "sendOtp": "发送验证码",
+      "otpSent": "验证码已发送！",
+      "otpDescription": "请检查您的手机 — 在下方输入6位验证码",
+      "enterOtp": "输入验证码",
+      "verifyButton": "验证",
+      "resendOtp": "没有收到？重新发送验证码"
+    }
+  },
+   "admin": {
+    "greeting": {
+      "morning": "早上好",
+      "afternoon": "下午好",
+      "evening": "晚上好"
+    },
+    "header": {
+      "live": "实时仪表板"
+    },
+    "timeRange": {
+      "lastMonths": "最近 {{months}} 个月"
+    },
+    "pendingSubmissions": {
+      "message_one": "{{count}} 个提交待审核",
+      "message_other": "{{count}} 个提交待审核",
+      "description": "设备所有者正在等待批准",
+      "review": "审核"
+    },
+    "kpi": {
+      "totalRevenue": "总收入",
+      "vsLastMonth": "与上月相比",
+      "thisMonth": "本月",
+      "target": "目标",
+      "totalUsers": "总用户数",
+      "activeListings": "活跃列表",
+      "totalBookings": "总预订数",
+      "pending": "待处理",
+      "completed": "已完成"
+    },
+    "status": {
+      "pending": "待处理",
+      "confirmed": "已确认",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "charts": {
+      "revenueVsTarget": "收入对比目标",
+      "monthlyPerformance": "月度表现趋势",
+      "actual": "实际",
+      "target": "目标",
+      "revenue": "收入",
+      "bookingStatus": "预订状态",
+      "allTimeDistribution": "全时段分布",
+      "bookingTrend": "预订趋势",
+      "monthlyBookingsByOutcome": "按月预订结果",
+      "categoryRevenue": "分类收入",
+      "topPerformingCategories": "表现最佳的设备类型",
+      "units": "台"
+    },
+    "topPerformers": {
+      "topBookings": "热门预订",
+      "topCustomers": "热门客户",
+      "topOwners": "热门所有者",
+      "topEquipment": "热门设备",
+      "viewAll": "查看全部",
+      "noData": "暂无数据",
+      "bookings": "次预订",
+      "listings": "个列表",
+      "rentals": "次租赁"
+    },
+    "recentActivity": {
+      "title": "最近活动",
+      "viewAll": "查看全部",
+      "booking": "预订",
+      "noActivity": "暂无最近活动"
+    },
+    "quickActions": {
+      "title": "快速操作",
+      "submissions": "提交审核",
+      "bookings": "预订管理",
+      "owners": "所有者",
+      "customers": "客户",
+      "equipment": "设备",
+      "reports": "报表"
+    },
+    "platformHealth": {
+      "title": "平台健康度",
+      "activeEquipment": "设备活跃率",
+      "bookingSuccess": "预订成功率",
+      "ownerVerification": "所有者验证率",
+      "systemStatus": "系统状态",
+      "operational": "正常运行",
+      "commissionRate": "佣金比例",
+      "activeTimeSlots": "活跃时段"
+    },
+    "errors": {
+      "loadFailed": "无法加载仪表板数据。请检查您的连接并重试。",
+      "title": "无法加载仪表板",
+      "retry": "重试",
+      "noData": "没有仪表板数据可用",
+      "noRevenueData": "没有收入数据可用",
+      "noTrendData": "没有预订趋势数据可用",
+      "noCategoryData": "没有分类数据可用"
+    }
+  },
+  "adminEquipment": {
+    "title": "设备管理",
+    "subtitle": "共 {{count}} 个列表",
+    "searchPlaceholder": "搜索设备…",
+    "emptyText": "未找到设备",
+    "currency": "ETB",
+    "pendingApproval": "待审核",
+    "deleteSuccess": "设备删除成功",
+    "deleteError": "删除设备失败",
+    "columns": {
+      "name": "名称",
+      "category": "分类",
+      "city": "城市",
+      "pricePerDay": "价格/天",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "modal": {
+      "title": "设备详情",
+      "brand": "品牌",
+      "model": "型号",
+      "year": "年份",
+      "condition": "状况",
+      "city": "城市",
+      "pricePerDay": "价格/天",
+      "owner": "所有者",
+      "status": "状态",
+      "description": "描述"
+    },
+    "deleteDialog": {
+      "title": "删除设备",
+      "message": "永久删除 \"{{name}}\"？所有相关数据将丢失。"
+    }
+  },
+  
+  "adminSubmissions": {
+    "pageTitle": "设备提交审核",
+    "pageSubtitle": "{{count}} 个提交",
+    "backToSubmissions": "返回提交列表",
+    "ownerNotFound": "未找到所有者",
+    "backButton": "返回",
+    "verified": "已验证",
+    "unverified": "未验证",
+    "contactInformation": "联系信息",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "city": "城市",
+    "company": "公司",
+    "joined": "加入时间",
+    "idType": "证件类型",
+    "about": "关于",
+    "accountStatus": "账户状态",
+    "status": "状态",
+    "emailVerified": "邮箱已验证",
+    "idVerified": "证件已验证",
+    "submissionInfo": "提交信息",
+    "statusLabel": "状态",
+    "submittedLabel": "提交时间",
+    "rejectionReason": "拒绝原因",
+    "documents": "文档",
+    "document": "文档",
+    "unnamedEquipment": "未命名设备",
+    "category": "分类",
+    "brand": "品牌",
+    "model": "型号",
+    "year": "年份",
+    "condition": "状况",
+    "description": "描述",
+    "pricing": "定价",
+    "location": "位置",
+    "address": "地址",
+    "deliveryAvailable": "可配送",
+    "deliveryRadius": "配送范围",
+    "specifications": "规格参数",
+    "attachments": "附件",
+    "noImages": "未上传图片",
+    "currency": "ETB",
+    "unknown": "未知",
+    "noBrand": "无品牌",
+    "noLocation": "无位置",
+    "approveTitle": "✅ 批准提交",
+    "rejectTitle": "❌ 拒绝提交",
+    "approveButton": "批准",
+    "rejectButton": "拒绝",
+    "equipmentLabel": "设备",
+    "noteOptional": "给所有者的备注（可选）",
+    "rejectionReasonRequired": "需要提供拒绝原因",
+    "approveSuccess": "提交已批准！设备列表已创建。",
+    "rejectSuccess": "提交已拒绝。所有者已收到通知。",
+    "actionFailed": "{{type}} 操作失败",
+    "approvePlaceholder": "例如：列表很好！设备已验证。",
+    "rejectPlaceholder": "例如：图片太模糊，缺少每周价格…",
+    "tabs": {
+      "pending": "待处理",
+      "inReview": "审核中",
+      "approved": "已批准",
+      "rejected": "已拒绝",
+      "all": "全部"
+    },
+    "searchPlaceholder": "按设备名称或所有者搜索...",
+    "table": {
+      "equipment": "设备",
+      "owner": "所有者",
+      "location": "位置",
+      "pricePerDay": "日租价格",
+      "status": "状态",
+      "submitted": "提交时间",
+      "actions": "操作"
+    },
+    "noSubmissions": "未找到提交记录",
+    "fetchError": "加载提交记录失败",
+    "deleteSuccess": "提交记录删除成功",
+    "deleteFailed": "删除失败",
+    "deleteConfirmTitle": "删除提交记录",
+    "deleteConfirmMessage": "删除 {{name}}？此操作不可撤销。",
+    "equipmentDetail": "设备详情",
+    "viewOwner": "查看所有者"
+  },
+  "adminBookings": {
+    "title": "预订管理",
+    "subtitle": "共{{count}}个预订",
+    "searchPlaceholder": "按编号、设备、客户搜索...",
+    "tabs": {
+      "all": "全部",
+      "pending": "待确认",
+      "confirmed": "已确认",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "table": {
+      "reference": "编号",
+      "equipment": "设备",
+      "customer": "客户",
+      "owner": "所有者",
+      "dates": "日期",
+      "amount": "金额",
+      "status": "状态",
+      "actions": "操作",
+      "payout": " payout",
+      "noData": "未找到预订记录",
+      "viewDetails": "查看详情",
+      "quickConfirm": "快速确认",
+      "quickComplete": "标记完成"
+    },
+    "detail": {
+      "backToList": "返回预订列表",
+      "equipment": "设备",
+      "bookingDetails": "预订详情",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "totalDays": "总天数",
+      "pricingMode": "计价方式",
+      "unitPrice": "单价",
+      "totalAmount": "总金额",
+      "platformFee": "平台服务费 (12%)",
+      "ownerPayout": "所有者收入",
+      "deposit": "押金",
+      "timeSlot": "时段",
+      "customerNotes": "客户备注",
+      "deliveryAddress": "配送地址",
+      "cancelReason": "取消原因",
+      "confirmButton": "确认预订",
+      "completeButton": "标记完成",
+      "cancelButton": "取消预订",
+      "cancelPlaceholder": "取消原因（必填）…",
+      "confirmCancel": "确认取消",
+      "customer": "客户",
+      "owner": "设备所有者",
+      "noPhone": "未提供电话",
+      "financialSummary": "财务摘要",
+      "grossAmount": "总金额",
+      "platformFeeLabel": "平台服务费 (12%)",
+      "ownerPayoutLabel": "所有者收入",
+      "timeline": "时间轴",
+      "created": "创建时间",
+      "confirmed": "确认时间",
+      "completed": "完成时间",
+      "cancelled": "取消时间"
+    },
+    "toasts": {
+      "confirmSuccess": "预订确认成功！",
+      "confirmFailed": "确认预订失败",
+      "cancelSuccess": "预订取消成功",
+      "cancelFailed": "取消预订失败",
+      "completeSuccess": "预订已标记为完成！",
+      "completeFailed": "标记完成失败",
+      "reasonRequired": "请提供取消原因",
+      "loadFailed": "加载预订失败"
+    }
+  },
+  "adminCustomers": {
+    "header": {
+      "title": "客户管理",
+      "subtitle": "{{count}} 名注册客户"
+    },
+    "searchPlaceholder": "按姓名或邮箱搜索客户…",
+    "emptyText": "未找到客户",
+    "columns": {
+      "name": "姓名",
+      "idNumber": "身份证号",
+      "phone": "电话",
+      "city": "城市",
+      "bookings": "预订次数",
+      "idVerified": "身份验证",
+      "status": "状态",
+      "joined": "注册日期",
+      "actions": "操作"
+    },
+    "filters": {
+      "button": "筛选",
+      "title": "筛选客户",
+      "clear": "清除全部",
+      "active": "当前筛选",
+      "allVerification": "全部验证状态",
+      "allBookings": "全部预订次数",
+      "allStatus": "全部账户状态",
+      "allCities": "全部城市",
+      "topCustomers": "优质客户",
+      "mediumCustomers": "活跃客户",
+      "lowCustomers": "新客户"
+    },
+    "modal": {
+      "title": "客户资料",
+      "idNumber": "身份证号",
+      "phone": "电话",
+      "city": "城市",
+      "totalBookings": "总预订次数",
+      "joined": "注册日期"
+    },
+    "confirm": {
+      "suspendTitle": "封禁用户",
+      "activateTitle": "解封用户",
+      "suspendMessage": "确定要封禁用户 \"{{name}}\" 吗？",
+      "activateMessage": "确定要解封用户 \"{{name}}\" 吗？"
+    },
+    "toast": {
+      "success": "用户状态已更新",
+      "error": "操作失败"
+    }
+  },
+ 
+   "adminOwners": {
+    "header": {
+      "title": "设备所有者",
+      "subtitle": "{{count}} 名注册所有者"
+    },
+    "searchPlaceholder": "搜索所有者…",
+    "emptyText": "未找到所有者",
+    "columns": {
+      "owner": "所有者",
+      "city": "城市",
+      "verified": "认证状态",
+      "status": "状态",
+      "joined": "加入时间",
+      "actions": "操作"
+    },
+    "verified": {
+      "verified": "已认证",
+      "unverified": "未认证"
+    },
+    "modal": {
+      "title": "所有者资料",
+      "fields": {
+        "phone": "电话",
+        "city": "城市",
+        "company": "公司",
+        "idVerified": "身份认证",
+        "bio": "简介",
+        "yes": "是",
+        "no": "否"
+      }
+    },
+    "confirm": {
+      "activateTitle": "激活所有者",
+      "suspendTitle": "暂停所有者",
+      "activate": "激活",
+      "suspend": "暂停",
+      "message": "确定要{{action}}所有者 \"{{name}}\" 吗？"
+    },
+    "toast": {
+      "success": "更新成功",
+      "error": "操作失败"
+    }
+  },
+  "adminReports": {
+    "header": {
+      "title": "报表与分析",
+      "subtitle": "全面的洞察和绩效指标"
+    },
+    "filters": {
+      "title": "筛选",
+      "reportType": "报表类型",
+      "allReports": "所有报表",
+      "revenueOnly": "仅收入",
+      "bookingsOnly": "仅预订",
+      "usersOnly": "仅用户",
+      "timeRange": "时间范围",
+      "last3Months": "最近3个月",
+      "last6Months": "最近6个月",
+      "last12Months": "最近12个月"
+    },
+    "export": {
+      "csv": "CSV",
+      "pdf": "PDF",
+      "print": "打印",
+      "title": "管理员报表 - {{date}}",
+      "csvSuccess": "CSV导出成功",
+      "pdfSuccess": "打印窗口已打开",
+      "exportFailed": "导出失败",
+      "generatedOn": "生成于 {{date}}",
+      "pdfTitle": "管理员报表 - {{date}}",
+      "pdfHeader": "Concrete 埃塞俄比亚 - 管理员报表",
+      "sections": {
+        "overview": "概览",
+        "revenueTrend": "收入趋势",
+        "bookingTrend": "预订趋势",
+        "categoryPerformance": "分类表现"
+      },
+      "headers": {
+        "metric": "指标",
+        "value": "数值",
+        "month": "月份",
+        "revenue": "收入",
+        "totalBookings": "总预订数",
+        "completed": "已完成",
+        "cancelled": "已取消",
+        "pending": "待处理",
+        "category": "分类",
+        "equipmentCount": "设备数量"
+      },
+      "metrics": {
+        "totalRevenue": "总收入",
+        "monthlyRevenue": "月收入",
+        "totalBookings": "总预订数",
+        "completedBookings": "已完成预订",
+        "pendingBookings": "待处理预订",
+        "cancelledBookings": "已取消预订",
+        "totalUsers": "总用户数",
+        "customers": "客户",
+        "owners": "所有者",
+        "activeEquipment": "活跃设备",
+        "totalEquipment": "设备总数",
+        "averageRating": "平均评分"
+        
+      },
+      "footer": "Concrete 埃塞俄比亚 - 管理员仪表板",
+      "disclaimer": "这是自动生成的报表"
+    },
+    "dateRange": {
+      "last30Days": "最近30天",
+      "last90Days": "最近90天",
+      "last6Months": "最近6个月",
+      "last12Months": "最近12个月",
+      "allTime": "全部时间"
+    },
+    "chartTypes": {
+      "revenue": "收入",
+      "bookings": "预订",
+      "categories": "分类"
+    },
+    "kpi": {
+      "totalRevenue": "总收入",
+      "monthlyRevenue": "月收入",
+      "totalBookings": "总预订数",
+      "completionRate": "完成率",
+      "activeEquipment": "活跃设备"
+    },
+    "metrics": {
+      "totalUsers": "总用户数",
+      "completed": "已完成",
+      "listings": "列表数",
+      "avgRating": "平均评分",
+      "satisfaction": "满意度",
+      "growthRate": "增长率",
+      "completedBookings": "已完成预订",
+        "totalEquipment": "设备总数"
+    },
+    "charts": {
+      "revenueAnalytics": "收入分析",
+      "monthlyRevenueTrend": "月度收入趋势",
+      "revenue": "收入",
+      "bookingDistribution": "预订分布",
+      "statusBreakdown": "状态细分",
+      "bookingTrend": "预订趋势",
+      "monthlyPerformance": "月度表现",
+      "total": "总计",
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "categoryPerformance": "分类表现"
+    },
+    "status": {
+      "completed": "已完成",
+      "pending": "待处理",
+      "cancelled": "已取消"
+    },
+    "health": {
+      "responseTime": "响应时间",
+      "verificationRate": "验证率",
+      "avgBookingLead": "平均预订提前期",
+      "pendingActions": "待处理操作",
+       "totalRevenue": "总收入",
+      "completedBookings": "已完成预订",
+      "activeUsers": "活跃用户"
+    },
+    "errors": {
+      "loadFailed": "加载报表数据失败",
+      "noRevenueData": "无收入数据可用",
+      "noBookingData": "无预订数据可用",
+      "noCategoryData": "无分类数据可用"
+    },
+    "units": "个单位",
+    "days": "天",
+    "footer": {
+      "generatedOn": "报表生成于 {{date}}",
+      "disclaimer": "除非另有说明，数据代表所有时间的指标"
+    }
+  },
+  "adminSettings": {
+    "title": "平台设置",
+    "subtitle": "配置全局平台行为",
+    "saveButton": "保存更改",
+    "saveSuccess": "设置已保存！",
+    "saveError": "保存设置失败",
+    "general": {
+      "title": "常规设置",
+      "platformName": "平台名称",
+      "commissionRate": "佣金比例（例如：0.12 = 12%）",
+      "maxImages": "每个设备最大图片数",
+      "maintenanceMode": {
+        "title": "维护模式",
+        "description": "暂时禁用公共访问"
+      }
+    }
+  },
+  "adminProfile": {
+    "title": "我的个人资料",
+    "form": {
+      "fullName": "全名",
+      "phone": "电话号码",
+      "city": "城市",
+      "bio": "个人简介",
+      "submitButton": "保存更改",
+      "successMessage": "个人资料已更新！",
+      "errorMessage": "更新失败",
+      "nameRequired": "姓名必填"
+    },
+    "avatar": {
+      "uploadTitle": "上传照片",
+      "uploadPhoto": "上传个人照片",
+      "changePhoto": "更换个人照片",
+      "uploading": "正在上传个人照片...",
+      "success": "个人照片更新成功！",
+      "errors": {
+        "fileTooLarge": "图片大小必须小于5 MB",
+        "invalidType": "请选择图片文件",
+        "uploadFailed": "照片上传失败。请重试。"
+      }
+      }
+  },
+  "adminCategories": {
+    "title": "设备分类",
+    "subtitle": "共 {{count}} 个分类",
+    "addButton": "添加分类",
+    "searchPlaceholder": "按名称或别名搜索...",
+    "emptyText": "未找到分类",
+    "status": {
+      "active": "启用",
+      "inactive": "禁用"
+    },
+    "columns": {
+      "icon": "图标",
+      "name": "分类名称",
+      "slugLabel": "别名",
+      "description": "描述",
+      "equipment": "设备数量",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "form": {
+      "nameLabel": "分类名称",
+      "namePlaceholder": "例如：挖掘机",
+      "slugLabel": "别名",
+      "slugPlaceholder": "从名称自动生成",
+      "slugHelper": "URL友好标识符",
+      "iconLabel": "图标",
+      "iconPlaceholder": "🔧",
+      "iconHelper": "表情符号或图标代码",
+      "sortOrderLabel": "排序顺序",
+      "sortOrderHelper": "数字越小越靠前",
+      "descriptionLabel": "描述",
+      "descriptionPlaceholder": "描述此分类...",
+      "activeLabel": "启用",
+      "activeHelper": "禁用的分类不会在网站上显示"
+    },
+    "modal": {
+      "createTitle": "创建分类",
+      "editTitle": "编辑分类"
+    },
+    "messages": {
+      "createSuccess": "分类创建成功！",
+      "updateSuccess": "分类更新成功！",
+      "deleteSuccess": "分类删除成功！"
+    },
+    "errors": {
+      "fetchFailed": "加载分类失败",
+      "deleteFailed": "删除分类失败",
+      "nameRequired": "分类名称必填"
+    },
+    "deleteDialog": {
+      "title": "删除分类",
+      "message": "确定要删除分类 \"{{name}}\" 吗？",
+      "warning": "⚠️ 此分类下有 {{count}} 个设备。删除将影响这些设备列表。"
+    }
+  },
+  "sidebar": {
+    "dashboard": "仪表板",
+    "timeSlots": "时间段",
+    "equipment": "设备",
+    "categories": "分类",
+    "submissions": "提交审核",
+    "bookings": "预订",
+    "customers": "客户",
+    "owners": "所有者",
+    "reports": "报表",
+    "settings": "设置",
+    "profile": "个人资料",
+    "admins": "管理员",
+    "addEquipment": "添加设备",
+    "mySubmissions": "我的提交",
+    "calendar": "日历",
+    "analytics": "数据分析",
+    "search": "搜索设备",
+    "myBookings": "我的预订",
+    "rolePanel": {
+      "admin": "管理员面板",
+      "superAdmin": "超级管理员面板",
+      "owner": "所有者面板",
+      "customer": "客户面板"
+    },
+    "superAdminLabel": "超级管理员"
+  },
+  "footer": {
+    "description": "埃塞俄比亚首屈一指的重型设备租赁平台，连接设备所有者与企业。",
+    "platform": "平台",
+    "support": "支持",
+    "cities": "城市",
+    "browseEquipment": "浏览设备",
+    "listEquipment": "发布设备",
+    "aboutUs": "关于我们",
+    "contactUs": "联系我们",
+    "phone": "+251 911 000 000",
+    "email": "info@equiprent.et",
+    "allRightsReserved": "版权所有。",
+    "operational": "所有系统运行正常"
+  },
+  "cities": {
+    "addisAbaba": "亚的斯亚贝巴",
+    "direDawa": "迪雷达瓦",
+    "hawassa": "哈瓦萨",
+    "bahirDar": "巴赫达尔",
+    "mekelle": "默克莱",
+    "otherCities": "其他城市"
+  }
+
+}

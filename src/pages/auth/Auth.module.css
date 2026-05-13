@@ -1,0 +1,245 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+}
+
+/* Left panel */
+.left {
+  flex: 1;
+  background: linear-gradient(135deg, #1c1917 0%, #292524 50%, #1c1917 100%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-12) var(--space-10);
+}
+
+.leftContent {
+  position: relative;
+  z-index: 2;
+  max-width: 480px;
+}
+
+.leftBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(249,115,22,0.15);
+  border: 1px solid rgba(249,115,22,0.3);
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--brand-400);
+  letter-spacing: 0.03em;
+  margin-bottom: var(--space-6);
+}
+
+.leftTitle {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 800;
+  color: #fafaf9;
+  line-height: 1.1;
+  margin-bottom: var(--space-5);
+  letter-spacing: -0.02em;
+}
+
+.leftAccent {
+  color: var(--brand-400);
+  display: block;
+}
+
+.leftDesc {
+  font-size: 16px;
+  color: #a8a29e;
+  line-height: 1.7;
+  margin-bottom: var(--space-8);
+  max-width: 420px;
+}
+
+.stats {
+  display: flex;
+  gap: var(--space-6);
+  margin-bottom: var(--space-10);
+}
+
+.stat { display: flex; flex-direction: column; gap: 4px; }
+.statVal { font-family: var(--font-display); font-size: 28px; font-weight: 800; color: #fafaf9; letter-spacing: -0.02em; }
+.statLabel { font-size: 12px; color: #78716c; font-weight: 500; }
+
+.testimonial {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+.testimonialText {
+  font-size: 14px;
+  color: #d6d3d1;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: var(--space-4);
+}
+
+.testimonialAuthor { display: flex; align-items: center; gap: 10px; }
+
+.testimonialAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--brand-500);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.testimonialName { font-size: 13px; font-weight: 600; color: #e7e5e4; }
+.testimonialRole { font-size: 11px; color: #78716c; }
+
+/* Decorative pattern */
+.leftPattern {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.04;
+  background-image: radial-gradient(circle, #f97316 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Right panel */
+.right {
+  width: 480px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-base);
+  overflow-y: auto;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 400px;
+  padding: var(--space-10) var(--space-6);
+}
+
+.backHome {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  margin-bottom: var(--space-8);
+  transition: color var(--transition-fast);
+}
+
+.backHome:hover { color: var(--text-primary); }
+
+.formHeader { margin-bottom: var(--space-8); }
+
+.logoMark {
+  font-size: 32px;
+  margin-bottom: var(--space-4);
+  display: block;
+}
+
+.formTitle {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.formSubtitle { font-size: 14px; color: var(--text-secondary); }
+
+.form { display: flex; flex-direction: column; gap: var(--space-5); margin-bottom: var(--space-5); }
+
+.forgotLink {
+  font-size: 12px;
+  color: var(--brand-600);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forgotLink:hover { text-decoration: underline; }
+
+.switchText { text-align: center; font-size: 14px; color: var(--text-secondary); margin-top: var(--space-4); }
+.switchLink { color: var(--brand-600); font-weight: 600; text-decoration: none; }
+.switchLink:hover { text-decoration: underline; }
+
+/* Demo */
+.demoSection {
+  margin-top: var(--space-6);
+  padding: var(--space-5);
+  background: var(--bg-sunken);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+}
+
+.demoTitle { font-size: 11px; font-weight: 600; color: var(--text-tertiary); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: var(--space-3); }
+
+.demoGrid { display: flex; flex-direction: column; gap: 6px; }
+
+.demoBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-family: var(--font-body);
+}
+
+.demoBtn:hover { border-color: var(--brand-500); background: var(--brand-50); }
+
+.demoRole { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+.demoEmail { font-size: 11px; color: var(--text-tertiary); font-family: monospace; }
+
+/* ─── Role selector (Register) ─── */
+.roleSelector { display: flex; gap: 10px; }
+
+.roleOption {
+  flex: 1;
+  padding: 14px;
+  border: 1.5px solid var(--border-default);
+  border-radius: var(--radius-lg);
+  background: var(--bg-surface);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  font-family: var(--font-body);
+}
+
+.roleOption:hover { border-color: var(--brand-400); background: var(--brand-50); }
+.roleOption.roleSelected { border-color: var(--brand-500); background: var(--brand-50); box-shadow: 0 0 0 2px rgba(249,115,22,0.15); }
+
+[data-theme="dark"] .roleOption:hover,
+[data-theme="dark"] .roleOption.roleSelected { background: rgba(249,115,22,0.08); }
+
+.roleIcon { font-size: 28px; }
+.roleName { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+.roleDesc { font-size: 11px; color: var(--text-tertiary); line-height: 1.4; }
+
+/* ─── Responsive ─── */
+@media (max-width: 900px) {
+  .left { display: none; }
+  .right { width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .formContainer { padding: var(--space-6) var(--space-5); }
+}

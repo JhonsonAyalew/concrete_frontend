@@ -1,0 +1,2076 @@
+{
+  "common": {
+    "appName": "Concrete Ethiopia",
+    "loading": "እየጫነ ነው...",
+    "error": "ስህተት ተከስቷል",
+    "retry": "እንደገና ሞክር",
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "delete": "አጥፋ",
+    "edit": "አርም",
+    "view": "ይመልከቱ",
+    "submit": "አስገባ",
+    "confirm": "አረጋግጥ",
+    "back": "ተመለስ",
+    "next": "ቀጣይ",
+    "search": "ፈልግ",
+    "filter": "አጣራ",
+    "sort": "ደርድር",
+    "export": "ላክ",
+    "all": "ሁሉም",
+    "yes": "አዎ",
+    "no": "አይ",
+    "or": "ወይም",
+    "and": "እና",
+    "from": "ከ",
+    "to": "ወደ",
+    "status": "ሁኔታ",
+    "actions": "ድርጊቶች",
+    "date": "ቀን",
+    "amount": "መጠን",
+    "total": "ጠቅላላ",
+    "noData": "ምንም ውሂብ አልተገኘም",
+    "optional": "አማራጭ",
+    "required": "አስፈላጊ",
+    "page": "ገጽ",
+    "of": "ከ",
+    "perPage": "በገጽ",
+    "showing": "እያሳየ",
+    "results": "ውጤቶች",
+    "darkMode": "ጨለማ ሁነታ",
+    "lightMode": "ብርሃን ሁነታ",
+    "language": "ቋንቋ",
+    "notifications": "ማሳወቂያዎች",
+    "markAllRead": "ሁሉንም አንብቤያለሁ",
+    "noNotifications": "ምንም ማሳወቂያ የለም",
+    "viewAll": "ሁሉንም ይመልከቱ",
+    "profile": "መገለጫ",
+    "settings": "ቅንብሮች",
+    "logout": "ውጣ",
+    "dashboard": "ዳሽቦርድ",
+    "yes": "አዎ",
+    "no": "አይ",
+    "verified": "የተረጋገጠ",
+    "unverified": "ያልተረጋገጠ",
+    "active": "ንቁ",
+    "suspended": "ታግዷል"
+  },
+  "auth": {
+    "login": "ግባ",
+    "register": "ምዝገባ",
+    "logout": "ውጣ",
+    "email": "ኢሜይል",
+    "password": "የይለፍ ቃል",
+    "confirmPassword": "የይለፍ ቃል አረጋግጥ",
+    "name": "ሙሉ ስም",
+    "phone": "ስልክ ቁጥር",
+    "city": "ከተማ",
+    "role": "እኔ ነኝ",
+    "customer": "ደንበኛ",
+    "owner": "የቁሳቁስ ባለቤት",
+    "forgotPassword": "የይለፍ ቃል ረሳህ?",
+    "resetPassword": "የይለፍ ቃል ዳግም አቁም",
+    "sendResetLink": "ማስፈቀጃ ሊንክ ላክ",
+    "backToLogin": "ወደ ግባ ተመለስ",
+    "noAccount": "መለያ የለህም?",
+    "hasAccount": "አስቀድሞ መለያ አለህ?",
+    "signUp": "ምዝገባ",
+    "signIn": "ግባ",
+    "welcomeBack": "እንኳን ደህና መጣህ",
+    "loginSubtitle": "ወደ Concrete መለያህ ግባ",
+    "registerSubtitle": "የኢትዮጵያ ቀዳሚ የቁሳቁስ ኪራይ መድረክ ተቀላቀል",
+    "forgotSubtitle": "ኢሜይልህን ያስገባ ለማስፈቀጃ ሊንክ",
+    "loginSuccess": "እንኳን ደህና ተመለስህ!",
+    "registerSuccess": "መለያ ተፈጠረ! እባክህ ግባ።",
+    "resetSent": "ማስፈቀጃ ሊንክ ወደ ኢሜይልህ ተልኳል"
+  },
+  "nav": {
+    "home": "ዋና ገጽ",
+    "equipment": "መሳሪያዎች",
+    "about": "ስለ እኛ",
+    "contact": "አግኙን",
+    "login": "ግባ",
+    "register": "ተመዝገብ",
+    "dashboard": "ዳሽቦርድ",
+    "profile": "መገለጫ",
+    "settings": "ቅንብሮች",
+    "logout": "ውጣ",
+    "language": "ቋንቋ",
+    "logoAlt": "ኮንክሪት አርማ",
+    "switchLanguage": "ቋንቋ ቀይር",
+    "darkMode": "ጨለማ ሁነታ",
+    "lightMode": "ብርሃን ሁነታ",
+    "openMenu": "ምናሌ ክፈት",
+    "closeMenu": "ምናሌ ዝጋ"
+  },
+  "equipment": {
+    "searchPlaceholder": "ቁሳቁሶችን ፈልግ...",
+    "filterByCategory": "ምድብ",
+    "filterByCity": "ከተማ",
+    "filterByCondition": "ሁኔታ",
+    "priceRange": "የዋጋ ክልል",
+    "perDay": "/ ቀን",
+    "perHour": "/ ሰዓት",
+    "perWeek": "/ ሳምንት",
+    "perMonth": "/ ወር",
+    "bookNow": "አሁን ያዝ",
+    "viewDetails": "ዝርዝር ይመልከቱ",
+    "condition": {
+      "excellent": "እጅግ ጥሩ",
+      "good": "ጥሩ",
+      "fair": "መካከለኛ"
+    },
+    "availability": "ተገኝነት",
+    "delivery": "ማድረስ ይቻላል",
+    "noDelivery": "ለቀባ ብቻ",
+    "owner": "የዘረዘረ",
+    "specifications": "ዝርዝር ባህሪያት",
+    "attachments": "ተያያዦች",
+    "reviews": "ግምገማዎች",
+    "similarEquipment": "ተመሳሳይ ቁሳቁሶች",
+    "deposit": "ቅድሚያ ክፍያ",
+    "minRental": "አነስተኛ ኪራይ",
+    "days": "ቀናት",
+    "rating": "ደረጃ",
+    "bookings": "ቦታ ማስያዦች",
+    "featured": "ተለዩ ቁሳቁሶች",
+    "noEquipment": "ምንም ቁሳቁስ አልተገኘም",
+    "addedToFavorites": "ወደ ተወዳጆች ተጨምሯል",
+    "removedFromFavorites": "ከተወዳጆች ተወግዷል"
+  },
+  "booking": {
+    "createBooking": "ቦታ ያዝ",
+    "pricingMode": "የዋጋ አይነት",
+    "startDate": "መጀመሪያ ቀን",
+    "endDate": "መጨረሻ ቀን",
+    "startTime": "መጀመሪያ ሰዓት",
+    "endTime": "መጨረሻ ሰዓት",
+    "timeSlot": "የጊዜ ቦታ",
+    "notes": "ማስታወሻዎች",
+    "deliveryAddress": "የማድረሻ አድራሻ",
+    "summary": "የቦታ ማስያዝ ማጠቃለያ",
+    "unitPrice": "የአንድ ዋጋ",
+    "totalDays": "ጠቅላላ ቀናት",
+    "subtotal": "ንዑስ ጠቅላላ",
+    "platformFee": "የፕላትፎርም ክፍያ (12%)",
+    "totalAmount": "ጠቅላላ መጠን",
+    "depositAmount": "ቅድሚያ ክፍያ",
+    "status": {
+      "pending": "በመጠባበቅ ላይ",
+      "confirmed": "ተረጋግጧል",
+      "completed": "ተጠናቋል",
+      "cancelled": "ተሰርዟል"
+    },
+    "confirmBooking": "ቦታ ማስያዝ አረጋግጥ",
+    "cancelBooking": "ቦታ ማስያዝ ሰርዝ",
+    "completeBooking": "ተጠናቋል ብለህ ምልክት አድርግ",
+    "bookingRef": "የቦታ ማስያዝ ቁጥር",
+    "noBookings": "ምንም ቦታ ማስያዝ የለም",
+    "bookingCreated": "ቦታ ማስያዝ ተፈጥሯል!",
+    "bookingConfirmed": "ቦታ ማስያዝ ተረጋግጧል!",
+    "bookingCancelled": "ቦታ ማስያዝ ተሰርዟል",
+    "cancellationReason": "የመሰረዝ ምክንያት"
+  },
+  "submission": {
+    "title": "ቁሳቁስዎን ዘርዝሩ",
+    "subtitle": "ቁሳቁስዎን ለኪራይ ለመዘርዘር ቅጹን ይሙሉ",
+    "step1": "መሰረታዊ መረጃ",
+    "step2": "ዝርዝሮች",
+    "step3": "ዋጋ",
+    "step4": "አካባቢ",
+    "step5": "ሚዲያ",
+    "status": {
+      "pending": "በቅድሚያ ግምገማ",
+      "review": "በግምገማ ላይ",
+      "approved": "ጸድቋል",
+      "rejected": "ተከልክሏል"
+    },
+    "submissionCreated": "ማስረጃ ለግምገማ ተልኳል!",
+    "noSubmissions": "ምንም ማስረጃ የለም",
+    "reviewNote": "የግምገማ ማስታወሻ",
+    "rejectionReason": "የመከልከያ ምክንያት"
+  },
+  "admin": {
+    "overview": "አጠቃላይ እይታ",
+    "totalRevenue": "ጠቅላላ ገቢ",
+    "thisMonth": "ይህ ወር",
+    "totalBookings": "ጠቅላላ ቦታ ማስያዦች",
+    "totalUsers": "ጠቅላላ ተጠቃሚዎች",
+    "totalEquipment": "ጠቅላላ ቁሳቁሶች",
+    "pendingApprovals": "የሚጠባበቁ ማጸደቂያዎች",
+    "activeTimeSlots": "ንቁ የጊዜ ቦታዎች",
+    "approveSubmission": "አጽድቅ",
+    "rejectSubmission": "ተከልክል",
+    "suspendUser": "ተጠቃሚ አግድ",
+    "activateUser": "ተጠቃሚ ነቃ",
+    "deleteUser": "ተጠቃሚ አጥፋ",
+    "addAdmin": "አስተዳዳሪ ጨምር",
+    "commissionRate": "የኮሚሽን መጠን",
+    "maintenanceMode": "የጥገና ሁነታ",
+    "platformName": "የፕላትፎርም ስም"
+  },
+  "review": {
+    "writeReview": "ግምገማ ጻፍ",
+    "rating": "ደረጃ",
+    "comment": "ልምድህ",
+    "submitReview": "ግምገማ ያስገቡ",
+    "noReviews": "ምንም ግምገማ የለም",
+    "reviewSubmitted": "ግምገማ ቀርቧል!"
+  },
+ 
+    "landing": {
+      "hero": {
+        "badge": "በኢትዮጵያ ቁጥር 1 የመሳሪያ ኪራይ መድረክ",
+        "titleLine1": "ማንኛውንም",
+        "titleLine2": "ከባድ ማሽን",
+        "titleLine3": "በኢትዮጵያ ዙሪያ",
+        "description": "ከ200+ የተረጋገጡ የመሳሪያ ባለቤቶች ጋር ይገናኙ። ቆፋሪዎች፣ ቆሻሻ አፍራሪዎች፣ ክሬኖች እና ከ20+ ምድቦች - በሰዓታት ውስጥ ወደ ጣቢያዎ ይደርሳሉ።",
+        "searchPlaceholder": "ቆፋሪ፣ ክሬን፣ ጫኚ ፈልግ...",
+        "searchButton": "ፈልግ",
+        "getStartedButton": "አሁን ይጀምሩ",
+        "browseButton": "መሳሪያዎችን ይመልከቱ",
+        "successfulRentals": "1,000+ የተሳካ ኪራዮች",
+        "verifiedOwners": "200+ የተረጋገጡ ባለቤቶች",
+        "trustScore": "4.9 / 5.0 የመተማመን ነጥብ",
+        "confirmationTime": "< 24 ሰዓት ማረጋገጫ"
+      },
+      "categories": {
+        "sectionBadge": "የመሳሪያ ምድቦች",
+        "title": "በምድብ ይመልከቱ",
+        "description": "ከሰፊ ምድቦቻችን በትክክል የሚፈልጉትን መሳሪያ ያግኙ",
+        "available": "ይገኛል",
+        "viewAllButton": "ሁሉንም መሳሪያዎች ይመልከቱ"
+      },
+      "howItWorks": {
+        "sectionBadge": "ቀላል ሂደት",
+        "title": "እንዴት ይሰራል",
+        "description": "ከመፈለግ እስከ መያዝ በ5 ደቂቃ ውስጥ",
+        "step1": {
+          "title": "መሳሪያዎችን ይመልከቱ",
+          "description": "በመላ ኢትዮጵያ ከሚገኙ በመቶዎች ከሚቆጠሩ የተረጋገጡ ከባድ መሳሪያዎች ዝርዝር ይፈልጉ እና ያጣሩ።"
+        },
+        "step2": {
+          "title": "ይያዙ እና ያረጋግጡ",
+          "description": "በሚመርጡት ቀናት የቀጠሮ ጥያቄ ያስገቡ። ባለቤቱ በ24 ሰዓት ውስጥ ያረጋግጣል።"
+        },
+        "step3": {
+          "title": "ወደ ስራ ይግቡ",
+          "description": "መሳሪያው ይደርሳል ወይም ለማንሳት ዝግጁ ነው። ፕሮጀክትዎን በራስ መተማመን ይጀምሩ።"
+        }
+      },
+      "featured": {
+        "sectionBadge": "ከፍተኛ ዝርዝሮች",
+        "title": "ታዋቂ መሳሪያዎች",
+        "viewAllButton": "ሁሉንም ይመልከቱ"
+      },
+      "testimonials": {
+        "sectionBadge": "ምስክርነቶች",
+        "title": "ደንበኞቻችን",
+        "titleHighlight": "ምን ይላሉ",
+        "description": "በመላ ኢትዮጵያ ከሚገኙ እርካታ ደንበኞች እውነተኛ ታሪኮች",
+        "readMoreButton": "ተጨማሪ ታሪኮችን ያንብቡ",
+        "verifiedCustomer": "የተረጋገጠ ደንበኛ"
+      },
+      "trustSection": {
+        "sectionBadge": "ለምን እኛን ይምረጡ",
+        "title": "ለመተማመን እና ለአስተማማኝነት የተሰራ",
+        "features": {
+          "verifiedOwners": {
+            "title": "የተረጋገጡ ባለቤቶች",
+            "description": "ሁሉም የመሳሪያ ባለቤቶች ማንነታቸው የተረጋገጠ እና ዝርዝራቸው ከመጽደቁ በፊት ቁጥጥር ይደረግባቸዋል።"
+          },
+          "fastBooking": {
+            "title": "ፈጣን ቦኪንግ",
+            "description": "በደቂቃዎች ውስጥ ይያዙ። በ24 ሰዓት ውስጥ ማረጋገጫ ያግኙ። ማለቂያ የሌለው መልስ እና መሄድ የለም።"
+          },
+          "support": {
+            "title": "24/7 ድጋፍ",
+            "description": "ቡድናችን በኪራይዎ ወቅት ማንኛውንም ችግር ለመፍታት ሁልጊዜ ይገኛል።"
+          },
+          "securePayments": {
+            "title": "ደህንነቱ የተጠበቀ ክፍያ",
+            "description": "ክፍያዎችዎ ይጠበቃሉ። ስራው በትክክል እስኪጠናቀቅ ድረስ ተቀማጭ ገንዘቦችን እንይዛለን።"
+          }
+        }
+      },
+      "ctaBanner": {
+        "title": "ለመጀመር ዝግጁ ነዎት?",
+        "description": "ቀደም ሲል Concrete ኢትዮጵያን ከሚጠቀሙ በመቶዎች ከሚቆጠሩ ንግዶች እና የመሳሪያ ባለቤቶች ጋር ይቀላቀሉ።",
+        "rentButton": "መሳሪያ ተከራይ",
+        "listButton": "መሳሪያ ዝርዝር ውስጥ አስገባ"
+      },
+      "equipmentCard": {
+        "perDay": "/ቀን",
+        "viewDetails": "ዝርዝሮችን ተመልከት"
+      },
+      "tickerItems": [
+        "ቆፋሪ",
+        "ጫኚ",
+        "ቆሻሻ አፍራሪ",
+        "ክሬን",
+        "ግሬደር",
+        "ኮምፓክተር",
+        "የቆሻሻ መጣያ መኪና",
+        "ጀነሬተር",
+        "ባክሆ",
+        "ፎርክሊፍት",
+        "ስክሬፐር",
+        "ፔቨር",
+        "ሮለር",
+        "ቆፋሪ መሰርሰሪያ"
+      ]
+    },
+     "about": {
+      "hero": {
+        "badge": "ስለ ኢኩፕሬንት",
+        "titleLine1": "የኢትዮጵያን",
+        "titleLine2": "ኮንስትራክሽን ኢንዱስትሪ በማገናኘት ላይ",
+        "description": "ኢኩፕሬንት ኢትዮጵያ ለከባድ መሳሪያ ኪራይ የሀገሪቱ መሪ ዲጂታል ገበያ ነው። በመሳሪያ ባለቤቶች እና አስተማማኝ ማሽነሪ በሚፈልጉ ንግዶች መካከል ያለውን ክፍተት እንዘጋለን — የግንባታ ፕሮጀክቶችን ፈጣን፣ ደህንነቱ የተጠበቀ እና ተመጣጣኝ በማድረግ።"
+      },
+      "stats": {
+        "citiesCovered": {
+          "value": "15+",
+          "label": "የተሸፈኑ ከተሞች"
+        },
+        "verifiedOwners": {
+          "value": "200+",
+          "label": "የተረጋገጡ ባለቤቶች"
+        },
+        "jobsCompleted": {
+          "value": "1,000+",
+          "label": "የተጠናቀቁ ስራዎች"
+        },
+        "averageRating": {
+          "value": "4.8★",
+          "label": "አማካይ ደረጃ"
+        }
+      },
+      "mission": {
+        "badge": "ተልእኳችን",
+        "title": "ለእያንዳንዱ የኢትዮጵያ ንግድ መሳሪያ ተደራሽ ማድረግ",
+        "paragraph1": "ኢኩፕሬንትን የጀመርነው ግልጽ የሆነ ችግር ስላየን ነው፦ የኢትዮጵያ ኮንስትራክሽን ኩባንያዎች መደበኛ ባልሆኑ አውታረመረቦች እና ከአፍ ወደ አፍ በመተማመን አስተማማኝ መሳሪያዎችን ለማግኘት ጊዜ እና ገንዘብ እያጡ ነበር።",
+        "paragraph2": "መድረካችን ግልጽ እና እምነት የሚጣልበት ገበያ ይፈጥራል፤ የመሳሪያ ባለቤቶች ንብረቶቻቸውን ዘርዝረው ገቢ ማግኘት ይችላሉ፣ ንግዶች ደግሞ የሚፈልጉትን በትክክል በፍጥነት ማግኘት ይችላሉ — በተረጋገጠ ጥራት፣ ግልጽ ዋጋ እና ሙያዊ አገልግሎት።",
+        "paragraph3": "ዛሬ በኢትዮጵያ ውስጥ ከ15+ ከተሞች በላይ እንሰራለን፣ እያደገ በሚሄድ የተረጋገጡ ባለቤቶች አውታረመረብ እና በሺዎች በሚቆጠሩ የተሳካ ኪራዮች።"
+      },
+      "values": {
+        "trustAndSafety": {
+          "title": "መተማመን እና ደህንነት",
+          "description": "እያንዳንዱ ባለቤት እና ዝርዝር የተረጋገጠ ነው። ደህንነትዎ የእኛ ዋና ቅድሚያ የሚሰጠው ጉዳይ ነው።"
+        },
+        "communityFirst": {
+          "title": "ማህበረሰብ ቀዳሚ",
+          "description": "የኢትዮጵያ ንግዶችን እና የመሳሪያ ባለቤቶችን አንድ ላይ እንዲያድጉ እናበረታታለን።"
+        },
+        "fastAndReliable": {
+          "title": "ፈጣን እና አስተማማኝ",
+          "description": "ፈጣን ቦኪንግ፣ የቀጥታ ተገኝነት እና እምነት የሚጣልበት ድጋፍ።"
+        },
+        "qualityAssurance": {
+          "title": "ጥራት ማረጋገጫ",
+          "description": "ሁሉም መሳሪያዎች ተፈትሸዋል እና የእኛን ጥብቅ የጥራት ደረጃዎች ያሟላሉ።"
+        }
+      },
+      "team": {
+        "title": "ለኢትዮጵያ የተሰራ፣ በኢትዮጵያውያን",
+        "description": "ቡድናችን ለኢትዮጵያ ኢኮኖሚ እድገት እና የሀገሪቱን የወደፊት ህልም በመገንባት ረገድ ግንባታ ላለው ሚና ትልቅ ፍቅር አለው። በመላ ኢትዮጵያ ለእውነተኛ ሰዎች፣ በእውነተኛ ሁኔታዎች ውስጥ የሚሰራ ቴክኖሎጂ ለመፍጠር ቁርጠኞች ነን።"
+      }
+    },
+     "contact": {
+      "header": {
+        "badge": "ያግኙን",
+        "title": "ከእኛ ጋር ይገናኙ",
+        "description": "ጥያቄ አለዎት፣ ድጋፍ ይፈልጋሉ፣ ወይም ከእኛ ጋር አጋር መሆን ይፈልጋሉ? ከእርስዎ መስማት እንወዳለን።"
+      },
+      "form": {
+        "title": "መልእክት ይላኩ",
+        "fullNameLabel": "ሙሉ ስም",
+        "fullNamePlaceholder": "አበበ ግርማ",
+        "emailLabel": "ኢሜይል",
+        "emailPlaceholder": "abebe@example.com",
+        "phoneLabel": "ስልክ (አማራጭ)",
+        "phonePlaceholder": "+251 9XX XXX XXX",
+        "subjectLabel": "ርዕስ",
+        "subjectPlaceholder": "እንዴት ልንረዳዎ እንችላለን?",
+        "messageLabel": "መልእክት",
+        "messagePlaceholder": "ስለ ጥያቄዎ ተጨማሪ ይንገሩን…",
+        "submitButton": "መልእክት ላክ",
+        "successTitle": "መልእክት ተልኳል!",
+        "successMessage": "በ24 ሰዓት ውስጥ እንመልሳለን።",
+        "sendAnother": "ሌላ መልእክት ላክ",
+        "errorMessage": "መልእክት መላክ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+        "nameRequired": "ስም ያስፈልጋል",
+        "emailRequired": "ኢሜይል ያስፈልጋል",
+        "emailInvalid": "የማይሰራ ኢሜይል",
+        "subjectRequired": "ርዕስ ያስፈልጋል",
+        "messageRequired": "መልእክት ያስፈልጋል",
+        "messageTooShort": "እባክዎ በዝርዝር ይግለጹ"
+      },
+      "info": {
+        "title": "የመገናኛ መረጃ",
+        "phone": {
+          "label": "ስልክ",
+          "value": "+251 911 000 000",
+          "sub": "ሰኞ–ቅዳሜ፣ ጠዋት 8–ማታ 6"
+        },
+        "email": {
+          "label": "ኢሜይል",
+          "value": "info@Concrete.et",
+          "sub": "በ24 ሰዓት ውስጥ እንመልሳለን"
+        },
+        "address": {
+          "label": "አድራሻ",
+          "value": "ቦሌ፣ አዲስ አበባ",
+          "sub": "ኢትዮጵያ"
+        },
+        "hours": {
+          "label": "የስራ ሰዓት",
+          "value": "ሰኞ–ቅዳሜ ጠዋት 8–ማታ 6",
+          "sub": "እሁድ ዝግ ነው"
+        }
+      },
+      "cta": {
+        "title": "መሳሪያዎን ይዘርዝሩ",
+        "description": "ከባድ መሳሪያዎች ሳይጠቀሙ ተቀምጠዋል? Concrete ላይ በዝርዝር በማስገባት ገቢ ማግኘት ይጀምሩ።",
+        "button": "ይጀምሩ"
+      }
+    },
+    "equipment": {
+      "header": {
+        "title": "መሳሪያዎችን ይመልከቱ",
+        "subtitle": "{{count}} መሳሪያዎች በመላ ኢትዮጵያ ይገኛሉ"
+      },
+      "searchPlaceholder": "በስም፣ በምርት ስም፣ በሞዴል ይፈልጉ…",
+      "filtersButton": "ማጣሪያዎች",
+      "filtersPanel": {
+        "title": "ማጣሪያዎች",
+        "clear": "ሁሉንም አጽዳ",
+        "allCategories": "ሁሉም ምድቦች",
+        "allCities": "ሁሉም ከተሞች",
+        "anyCondition": "ማንኛውም ሁኔታ",
+        "minPrice": "ዝቅተኛ ዋጋ በቀን",
+        "maxPrice": "ከፍተኛ ዋጋ በቀን"
+      },
+      "sort": {
+        "newestFirst": "አዲስ በይጀምር",
+        "priceLowToHigh": "ዋጋ፡ ከዝቅተኛ ወደ ከፍተኛ",
+        "priceHighToLow": "ዋጋ፡ ከከፍተኛ ወደ ዝቅተኛ",
+        "topRated": "ከፍተኛ ደረጃ ያላቸው"
+      },
+      "conditions": {
+        "excellent": "በጣም ጥሩ",
+        "good": "ጥሩ",
+        "fair": "አማካኝ"
+      },
+      "cities": [
+        "አዲስ አበባ",
+        "ድሬ ዳዋ",
+        "ሀዋሳ",
+        "ባህር ዳር",
+        "መቀሌ",
+        "አዳማ",
+        "ጎንደር",
+        "ጅማ"
+      ],
+      "emptyState": {
+        "title": "ምንም መሳሪያ አልተገኘም",
+        "description": "እባክዎ ፍለጋዎን ወይም ማጣሪያዎችዎን ያስተካክሉ",
+        "clearButton": "ማጣሪያዎችን አጽዳ"
+      },
+      "deliveryBadge": "ማድረስ",
+      "perDay": "/ቀን",
+      "perHour": "/ሰዓት",
+      "viewDetails": "ዝርዝሮችን ተመልከት"
+    },
+    "equipmentDetail": {
+    "notFound": "መሳሪያ አልተገኘም።",
+    "breadcrumb": {
+      "home": "ዋና ገጽ",
+      "equipment": "መሳሪያዎች"
+    },
+    "tabs": {
+      "overview": "አጠቃላይ እይታ",
+      "specs": "ዝርዝር መረጃ",
+      "reviews": "አስተያየቶች",
+      "timeSlots": "የጊዜ ክፍተቶች"
+    },
+    "overview": {
+      "description": "መግለጫ",
+      "noDescription": "ምንም መግለጫ የለም።",
+      "attachments": "አባሪዎች",
+      "brand": "ምርት ስም",
+      "model": "ሞዴል",
+      "year": "አመት",
+      "condition": "ሁኔታ",
+      "city": "ከተማ",
+      "minRental": "ዝቅተኛ ኪራይ",
+      "days": "ቀን(ዎች)"
+    },
+    "specs": {
+      "title": "ቴክኒካዊ ዝርዝሮች",
+      "noSpecs": "ምንም ዝርዝር መረጃ የለም።"
+    },
+    "reviews": {
+      "reviewCount": "አስተያየቶች",
+      "noReviews": "እስካሁን ምንም አስተያየት የለም።",
+      "anonymous": "ማንነት ያልገለጸ"
+    },
+    "timeSlots": {
+      "title": "የሚገኙ የጊዜ ክፍተቶች",
+      "noSlots": "ምንም የጊዜ ክፍተቶች አልተዘጋጁም።",
+      "days": {
+        "monday": "ሰኞ",
+        "tuesday": "ማክሰኞ",
+        "wednesday": "ረቡዕ",
+        "thursday": "ሐሙስ",
+        "friday": "አርብ",
+        "saturday": "ቅዳሜ",
+        "sunday": "እሁድ"
+      }
+    },
+    "conditions": {
+      "excellent": "በጣም ጥሩ",
+      "good": "ጥሩ",
+      "fair": "አማካኝ"
+    },
+    "pricing": {
+      "title": "ዋጋ",
+      "perHour": "በሰዓት",
+      "perDay": "በቀን",
+      "perWeek": "በሳምንት",
+      "perMonth": "በወር",
+      "deposit": "ተቀማጭ"
+    },
+    "owner": {
+      "title": "የመሳሪያ ባለቤት"
+    },
+    "deliveryBadge": "ማድረስ",
+    "rentals": "ኪራዮች",
+    "bookButton": {
+      "request": "ቦኪንግ ጥያቄ",
+      "loginToBook": "ለመያዝ ይግቡ",
+      "createAccount": "አካውንት ፍጠር",
+      "customersOnly": "ደንበኞች ብቻ መሳሪያ መያዝ ይችላሉ"
+    }
+  },
+  "auth": {
+  "login": "ግባ",
+  "register": "አካውንት ፍጠር",
+  "logout": "ውጣ",
+  "email": "ኢሜይል አድራሻ",
+  "password": "የይለፍ ቃል",
+  "confirmPassword": "የይለፍ ቃል አረጋግጥ",
+  "name": "ሙሉ ስም",
+  "phone": "ስልክ ቁጥር",
+  "city": "ከተማ",
+  "role": "እኔ ነኝ",
+  "customer": "ደንበኛ",
+  "owner": "የመሳሪያ ባለቤት",
+  "forgotPassword": "የይለፍ ቃል ረሳሁ?",
+  "resetPassword": "የይለፍ ቃል ዳግም አስጀምር",
+  "sendResetLink": "አገናኝ ላክ",
+  "backToLogin": "ወደ ግቤት ተመለስ",
+  "noAccount": "አካውንት የለዎትም?",
+  "hasAccount": "አካውንት አለዎት?",
+  "signUp": "ተመዝገብ",
+  "signIn": "ግባ",
+  "welcomeBack": "እንኳን ደህና መጡ",
+  "loginSubtitle": "ወደ አካውንትዎ ለመግባት ይመዝገቡ",
+  "registerSubtitle": "የኢትዮጵያ መሪ የመሳሪያ ኪራይ መድረክ ይቀላቀሉ",
+  "forgotSubtitle": "አገናኝ ለመቀበል ኢሜይልዎን ያስገቡ",
+  "loginSuccess": "እንኳን ደህና መጡ፣ {{name}}!",
+  "registerSuccess": "አካውንት ተፈጥሯል! እባክዎ ይግቡ።",
+  "resetSent": "ዳግም ማስጀመሪያ አገናኝ ወደ ኢሜይልዎ ተልኳል",
+  "badge": "የኢትዮጵያ ቁጥር 1 መድረክ",
+  "emailPlaceholder": "abebe@example.com",
+  "passwordPlaceholder": "የይለፍ ቃልዎን ያስገቡ",
+  "createAccount": "አካውንት ፍጠር",
+  "loginError": "የማይሰራ ኢሜይል ወይም የይለፍ ቃል",
+  "emailRequired": "ኢሜይል ያስፈልጋል",
+  "passwordRequired": "የይለፍ ቃል ያስፈልጋል",
+  "passwordMinLength": "ቢያንስ 6 ቁምፊዎች",
+  "leftPanel": {
+    "titleLine1": "ከባድ መሳሪያዎች",
+    "titleLine2": "ኪራይ ተደረገ",
+    "titleLine3": "ቀላል",
+    "description": "በመላ ኢትዮጵያ ከተረጋገጡ ባለቤቶች ጋር ይገናኙ። ከቆፋሪዎች እስከ ግሬደሮች - የሚፈልጉትን ማንኛውንም መሳሪያ ያግኙ።"
+  },
+  "stats": {
+    "equipment": "መሳሪያዎች",
+    "owners": "ባለቤቶች",
+    "rentals": "ኪራዮች"
+  },
+  "footer": {
+    "copyright": "ኢኩፕሬንት ኢትዮጵያ ሁሉም መብቶች ተጠብቀዋል።"
+  }
+},
+"register": {
+    "steps": {
+      "role": "ሚና",
+      "details": "ዝርዝሮች",
+      "verifyId": "ማንነት አረጋግጥ"
+    },
+    "buttons": {
+      "continue": "ቀጥል",
+      "createAccount": "መለያ ፍጠር"
+    },
+    "role": {
+      "title": "ሚናዎን ይምረጡ",
+      "subtitle": "Concreteን እንዴት እንደሚጠቀሙ ይንገሩን",
+      "customerTitle": "መሳሪያ ተከራይ",
+      "customerDesc": "ለግንባታ፣ ለቁፋሮ ወይም ለፕሮጀክት ስራ ከባድ መሳሪያዎችን ይፈልጉ",
+      "ownerTitle": "መሳሪያ ዝርዝር ውስጥ አስገባ",
+      "ownerDesc": "መሳሪያ ባለቤት ነዎት እና ለአስተማማኝ ደንበኞች ማከራየት ይፈልጋሉ",
+      "hasAccount": "ቀድሞ መለያ አለዎት?",
+      "signIn": "ግባ"
+    },
+    "details": {
+      "ownerTitle": "የመሳሪያ ባለቤት ይሁኑ",
+      "customerTitle": "የደንበኛ መለያ ፍጠር",
+      "subtitle": "ለመጀመር ከዚህ በታች ያሉትን ዝርዝሮች ይሙሉ",
+      "fullName": "ሙሉ ስም",
+      "fullNamePlaceholder": "አበበ ግርማ",
+      "email": "ኢሜይል አድራሻ",
+      "emailPlaceholder": "abebe@example.com",
+      "phone": "ስልክ ቁጥር",
+      "phonePlaceholder": "+251911000000",
+      "password": "የይለፍ ቃል",
+      "passwordPlaceholder": "የይለፍ ቃል ይፍጠሩ",
+      "confirmPassword": "የይለፍ ቃል አረጋግጥ",
+      "confirmPasswordPlaceholder": "የይለፍ ቃልዎን እንደገና ያስገቡ",
+      "city": "ከተማ",
+      "selectCity": "ከተማዎን ይምረጡ",
+      "companyName": "የኩባንያ ስም",
+      "companyPlaceholder": "የኩባንያዎን ስም ያስገቡ"
+    },
+    "validation": {
+      "nameRequired": "ሙሉ ስም ያስፈልጋል",
+      "emailRequired": "ኢሜይል አድራሻ ያስፈልጋል",
+      "emailInvalid": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ",
+      "phoneRequired": "ስልክ ቁጥር ያስፈልጋል",
+      "passwordRequired": "የይለፍ ቃል ያስፈልጋል",
+      "passwordMin": "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መሆን አለበት",
+      "passwordMismatch": "የይለፍ ቃሎቹ አይዛመዱም",
+      "cityRequired": "እባክዎ ከተማዎን ይምረጡ",
+      "companyRequired": "የኩባንያ ስም ያስፈልጋል"
+    },
+    "verify": {
+      "title": "ማንነትዎን ያረጋግጡ",
+      "subtitle": "መድረካችንን ደህንነቱ የተጠበቀ ለማድረግ፣ እባክዎ ማንነትዎን ያረጋግጡ",
+      "idType": "የመታወቂያ አይነት",
+      "nationalId": "ብሄራዊ መታወቂያ ካርድ",
+      "fin": "የግብር መታወቂያ ቁጥር (FIN)",
+      "passport": "ፓስፖርት",
+      "idNumber": "የመታወቂያ ቁጥር",
+      "idNumberPlaceholder": "የመታወቂያ ቁጥርዎን ያስገቡ",
+      "fullName": "ሙሉ ስም በመታወቂያ ላይ",
+      "fullNamePlaceholder": "በመታወቂያዎ ላይ እንደሚታየው ሙሉ ስምዎን ያስገቡ",
+      "dateOfBirth": "የትውልድ ቀን",
+      "sendOtp": "የማረጋገጫ ኮድ ላክ",
+      "skipLater": "በኋላ አረጋግጥ",
+      "otpSentMessage": "የማረጋገጫ ኮድ ለተመዘገበው ስልክ ቁጥርዎ ተልኳል",
+      "otpCode": "የማረጋገጫ ኮድ",
+      "otpPlaceholder": "ባለ 6 አሃዝ ኮድ ያስገቡ",
+      "verifyButton": "አረጋግጥ እና ጨርስ"
+    },
+    "messages": {
+      "accountCreated": "መለያ በሚገባ ተፈጥሯል!",
+      "registrationFailed": "ምዝገባ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+      "fillIdFields": "እባክዎ የመታወቂያ ቁጥር እና ሙሉ ስም ይሙሉ",
+      "otpSent": "የማረጋገጫ ኮድ ተልኳል!",
+      "verificationFailed": "ማረጋገጫ አልተሳካም። እባክዎ መረጃዎን ያረጋግጡ።",
+      "idVerified": "ማንነት በሚገባ ተረጋግጧል!",
+      "completionTitle": "ምዝገባ ተጠናቅቋል!",
+      "redirecting": "ወደ መግቢያ ገጽ እየተዘዋወረ ነው..."
+    },
+    "cities": [
+      "አዲስ አበባ",
+      "ድሬ ዳዋ",
+      "ሀዋሳ",
+      "ባህር ዳር",
+      "መቀሌ",
+      "አዳማ",
+      "ጎንደር",
+      "ጅማ",
+      "ደሴ",
+      "ጅጅጋ"
+    ]
+  },
+  "resetPassword": {
+  "title": "ይለፍ ቃል ዳግም አስጀምር",
+  "subtitle": "ለእርስዎ መለያ ጠንካራ አዲስ ይለፍ ቃል ይምረጡ።",
+  "newPasswordLabel": "አዲስ ይለፍ ቃል",
+  "newPasswordPlaceholder": "ቢያንስ 8 ቁምፊዎች",
+  "confirmPasswordLabel": "አዲስ ይለፍ ቃል አረጋግጥ",
+  "confirmPasswordPlaceholder": "ይለፍ ቃሉን ይድገሙት",
+  "submitButton": "ይለፍ ቃል ዳግም አስጀምር",
+  "successTitle": "ይለፍ ቃል ተለወጠ!",
+  "successMessage": "ወደ መግቢያ ገጽ በመሄድ ላይ…",
+  "errors": {
+    "invalidLink": "ልክ ያልሆነ የዳግም ማስጀመሪያ አገናኝ",
+    "resetFailed": "ዳግም ማስጀመር አልተሳካም",
+    "passwordRequired": "ይለፍ ቃል ያስፈልጋል",
+    "confirmRequired": "ይለፍ ቃል አረጋግጥ",
+    "passwordMismatch": "የይለፍ ቃሎች አይዛመዱም"
+  }
+},
+"forgotPassword": {
+    "title": "የይለፍ ቃል ረሳሁ?",
+    "description": "ኢሜይልዎን ያስገቡ እና ዳግም ማስጀመሪያ አገናኝ እንልክልዎታለን።",
+    "emailLabel": "ኢሜይል አድራሻ",
+    "emailPlaceholder": "abebe@example.com",
+    "resetButton": "ዳግም ማስጀመሪያ አገናኝ ላክ",
+    "successTitle": "ኢሜይልዎን ያረጋግጡ",
+    "successMessage": "ዳግም ማስጀመሪያ አገናኝ ልከንልዎታል",
+    "spamHint": "አልደረሰዎትም? የስፓም አቃፊዎን ያረጋግጡ።",
+    "backToLogin": "ወደ መግቢያ ተመለስ",
+    "errors": {
+      "emailRequired": "ኢሜይል ያስፈልጋል",
+      "emailInvalid": "የማይሰራ ኢሜይል",
+      "emailNotFound": "ኢሜይሉ በስርዓታችን ውስጥ አልተገኘም"
+    }
+    
+  },
+  "dashboardNavbar": {
+    "notifications": {
+      "title": "ማስታወቂያዎች",
+      "markAllRead": "ሁሉንም እንደተነበበ ምልክት አድርግ",
+      "allCaughtUp": "ሁሉም ተጠናቅቋል!",
+      "noNotifications": "እስካሁን ምንም ማስታወቂያ የለም።",
+      "viewDetails": "ዝርዝሮችን ተመልከት",
+      "footer": "{{count}} ጠቅላላ · ለመክፈት በማንኛውም ላይ ጠቅ ያድርጉ"
+    },
+    "userMenu": {
+      "profile": "መገለጫ",
+      "settings": "ቅንብሮች",
+      "logout": "ውጣ"
+    }
+  },
+  "customerDashboard": {
+    "welcome": "ሰላም, {{name}}",
+    "subtitle": "የእርስዎን የመሳሪያ ኪራዮች ከዚህ ያስተዳድሩ",
+    "stats": {
+      "totalBookings": "ጠቅላላ ቦኪንጎች",
+      "pending": "በመጠባበቅ ላይ",
+      "confirmed": "የተረጋገጠ",
+      "completed": "ተጠናቋል"
+    },
+    "findEquipment": {
+      "title": "መሳሪያ ይፈልጉ",
+      "description": "በመላ ኢትዮጵያ የተረጋገጡ ከባድ መሳሪያዎች ዝርዝር ይመልከቱ።",
+      "button": "መሳሪያዎችን ይመልከቱ"
+    },
+    "recentBookings": {
+      "title": "የቅርብ ጊዜ ቦኪንጎች",
+      "viewAll": "ሁሉንም ይመልከቱ",
+      "noBookings": "እስካሁን ምንም ቦኪንጎች የሉም",
+      "browseButton": "መሳሪያዎችን ይመልከቱ"
+    },
+    "currency": "ETB"
+  },
+  "bookEquipment": {
+    "backButton": "ተመለስ",
+    "pricingModes": {
+      "daily": "በየቀኑ",
+      "hourly": "በየሰዓቱ",
+      "weekly": "በየሳምንቱ",
+      "monthly": "በየወሩ"
+    },
+    "form": {
+      "title": "የቦኪንግ ዝርዝሮች",
+      "pricingModeLabel": "የዋጋ አሰጣጥ ዘዴ",
+      "startDateLabel": "የመጀመሪያ ቀን",
+      "endDateLabel": "የመጨረሻ ቀን",
+      "timeSlotLabel": "የጊዜ ክፍተት (አማራጭ)",
+      "timeSlotNoPreference": "ምንም ምርጫ የለም",
+      "deliveryAddressLabel": "የማድረስ አድራሻ (አማራጭ)",
+      "deliveryAddressPlaceholder": "ከ{{city}} በ{{radius}}ኪሜ ርቀት ውስጥ",
+      "notesLabel": "ልዩ ማስታወሻዎች (አማራጭ)",
+      "notesPlaceholder": "ማንኛውም ልዩ መስፈርቶች፣ የማድረስ መመሪያዎች፣ ወዘተ…",
+      "submitButton": "ቦኪንግ ጠይቅ",
+      "startTimeLabel": "የመጀመሪያ ሰዓት",
+      "endTimeLabel": "የማብቂያ ሰዓት"
+    },
+    "summary": {
+      "title": "የዋጋ ማጠቃለያ",
+      "days": "ቀናት",
+      "hours": "ሰዓታት",
+      "weeks": "ሳምንታት",
+      "months": "ወራት",
+      "platformFee": "የመድረክ ክፍያ (12%)",
+      "deposit": "የደህንነት ተቀማጭ",
+      "total": "ጠቅላላ"
+    },
+    "success": {
+      "title": "ቦኪንግ ተጠይቋል!",
+      "referenceLabel": "የእርስዎ ቦኪንግ ማጣቀሻ ነው",
+      "message": "ባለቤቱ በ24 ሰዓት ውስጥ ያረጋግጣል ወይም ያገናኝዎታል። ቦኪንግዎ ሲረጋገጥ ማሳወቂያ ይደርስዎታል።",
+      "viewBookingsButton": "ቦኪንጎቼን ተመልከት",
+      "bookingSent": "የቦኪንግ ጥያቄ ተልኳል!"
+    },
+    "errors": {
+      "notFound": "መሳሪያ አልተገኘም",
+      "equipmentNotFound": "መሳሪያ አልተገኘም።",
+      "selectDates": "እባክዎ ቀኖችን ይምረጡ",
+      "invalidDates": "የመጨረሻ ቀን ከመጀመሪያ ቀን በኋላ መሆን አለበት",
+      "bookingFailed": "ቦኪንግ አልተሳካም"
+    }
+  },
+  "customerBookings": {
+    "header": {
+      "title": "የኔ ቦኪንጎች",
+      "subtitle": "የእርስዎን የመሳሪያ ኪራዮች ይከታተሉ እና ያስተዳድሩ",
+      "bookButton": "መሳሪያ ይያዙ"
+    },
+    "tabs": {
+      "all": "ሁሉም",
+      "pending": "በመጠባበቅ ላይ",
+      "confirmed": "የተረጋገጠ",
+      "completed": "ተጠናቋል",
+      "cancelled": "ተሰርዟል"
+    },
+    "columns": {
+      "ref": "ማጣቀሻ",
+      "equipment": "መሳሪያ",
+      "dates": "ቀናት",
+      "amount": "ገንዘብ",
+      "status": "ሁኔታ",
+      "actions": "ድርጊቶች"
+    },
+    "newBadge": "አዲስ",
+    "justConfirmed": "አሁን ተረጋግጧል!",
+    "recentlyCancelled": "በቅርቡ ተሰርዟል",
+    "currency": "ETB",
+    "emptyText": "ምንም ቦኪንጎች አልተገኙም",
+    "newActivity": {
+      "title": "ባለፉት 48 ሰዓታት ውስጥ {{count}} አዲስ ዝመና",
+      "description": "በ",
+      "suffix": "ባጅ ምልክት የተደረጉ ቦኪንጎች በቅርቡ ተፈጥረዋል ወይም ተዘምነዋል።"
+    },
+    "actions": {
+      "viewDetails": "ዝርዝሮችን ተመልከት",
+      "viewEquipment": "መሳሪያ ተመልከት",
+      "cancel": "ቦኪንግ ሰርዝ",
+      "leaveReview": "ግምገራ ይስጡ",
+      "alreadyReviewed": "ቀድሞ ገምግመዋል"
+    },
+    "detailModal": {
+      "title": "የቦኪንግ ዝርዝር",
+      "viewEquipment": "መሳሪያ ተመልከት",
+      "cancelButton": "ሰርዝ",
+      "leaveReview": "ግምገራ ይስጡ",
+      "alreadyReviewed": "ቀድሞ ገምግመዋል",
+      "view": "ተመልከት"
+    },
+    "detailFields": {
+      "owner": "ባለቤት",
+      "ownerPhone": "የባለቤት ስልክ",
+      "pricingMode": "የዋጋ አሰጣጥ ሁነታ",
+      "totalDays": "ጠቅላላ ቀናት",
+      "startDate": "መጀመሪያ ቀን",
+      "endDate": "መጨረሻ ቀን",
+      "unitPrice": "የአንድ ቀን ዋጋ",
+      "total": "ጠቅላላ",
+      "platformFee": "የመድረክ ክፍያ",
+      "notes": "የእርስዎ ማስታወሻ",
+      "cancellationReason": "የመሰረዝ ምክንያት"
+    },
+    "statusMessages": {
+      "pending": "በባለቤት ማረጋገጫ ላይ",
+      "confirmed": "ቦኪንግዎ ተረጋግጧል!",
+      "completed": "ይህ ኪራይ በሚገባ ተጠናቋል",
+      "cancelled": "ይህ ቦኪንግ ተሰርዟል"
+    },
+    "cancelModal": {
+      "title": "ቦኪንግ ሰርዝ",
+      "goBack": "ተመለስ",
+      "confirmButton": "መሰረዙን አረጋግጥ",
+      "warning": "ቦኪንግ ሰርዝ",
+      "reasonLabel": "የመሰረዝ ምክንያት",
+      "reasonPlaceholder": "እባክዎ ለምን እንደሚሰርዙ ይንገሩን…"
+    },
+    "reviewModal": {
+      "title": "ግምገራ ይስጡ",
+      "cancel": "ተወው",
+      "submit": "ግምገራ አስገባ",
+      "booking": "ቦኪንግ",
+      "ratingLabel": "የእርስዎ ደረጃ",
+      "reviewLabel": "የእርስዎ አስተያየት",
+      "reviewPlaceholder": "ልምድዎን ያጋሩ — መሳሪያው ጥሩ ሁኔታ ላይ ነበር? ባለቤቱ ሙያዊ ነበር?",
+      "ratingLabels": {
+        "excellent": "በጣም ጥሩ!",
+        "veryGood": "በጣም ጥሩ",
+        "average": "አማካኝ",
+        "poor": "ደካማ",
+        "veryPoor": "በጣም ደካማ"
+      }
+    },
+    "alreadyReviewedModal": {
+      "title": "ቀድሞ ገምግመዋል",
+      "gotIt": "ገባኝ",
+      "subtitle": "ግምገራ ቀድሞ ገብቷል",
+      "description": "ይህን ቦኪንግ ቀድመው ገምግመዋል። እያንዳንዱ ቦኪንግ አንድ ጊዜ ብቻ ሊገመገም ይችላል።",
+      "thanks": "ለአስተያየትዎ እናመሰግናለን!"
+    },
+    "messages": {
+      "cancelSuccess": "ቦኪንግ ተሰርዟል",
+      "cancelFailed": "መሰረዝ አልተሳካም",
+      "commentRequired": "እባክዎ አስተያየት ይስጡ",
+      "reviewSuccess": "ግምገራ ገብቷል! እናመሰግናለን።",
+      "reviewFailed": "ግምገራ ማስገባት አልተሳካም"
+    }
+  },
+  "profile": {
+    "header": {
+      "title": "የእኔ መገለጫ",
+      "subtitle": "የመለያ መረጃዎን ያስተዳድሩ"
+    },
+    "role": {
+      "customer": "ደንበኛ"
+    },
+    "avatar": {
+      "uploadPhoto": "የመገለጫ ፎቶ ስቀል",
+      "changePhoto": "የመገለጫ ፎቶ ቀይር",
+      "uploading": "የመገለጫ ፎቶ በመስቀል ላይ...",
+      "success": "የመገለጫ ፎቶ በተሳካ ሁኔታ ተሻሽሏል!",
+      "errors": {
+        "fileTooLarge": "ምስል ከ5 ሜባ በታች መሆን አለበት",
+        "invalidType": "እባክዎ የምስል ፋይል ይምረጡ",
+        "uploadFailed": "የፎቶ መስቀል አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+      }
+    },
+    "form": {
+      "fullName": "ሙሉ ስም",
+      "namePlaceholder": "አበበ ግርማ",
+      "phone": "ስልክ ቁጥር",
+      "phonePlaceholder": "+251 9XX XXX XXX",
+      "city": "ከተማ",
+      "selectCity": "ከተማ ምረጥ",
+      "saveButton": "ለውጦችን አስቀምጥ",
+      "success": "መገለጫ በተሳካ ሁኔታ ተሻሽሏል!",
+      "error": "ማዘመን አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+      "errors": {
+        "nameRequired": "ስም ያስፈልጋል"
+      }
+    },
+    "verification": {
+      "idVerified": "ማንነት የተረጋገጠ",
+      "notVerified": "አልተረጋገጠም",
+      "verifyTitle": "ማንነትዎን ያረጋግጡ",
+      "verifyDescription": "የተረጋገጡ ተጠቃሚዎች ፈጣን ቦኪንግ ማረጋገጫ እና ከመሳሪያ ባለቤቶች የበለጠ እምነት ያገኛሉ። የብሔራዊ መታወቂያዎ ተመስጥሮ በደህና ይቀመጣል።",
+      "verifyButton": "ማንነቴን አረጋግጥ",
+      "verifiedBadge": "ማንነት ተረጋግጧል ✓",
+      "verifiedDescription": "ማንነትዎ ተረጋግጧል። ቅድሚያ የሚሰጠው ቦኪንግ ማረጋገጫ ያገኛሉ።",
+      "otpSent": "ኦቲፒ ወደ ተመዘገበ ስልክ ቁጥርዎ ተልኳል!",
+      "verifiedSuccess": "ማንነት በተሳካ ሁኔታ ተረጋግጧል! ✓",
+      "benefits": {
+        "fasterApprovals": "✓ ፈጣን ማጽደቅ",
+        "ownerTrust": "✓ የባለቤት እምነት",
+        "secureEncrypted": "✓ ደህንነቱ የተጠበቀ እና ምስጠራ"
+      },
+      "errors": {
+        "fillAllFields": "እባክዎ ሁሉንም የመታወቂያ መስኮች ይሙሉ",
+        "requestFailed": "የማረጋገጫ ጥያቄ አልተሳካም",
+        "enterOtp": "እባክዎ ኦቲፒ ኮዱን ያስገቡ",
+        "otpFailed": "ኦቲፒ ማረጋገጫ አልተሳካም"
+      },
+      "idTypes": {
+        "nationalId": "ብሔራዊ መታወቂያ",
+        "fin": "ፊን",
+        "passport": "ፓስፖርት"
+      },
+      "modal": {
+        "title": "ማንነትዎን ያረጋግጡ",
+        "otpTitle": "ኦቲፒ ኮድ ያስገቡ",
+        "description": "የብሔራዊ መታወቂያ ዝርዝሮችዎን ያስገቡ። ለማረጋገጥ ኦቲፒ ወደ ስልክዎ እንልካለን።",
+        "idType": "የመታወቂያ አይነት",
+        "idNumber": "ፋን / የመታወቂያ ቁጥር",
+        "idNumberPlaceholder": "የመታወቂያ ቁጥርዎን ያስገቡ",
+        "fullName": "ሙሉ ስም (በመታወቂያው ላይ እንደሚታየው)",
+        "fullNamePlaceholder": "አበበ ግርማ",
+        "dateOfBirth": "የትውልድ ቀን",
+        "sendOtp": "ኦቲፒ ላክ",
+        "otpSent": "ኦቲፒ ተልኳል!",
+        "otpDescription": "ስልክዎን ይፈትሹ — ባለ 6-አሃዝ ኮዱን ከዚህ በታች ያስገቡ",
+        "enterOtp": "ኦቲፒ ኮድ ያስገቡ",
+        "verify": "አረጋግጥ",
+        "resendOtp": "አልደረሰዎትም? ኦቲፒ እንደገና ላክ"
+      }
+    },
+    "cities": [
+      "አዲስ አበባ",
+      "ድሬ ዳዋ",
+      "ሀዋሳ",
+      "ባህር ዳር",
+      "መቀሌ",
+      "አዳማ",
+      "ጎንደር",
+      "ጅማ",
+      "ደሴ",
+      "ጅጅጋ"
+    ]
+  },
+  "ownerDashboard": {
+    "welcome": "እንኳን ደህና ተመለሱ, {{name}}",
+    "subtitle": "የእርስዎ የመሳሪያ አፈጻጸም አጠቃላይ እይታ እዚህ አለ።",
+    "addEquipmentButton": "መሳሪያ ጨምር",
+    "apiError": "የትንተና API አይገኝም — ባዶ ሁኔታ እያሳየ ነው። የኋላ አገልጋይ ከተገናኘ በኋላ መረጃ ይታያል።",
+    "stats": {
+      "totalEarnings": "ጠቅላላ ገቢ",
+      "thisMonth": "በዚህ ወር",
+      "totalBookings": "ጠቅላላ ቦኪንጎች",
+      "activeBookings": "ንቁ ቦኪንጎች",
+      "equipmentListed": "የተዘረዘሩ መሳሪያዎች",
+      "avgRating": "አማካይ ደረጃ"
+    },
+    "monthlyEarnings": {
+      "title": "ወርሃዊ ገቢ (ETB)",
+      "fullReport": "ሙሉ ሪፖርት",
+      "noData": "እስካሁን የገቢ መረጃ የለም",
+      "noDataHint": "የተጠናቀቁ ቦኪንጎች ካሉ በኋላ ይታያል",
+      "tooltipEarnings": "ገቢ"
+    },
+    "quickActions": {
+      "title": "ፈጣን ድርጊቶች",
+      "addEquipment": {
+        "label": "አዲስ መሳሪያ ጨምር",
+        "description": "አዲስ ማሽን ለኪራይ ዝርዝር ውስጥ አስገባ"
+      },
+      "myEquipment": {
+        "label": "የኔ መሳሪያዎች",
+        "description": "ዝርዝሮችዎን ይመልከቱ፣ ያርትዑ ወይም ያስወግዱ"
+      },
+      "mySubmissions": {
+        "label": "የኔ ማቅረቢያዎች",
+        "description": "የዝርዝር ማጽደቆችዎን ይከታተሉ"
+      },
+      "manageBookings": {
+        "label": "ቦኪንጎችን ያስተዳድሩ",
+        "description": "የኪራይ ጥያቄዎችን ያረጋግጡ ወይም ይገምግሙ"
+      }
+    }
+  },
+   "ownerEquipment": {
+    "title": "መሳሪያ ያክሉ",
+    "subtitle": "ለዝርዝር ግምገማ መሳሪያዎን ያስገቡ",
+    "steps": {
+      "basicInfo": "መሰረታዊ መረጃ",
+      "details": "ዝርዝሮች",
+      "pricing": "ዋጋ አወጣጥ",
+      "location": "አካባቢ",
+      "media": "ሚዲያ"
+    },
+    "navigation": {
+      "back": "ተመለስ",
+      "continue": "ቀጥል",
+      "submit": "ለግምገማ አስገባ"
+    },
+    "basicInfo": {
+      "title": "መሰረታዊ መረጃ",
+      "name": "የመሳሪያ ስም *",
+      "namePlaceholder": "CAT 320 ቆፋሪ",
+      "brand": "ብራንድ *",
+      "brandPlaceholder": "ካተርፒላር",
+      "model": "ሞዴል *",
+      "modelPlaceholder": "320 GX",
+      "year": "ዓመት",
+      "condition": "ሁኔታ *",
+      "selectCondition": "ሁኔታ ይምረጡ",
+      "category": "ምድብ *",
+      "selectCategory": "ምድብ ይምረጡ"
+    },
+    "details": {
+      "title": "የመሳሪያ ዝርዝሮች",
+      "description": "መግለጫ *",
+      "descriptionPlaceholder": "መሳሪያዎን፣ ሁኔታውን እና ምን እንደሚሰራ ይግለጹ…",
+      "specifications": "ዝርዝር መለኪያዎች (አማራጭ)",
+      "weight": "ክብደት",
+      "weightPlaceholder": "20 ቶን",
+      "engine": "ሞተር",
+      "enginePlaceholder": "CAT C7.1",
+      "power": "ኃይል",
+      "powerPlaceholder": "148 ኪሎዋት",
+      "maxReach": "ከፍተኛ ርቀት",
+      "maxReachPlaceholder": "9.6 ሜትር",
+      "attachments": "ተጨማሪ መሳሪያዎች (በነጠላ ሰረዝ የሚለዩ)",
+      "attachmentsPlaceholder": "ሃይድሮሊክ መዶሻ፣ ባልዲ፣ ሪፐር"
+    },
+    "pricing": {
+      "title": "ዋጋ አወጣጥ",
+      "description": "ቢያንስ አንድ ዋጋ ያዘጋጁ። ሁሉም ዋጋዎች በኢትዮጵያ ብር (ETB) ነው።",
+      "perHour": "ዋጋ በሰዓት (ETB)",
+      "perDay": "ዋጋ በቀን (ETB) *",
+      "perWeek": "ዋጋ በሳምንት (ETB)",
+      "perMonth": "ዋጋ በወር (ETB)",
+      "deposit": "የዋስትና ክፍያ (ETB)",
+      "minRentalDays": "አነስተኛ የኪራይ ቀናት",
+      "availableFrom": "የሚገኝ ከ",
+      "availableTo": "የሚገኝ እስከ"
+    },
+    "location": {
+      "title": "አካባቢ",
+      "city": "ከተማ *",
+      "selectCity": "ከተማ ይምረጡ",
+      "address": "ትክክለኛ አድራሻ",
+      "addressPlaceholder": "ቦሌ፣ አውሮፕላን ማረፊያ አቅራቢያ",
+      "deliveryAvailable": "ማድረስ ይቻላል",
+      "noDelivery": "አይ — ደንበኛ ያነሳል",
+      "yesDelivery": "አዎ — ማድረስ እችላለሁ",
+      "deliveryRadius": "የማድረስ ራዲየስ (ኪሜ)"
+    },
+    "media": {
+      "title": "ፎቶዎች እና ሰነዶች",
+      "photos": "የመሳሪያ ፎቶዎች * (እስከ 10)",
+      "documents": "ሰነዶች (የባለቤትነት ማረጋገጫ፣ ምዝገባ — አማራጭ፣ እስከ 5)",
+      "dragDropImages": "ምስሎችን ጎትተው ይጣሉ ወይም",
+      "dragDropDocuments": "PDFዎችን ጎትተው ይጣሉ ወይም",
+      "clickToBrowse": "ለማሰስ ጠቅ ያድርጉ",
+      "imageConstraints": "JPEG፣ PNG፣ WebP እስከ 10MB እያንዳንዱ",
+      "documentConstraints": "PDF፣ JPEG፣ PNG እስከ 20MB እያንዳንዱ",
+      "preview": "ቅድመ እይታ",
+      "infoText": "📸 ፎቶዎች ለዝርዝር ማጽደቅ ያስፈልጋሉ። ሰነዶች የባለቤትነት ማረጋገጫ ለመስጠት እና የማጽደቅ ሂደትን ለማፋጠን ይረዳሉ።"
+    },
+    "conditions": {
+      "poor": "ደካማ",
+      "new": "አዲስ"
+    },
+    "validation": {
+      "nameRequired": "የመሳሪያ ስም ያስፈልጋል",
+      "nameMinLength": "ስም ቢያንስ 3 ቁምፊዎች መሆን አለበት",
+      "brandRequired": "ብራንድ ያስፈልጋል",
+      "modelRequired": "ሞዴል ያስፈልጋል",
+      "yearMin": "ዓመት ከ1990 ወይም በኋላ መሆን አለበት",
+      "yearMax": "ዓመት ወደፊት ሊሆን አይችልም",
+      "conditionRequired": "እባክዎ ሁኔታ ይምረጡ",
+      "categoryRequired": "እባክዎ ምድብ ይምረጡ",
+      "descriptionRequired": "መግለጫ ያስፈልጋል",
+      "descriptionMinLength": "መግለጫ ቢያንስ 20 ቁምፊዎች መሆን አለበት",
+      "descriptionMaxLength": "መግለጫ ከ2000 ቁምፊዎች መብለጥ አይችልም",
+      "priceNegative": "ዋጋ አሉታዊ ሊሆን አይችልም",
+      "dailyPriceRequired": "የቀን ዋጋ ያስፈልጋል",
+      "pricePositive": "ዋጋ ከ0 በላይ መሆን አለበት",
+      "depositNegative": "የዋስትና ክፍያ አሉታዊ ሊሆን አይችልም",
+      "minRentalDaysMin": "አነስተኛ የኪራይ ቀናት ቢያንስ 1 መሆን አለበት",
+      "cityRequired": "እባክዎ ከተማ ይምረጡ",
+      "radiusNegative": "ራዲየስ አሉታዊ ሊሆን አይችልም"
+    },
+    "errors": {
+      "loadCategories": "ምድቦችን መጫን አልተቻለም። እባክዎ ገጹን ያድሱ።",
+      "noImages": "እባክዎ ቢያንስ አንድ የመሳሪያዎ ፎቶ ያስገቡ",
+      "selectCategory": "እባክዎ ምድብ ይምረጡ",
+      "submissionFailed": "ማስገባት አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+      "uploadImagesFailed": "ምስሎችን መስቀል አልተሳካም",
+      "uploadDocumentsFailed": "ሰነዶችን መስቀል አልተሳካም",
+      "fileTooLarge": "{{name}} በጣም ትልቅ ነው። ከፍተኛ {{max}}",
+      "invalidImageType": "{{name}} የሚሰራ ምስል አይደለም። JPEG፣ PNG፣ ወይም WebP ይጠቀሙ",
+      "invalidDocumentType": "{{name}} የሚሰራ ሰነድ አይደለም። PDF፣ JPEG፣ ወይም PNG ይጠቀሙ"
+    },
+    "success": {
+      "imagesAdded": "{{count}} ምስል(ዎች) ተጨምረዋል",
+      "documentsAdded": "{{count}} ሰነድ(ዎች) ተጨምረዋል",
+      "imagesUploaded": "{{count}} ምስል(ዎች) በተሳካ ሁኔታ ተስቀለዋል",
+      "documentsUploaded": "{{count}} ሰነድ(ዎች) በተሳካ ሁኔታ ተስቀለዋል",
+      "imageRemoved": "ምስል ተወግዷል",
+      "documentRemoved": "ሰነድ ተወግዷል",
+      "submitted": "መሳሪያ በተሳካ ሁኔታ ቀርቧል! አስተዳዳሪ በቅርቡ ይገመግማል።"
+    },
+    "uploading": {
+      "images": "ምስሎችን በመስቀል ላይ...",
+      "documents": "ሰነዶችን በመስቀል ላይ..."
+    }
+  },
+   "ownerSubmissions": {
+    "header": {
+      "title": "የእኔ ማቅረቢያዎች",
+      "subtitle": "የእርስዎን የመሳሪያ ዝርዝር ጥያቄዎች ይከታተሉ",
+      "newButton": "አዲስ ማቅረቢያ"
+    },
+    "columns": {
+      "equipment": "መሳሪያ",
+      "status": "ሁኔታ",
+      "adminNote": "የአስተዳዳሪ ማስታወሻ",
+      "submitted": "የቀረበበት ቀን"
+    },
+    "table": {
+      "emptyText": "እስካሁን ምንም ማቅረቢያዎች የሉም። የመጀመሪያ መሳሪያዎን ይጨምሩ!"
+    },
+    "modal": {
+      "title": "የማቅረቢያ ዝርዝር",
+      "fields": {
+        "name": "ስም",
+        "brand": "ብራንድ",
+        "model": "ሞዴል",
+        "year": "ዓመት",
+        "condition": "ሁኔታ",
+        "city": "ከተማ",
+        "pricePerDay": "ዋጋ በቀን"
+      },
+      "rejectionReason": "ውድቅ ምክንያት",
+      "adminNote": "የአስተዳዳሪ ማስታወሻ"
+    }
+  },
+  "ownerBookings": {
+    "header": {
+      "title": "ቦኪንጎች",
+      "subtitle": "ለመሳሪያዎችዎ የኪራይ ጥያቄዎችን ያስተዳድሩ"
+    },
+    "tabs": {
+      "all": "ሁሉም",
+      "pending": "በመጠባበቅ ላይ",
+      "confirmed": "የተረጋገጠ",
+      "completed": "ተጠናቋል",
+      "cancelled": "ተሰርዟል"
+    },
+    "table": {
+      "ref": "ማጣቀሻ",
+      "equipment": "መሳሪያ",
+      "customer": "ደንበኛ",
+      "period": "የጊዜ ገደብ",
+      "payout": "ክፍያ",
+      "status": "ሁኔታ",
+      "emptyText": "ምንም ቦኪንጎች አልተገኙም"
+    },
+    "modal": {
+      "title": "ቦኪንግ {{ref}}",
+      "customer": "ደንበኛ",
+      "phone": "ስልክ",
+      "dates": "ቀናት",
+      "totalDays": "ጠቅላላ ቀናት",
+      "totalAmount": "ጠቅላላ ገንዘብ",
+      "yourPayout": "የእርስዎ ክፍያ",
+      "customerNotes": "የደንበኛ ማስታወሻዎች"
+    },
+    "cancelModal": {
+      "title": "ቦኪንግ ሰርዝ",
+      "description": "ቦኪንግ {{ref}} ለመሰረዝ እባክዎ ምክንያት ይስጡ፡",
+      "placeholder": "የመሰረዝ ምክንያት…",
+      "backButton": "ተመለስ",
+      "confirmButton": "ቦኪንግ ሰርዝ"
+    },
+    "messages": {
+      "confirmSuccess": "ተረጋግጧል!",
+      "confirmFailed": "ቦኪንግ ማረጋገጥ አልተሳካም",
+      "cancelSuccess": "ቦኪንግ ተሰርዟል",
+      "cancelFailed": "ቦኪንግ መሰረዝ አልተሳካም"
+    },
+    "currency": "ETB"
+  },
+  "ownerAnalytics": {
+    "title": "ትንተና",
+    "subtitle": "የእርስዎ መሳሪያ አፈጻጸም መረጃ",
+    "apiError": "የትንተና API አይገኝም። ከቤክኤንድ ጋር ከተገናኘ በኋላ መረጃ ይታያል።",
+    "revenueTrend": "የገቢ አዝማሚያ",
+    "equipmentPerformance": "የመሳሪያ አፈጻጸም",
+    "bookingsPerMonth": "በወር የቦኪንጎች",
+    "revenue": "ገቢ",
+    "bookings": "ቦኪንጎች",
+    "bookingsCount": "ቦኪንጎች",
+    "noRevenueData": "እስካሁን የገቢ መረጃ የለም",
+    "noRevenueSubtext": "ከተጠናቀቁ ቦኪንጎች በኋላ ይታያል",
+    "noEquipmentData": "እስካሁን የመሳሪያ መረጃ የለም",
+    "noEquipmentSubtext": "የፀደቁ መሳሪያዎች ካገኙ በኋላ ይታያል",
+    "stats": {
+      "totalEarnings": "ጠቅላላ ገቢ",
+      "thisMonth": "በዚህ ወር",
+      "totalBookings": "ጠቅላላ ቦኪንጎች",
+      "avgRating": "አማካይ ደረጃ",
+      "summary": "ማጠቃለያ ስታቲስቲክስ"
+    },
+    "period": {
+      "last3Months": "ያለፉት 3 ወራት",
+      "last6Months": "ያለፉት 6 ወራት",
+      "last12Months": "ያለፉት 12 ወራት"
+    },
+    "export": {
+      "pdf": "PDF ላክ",
+      "csv": "CSV ላክ"
+    },
+    "equipmentTable": {
+      "name": "የመሳሪያ ስም",
+      "bookings": "ጠቅላላ ቦኪንጎች",
+      "earnings": "ጠቅላላ ገቢ"
+    },
+    "csv": {
+      "month": "ወር",
+      "revenue": "ገቢ (ETB)",
+      "bookings": "ቦኪንጎች",
+      "revenueReport": "=== የገቢ ሪፖርት ===",
+      "equipmentReport": "=== የመሳሪያ አፈጻጸም ሪፖርት ===",
+      "equipmentName": "የመሳሪያ ስም",
+      "totalBookings": "ጠቅላላ ቦኪንጎች",
+      "totalEarnings": "ጠቅላላ ገቢ (ETB)"
+    }
+  },
+  "ownerSettings": {
+    "title": "ቅንብሮች",
+    "saveChanges": "ለውጦችን አስቀምጥ",
+    "saveSuccess": "ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል!",
+    "saveError": "ቅንብሮችን ማስቀመጥ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "notifications": {
+      "title": "ማሳወቂያ ምርጫዎች",
+      "emailLabel": "የኢሜይል ማሳወቂያዎች",
+      "emailDesc": "በኢሜይል ዝመናዎችን ይቀበሉ",
+      "smsLabel": "የኤስኤምኤስ ማሳወቂያዎች",
+      "smsDesc": "በኤስኤምኤስ ዝመናዎችን ይቀበሉ",
+      "newBookingLabel": "አዲስ ቦኪንግ ማንቂያዎች",
+      "newBookingDesc": "አንድ ሰው መሳሪያዎን ሲያስይዝ ያሳውቁ",
+      "bookingConfirmedLabel": "የቦኪንግ ማረጋገጫ ማንቂያዎች",
+      "bookingConfirmedDesc": "ቦኪንግ ሲረጋገጥ ያሳውቁ",
+      "bookingCancelledLabel": "የስረዛ ማንቂያዎች",
+      "bookingCancelledDesc": "ቦኪንግ ሲሰረዝ ያሳውቁ",
+      "paymentReceivedLabel": "የክፍያ ደረሰኝ ማንቂያዎች",
+      "paymentReceivedDesc": "ክፍያ ሲደርስ ያሳውቁ"
+    },
+    "payout": {
+      "title": "የክፍያ ማውጫ ቅንብሮች",
+      "description": "የኪራይ ገቢዎችዎን ለመቀበል የባንክ ሂሳብ ዝርዝሮች።",
+      "bankNameLabel": "የባንክ ስም",
+      "bankNamePlaceholder": "የኢትዮጵያ ንግድ ባንክ",
+      "accountNumberLabel": "የሂሳብ ቁጥር",
+      "accountNumberPlaceholder": "1000123456789",
+      "accountNameLabel": "የሂሳብ ባለቤት ስም",
+      "accountNamePlaceholder": "በባንክ ሂሳብ ላይ እንደሚታየው"
+    }
+  },
+  "ownerProfile": {
+    "header": {
+      "title": "የእኔ መገለጫ",
+      "subtitle": "የመለያ መረጃዎን ያስተዳድሩ"
+    },
+    "badge": {
+      "owner": "ባለቤት",
+      "idVerified": "ማንነት ተረጋግጧል",
+      "notVerified": "አልተረጋገጠም"
+    },
+    "avatar": {
+      "uploadTitle": "ፎቶ ስቀል",
+      "uploadPhoto": "የመገለጫ ፎቶ ስቀል",
+      "changePhoto": "የመገለጫ ፎቶ ቀይር",
+      "uploading": "የመገለጫ ፎቶ በመስቀል ላይ...",
+      "success": "የመገለጫ ፎቶ በተሳካ ሁኔታ ተሻሽሏል!",
+      "errors": {
+        "fileTooLarge": "ምስል ከ5 ሜባ በታች መሆን አለበት",
+        "invalidType": "እባክዎ የምስል ፋይል ይምረጡ",
+        "uploadFailed": "የፎቶ መስቀል አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+      }
+    },
+    "form": {
+      "fullName": "ሙሉ ስም",
+      "fullNamePlaceholder": "አበበ ግርማ",
+      "nameRequired": "ስም ያስፈልጋል",
+      "phone": "ስልክ ቁጥር",
+      "phonePlaceholder": "+251 9XX XXX XXX",
+      "city": "ከተማ",
+      "selectCity": "ከተማ ምረጡ",
+      "companyName": "የኩባንያ ስም",
+      "companyPlaceholder": "የኩባንያዎ ስም",
+      "bio": "ባዮ / ስለእኔ",
+      "bioPlaceholder":"ለደንበኞች ስለ ተሞክሮዎ እና መሳሪያዎችዎ ይንገሩ…",
+      "saveButton": "ለውጦችን አስቀምጥ"
+    },
+    "profileUpdateSuccess": "መገለጫ በተሳካ ሁኔታ ተሻሽሏል!",
+    "profileUpdateFailed": "ማሻሻል አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "verificationCard": {
+      "title": "ማንነትዎን ያረጋግጡ",
+      "description": "የተረጋገጡ ባለቤቶች የደንበኛ መተማመን እና ፈጣን ማጽደቅ ያገኛሉ። የእርስዎ ብሔራዊ መታወቂያ በምስጠራ ደህንነቱ በተጠበቀ ሁኔታ ይቀመጣል።",
+      "benefit1": "✓ የበለጠ የደንበኛ መተማመን",
+      "benefit2": "✓ ፈጣን ቦኪንጎች",
+      "benefit3": "✓ ደህንነቱ የተጠበቀ እና ምስጠራ",
+      "verifyButton": "ማንነቴን አረጋግጥ"
+    },
+    "verifiedCard": {
+      "title": "ማንነት ተረጋግጧል ✓",
+      "description": "ማንነትዎ ተረጋግጧል። ይህ ከደንበኞች ጋር መተማመንን ይገነባል።"
+    },
+    "verification": {
+      "fillAllFields": "እባክዎ ሁሉንም የመታወቂያ መስኮች ይሙሉ",
+      "otpSent": "OTP ወደተመዘገበው ስልክ ቁጥርዎ ተልኳል!",
+      "requestFailed": "የማረጋገጫ ጥያቄ አልተሳካም",
+      "enterOtp": "እባክዎ የOTP ኮድ ያስገቡ",
+      "verifySuccess": "ማንነት በተሳካ ሁኔታ ተረጋግጧል! ✓",
+      "verifyFailed": "OTP ማረጋገጫ አልተሳካም"
+    },
+    "modal": {
+      "verifyTitle": "ማንነትዎን ያረጋግጡ",
+      "otpTitle": "OTP ኮድ ያስገቡ",
+      "verifyDescription": "የብሔራዊ መታወቂያ ዝርዝሮችዎን ያስገቡ። ለማረጋገጥ OTP ወደ ስልክዎ እንልካለን።",
+      "idType": "የመታወቂያ አይነት",
+      "idTypes": {
+        "nationalId": "ብሔራዊ መታወቂያ",
+        "fin": "FIN",
+        "passport": "ፓስፖርት"
+      },
+      "idNumber": "የመታወቂያ ቁጥር",
+      "idNumberPlaceholder": "የመታወቂያ ቁጥርዎን ያስገቡ",
+      "fullName": "ሙሉ ስም (በመታወቂያው ላይ እንደሚታየው)",
+      "fullNamePlaceholder": "አበበ ግርማ",
+      "dob": "የትውልድ ቀን",
+      "sendOtp": "OTP ላክ",
+      "otpSent": "OTP ተልኳል!",
+      "otpDescription": "ስልክዎን ያረጋግጡ — ባለ 6 አሃዝ ኮዱን ከዚህ በታች ያስገቡ",
+      "enterOtp": "OTP ኮድ ያስገቡ",
+      "verifyButton": "አረጋግጥ",
+      "resendOtp": "አልደረሰዎትም? OTP እንደገና ላክ"
+    }
+  },
+  "admin": {
+    "greeting": {
+      "morning": "እንደምን አደሩ",
+      "afternoon": "እንደምን ዋሉ",
+      "evening": "እንደምን አመሹ"
+    },
+    "header": {
+      "live": "የቀጥታ ዳሽቦርድ"
+    },
+    "timeRange": {
+      "lastMonths": "ያለፉ {{months}} ወራት"
+    },
+    "pendingSubmissions": {
+      "message_one": "{{count}} ግቤት በግምገማ ላይ",
+      "message_other": "{{count}} ግቤቶች በግምገማ ላይ",
+      "description": "የመሳሪያ ባለቤቶች ማፅደቅ እየጠበቁ ነው",
+      "review": "ግምገማ"
+    },
+    "kpi": {
+      "totalRevenue": "ጠቅላላ ገቢ",
+      "vsLastMonth": "ካለፈው ወር ጋር",
+      "thisMonth": "በዚህ ወር",
+      "target": "ዒላማ",
+      "totalUsers": "ጠቅላላ ተጠቃሚዎች",
+      "activeListings": "ንቁ ዝርዝሮች",
+      "totalBookings": "ጠቅላላ ቦኪንጎች",
+      "pending": "በመጠባበቅ ላይ",
+      "completed": "ተጠናቋል"
+    },
+    "status": {
+      "pending": "በመጠባበቅ ላይ",
+      "confirmed": "የተረጋገጠ",
+      "completed": "ተጠናቋል",
+      "cancelled": "ተሰርዟል"
+    },
+    "charts": {
+      "revenueVsTarget": "ገቢ ከዒላማ ጋር",
+      "monthlyPerformance": "ወርሃዊ አፈጻጸም",
+      "actual": "ትክክለኛ",
+      "target": "ዒላማ",
+      "revenue": "ገቢ",
+      "bookingStatus": "የቦኪንግ ሁኔታ",
+      "allTimeDistribution": "የሁሉም ጊዜ ስርጭት",
+      "bookingTrend": "የቦኪንግ አዝማሚያ",
+      "monthlyBookingsByOutcome": "ወርሃዊ ቦኪንጎች በውጤት",
+      "categoryRevenue": "የምድብ ገቢ",
+      "topPerformingCategories": "ከፍተኛ አፈጻጸም ያላቸው የመሳሪያ አይነቶች",
+      "units": "ክፍሎች"
+    },
+    "topPerformers": {
+      "topBookings": "ከፍተኛ ቦኪንጎች",
+      "topCustomers": "ከፍተኛ ደንበኞች",
+      "topOwners": "ከፍተኛ ባለቤቶች",
+      "topEquipment": "ከፍተኛ መሳሪያዎች",
+      "viewAll": "ሁሉንም ይመልከቱ",
+      "noData": "እስካሁን ውሂብ የለም",
+      "bookings": "ቦኪንጎች",
+      "listings": "ዝርዝሮች",
+      "rentals": "ኪራዮች"
+    },
+    "recentActivity": {
+      "title": "የቅርብ ጊዜ እንቅስቃሴ",
+      "viewAll": "ሁሉንም ይመልከቱ",
+      "booking": "ቦኪንግ",
+      "noActivity": "የቅርብ ጊዜ እንቅስቃሴ የለም"
+    },
+    "quickActions": {
+      "title": "ፈጣን ድርጊቶች",
+      "submissions": "ግቤቶች",
+      "bookings": "ቦኪንጎች",
+      "owners": "ባለቤቶች",
+      "customers": "ደንበኞች",
+      "equipment": "መሳሪያዎች",
+      "reports": "ሪፖርቶች"
+    },
+    "platformHealth": {
+      "title": "የመድረክ ጤንነት",
+      "activeEquipment": "ንቁ መሳሪያ መጠን",
+      "bookingSuccess": "የቦኪንግ ስኬት መጠን",
+      "ownerVerification": "የባለቤት ማረጋገጫ",
+      "systemStatus": "የስርዓት ሁኔታ",
+      "operational": "በስራ ላይ",
+      "commissionRate": "ኮሚሽን መጠን",
+      "activeTimeSlots": "ንቁ የጊዜ ክፍተቶች"
+    },
+    "errors": {
+      "loadFailed": "የዳሽቦርድ ውሂብ መጫን አልተቻለም። እባክዎ ግንኙነትዎን ይፈትሹ እና እንደገና ይሞክሩ።",
+      "title": "ዳሽቦርድ መጫን አልተቻለም",
+      "retry": "እንደገና ሞክር",
+      "noData": "ምንም የዳሽቦርድ ውሂብ የለም",
+      "noRevenueData": "ምንም የገቢ ውሂብ የለም",
+      "noTrendData": "ምንም የቦኪንግ አዝማሚያ ውሂብ የለም",
+      "noCategoryData": "ምንም የምድብ ውሂብ የለም"
+    }
+  },
+  "adminEquipment": {
+    "title": "መሳሪያዎች",
+    "subtitle": "{{count}} ጠቅላላ ዝርዝሮች",
+    "searchPlaceholder": "መሳሪያ ፈልግ…",
+    "emptyText": "ምንም መሳሪያ አልተገኘም",
+    "currency": "ETB",
+    "pendingApproval": "ማጽደቅ በመጠባበቅ ላይ",
+    "deleteSuccess": "መሳሪያ በተሳካ ሁኔታ ተሰርዟል",
+    "deleteError": "መሳሪያ መሰረዝ አልተሳካም",
+    "columns": {
+      "name": "ስም",
+      "category": "ምድብ",
+      "city": "ከተማ",
+      "pricePerDay": "ዋጋ በቀን",
+      "status": "ሁኔታ",
+      "actions": "ድርጊቶች"
+    },
+    "modal": {
+      "title": "የመሳሪያ ዝርዝር",
+      "brand": "ምርት ስም",
+      "model": "ሞዴል",
+      "year": "ዓመት",
+      "condition": "ሁኔታ",
+      "city": "ከተማ",
+      "pricePerDay": "ዋጋ በቀን",
+      "owner": "ባለቤት",
+      "status": "ሁኔታ",
+      "description": "መግለጫ"
+    },
+    "deleteDialog": {
+      "title": "መሳሪያ ሰርዝ",
+      "message": "\"{{name}}\" በቋሚነት ይሰረዛል? ሁሉም ተያያዥ መረጃዎች ይጠፋሉ።"
+    }
+  },
+  
+   "adminSubmissions": {
+    "pageTitle": "የመሳሪያ ማቅረቢያዎች",
+    "pageSubtitle": "{{count}} ማቅረቢያዎች",
+    "backToSubmissions": "ወደ ማቅረቢያዎች ተመለስ",
+    "ownerNotFound": "ባለቤት አልተገኘም",
+    "backButton": "ተመለስ",
+    "verified": "የተረጋገጠ",
+    "unverified": "ያልተረጋገጠ",
+    "contactInformation": "የመገናኛ መረጃ",
+    "email": "ኢሜይል",
+    "phone": "ስልክ",
+    "city": "ከተማ",
+    "company": "ኩባንያ",
+    "joined": "የተቀላቀሉበት",
+    "idType": "መታወቂያ አይነት",
+    "about": "ስለ",
+    "accountStatus": "የአካውንት ሁኔታ",
+    "status": "ሁኔታ",
+    "emailVerified": "ኢሜይል የተረጋገጠ",
+    "idVerified": "መታወቂያ የተረጋገጠ",
+    "submissionInfo": "የማቅረቢያ መረጃ",
+    "statusLabel": "ሁኔታ",
+    "submittedLabel": "የቀረበበት",
+    "rejectionReason": "የአለመቀበል ምክንያት",
+    "documents": "ሰነዶች",
+    "document": "ሰነድ",
+    "unnamedEquipment": "ስም ያልተሰጠው መሳሪያ",
+    "category": "ምድብ",
+    "brand": "ምርት ስም",
+    "model": "ሞዴል",
+    "year": "አመት",
+    "condition": "ሁኔታ",
+    "description": "መግለጫ",
+    "pricing": "ዋጋ",
+    "location": "አድራሻ",
+    "address": "አድራሻ",
+    "deliveryAvailable": "ማድረስ ይቻላል",
+    "deliveryRadius": "ማድረስ ርቀት",
+    "specifications": "ዝርዝር መረጃዎች",
+    "attachments": "የተያያዙ ፋይሎች",
+    "noImages": "ምንም ምስሎች አልተሰቀሉም",
+    "currency": "ETB",
+    "unknown": "ያልታወቀ",
+    "noBrand": "ምርት ስም የለም",
+    "noLocation": "አድራሻ የለም",
+    "approveTitle": "✅ ማቅረቢያ አጽድቅ",
+    "rejectTitle": "❌ ማቅረቢያ ውድቅ አድርግ",
+    "approveButton": "አጽድቅ",
+    "rejectButton": "ውድቅ አድርግ",
+    "equipmentLabel": "መሳሪያ",
+    "noteOptional": "ለባለቤቱ ማስታወሻ (አማራጭ)",
+    "rejectionReasonRequired": "የውድቅ ምክንያት ያስፈልጋል",
+    "approveSuccess": "ማቅረቢያ ጸድቋል! የመሳሪያ ዝርዝር ተፈጥሯል።",
+    "rejectSuccess": "ማቅረቢያ ውድቅ ተደርጓል። ባለቤቱ ተገንዝበዋል።",
+    "actionFailed": "{{type}} ማድረግ አልተሳካም",
+    "approvePlaceholder": "ለምሳሌ ጥሩ ዝርዝር! መሳሪያው ተረጋግጧል።",
+    "rejectPlaceholder": "ለምሳሌ ምስሎች በጣም ደብዛዛ ናቸው፣ የሳምንት ዋጋ የለም…",
+    "tabs": {
+      "pending": "በመጠባበቅ ላይ",
+      "inReview": "በግምገማ ላይ",
+      "approved": "ጸድቋል",
+      "rejected": "ውድቅ ተደርጓል",
+      "all": "ሁሉም"
+    },
+    "searchPlaceholder": "በመሳሪያ ስም ወይም በባለቤት ፈልግ...",
+    "table": {
+      "equipment": "መሳሪያ",
+      "owner": "ባለቤት",
+      "location": "አድራሻ",
+      "pricePerDay": "ዋጋ በቀን",
+      "status": "ሁኔታ",
+      "submitted": "የቀረበበት",
+      "actions": "ድርጊቶች"
+    },
+    "noSubmissions": "ምንም ማቅረቢያዎች አልተገኙም",
+    "fetchError": "ማቅረቢያዎችን ማምጣት አልተሳካም",
+    "deleteSuccess": "ማቅረቢያ በተሳካ ሁኔታ ተሰርዟል",
+    "deleteFailed": "መሰረዝ አልተሳካም",
+    "deleteConfirmTitle": "ማቅረቢያ ሰርዝ",
+    "deleteConfirmMessage": "{{name}} ሰርዝ? ይህ ወደ ነበረው ማስመለስ አይቻልም።",
+    "equipmentDetail": "የመሳሪያ ዝርዝር",
+    "viewOwner": "ባለቤት ተመልከት"
+  },
+   "adminBookings": {
+    "title": "የቦኪንግ አስተዳደር",
+    "subtitle": "{{count}} ጠቅላላ ቦኪንጎች",
+    "searchPlaceholder": "በማጣቀሻ፣ መሳሪያ፣ ደንበኛ ይፈልጉ...",
+    "tabs": {
+      "all": "ሁሉም",
+      "pending": "በመጠባበቅ ላይ",
+      "confirmed": "የተረጋገጠ",
+      "completed": "ተጠናቋል",
+      "cancelled": "ተሰርዟል"
+    },
+    "table": {
+      "reference": "ማጣቀሻ",
+      "equipment": "መሳሪያ",
+      "customer": "ደንበኛ",
+      "owner": "ባለቤት",
+      "dates": "ቀናት",
+      "amount": "ድምር",
+      "status": "ሁኔታ",
+      "actions": "ድርጊቶች",
+      "payout": "ክፍያ",
+      "noData": "ምንም ቦኪንጎች አልተገኙም",
+      "viewDetails": "ዝርዝሮችን ተመልከት",
+      "quickConfirm": "ፈጣን ማረጋገጫ",
+      "quickComplete": "ተጠናቋል ምልክት አድርግ"
+    },
+    "detail": {
+      "backToList": "ወደ ቦኪንግ ዝርዝር ተመለስ",
+      "equipment": "መሳሪያ",
+      "bookingDetails": "የቦኪንግ ዝርዝሮች",
+      "startDate": "የመጀመሪያ ቀን",
+      "endDate": "የመጨረሻ ቀን",
+      "totalDays": "ጠቅላላ ቀናት",
+      "pricingMode": "የዋጋ አይነት",
+      "unitPrice": "የአንድ ቀን ዋጋ",
+      "totalAmount": "ጠቅላላ ድምር",
+      "platformFee": "የመድረክ ክፍያ (12%)",
+      "ownerPayout": "የባለቤቱ ክፍያ",
+      "deposit": "ተቀማጭ",
+      "timeSlot": "የጊዜ ክፍል",
+      "customerNotes": "የደንበኛ ማስታወሻ",
+      "deliveryAddress": "የማድረሻ አድራሻ",
+      "cancelReason": "የመሰረዝ ምክንያት",
+      "confirmButton": "ቦኪንግ አረጋግጥ",
+      "completeButton": "ተጠናቋል ምልክት አድርግ",
+      "cancelButton": "ቦኪንግ ሰርዝ",
+      "cancelPlaceholder": "የመሰረዝ ምክንያት (ያስፈልጋል)…",
+      "confirmCancel": "ማሰረዝ አረጋግጥ",
+      "customer": "ደንበኛ",
+      "owner": "የመሳሪያ ባለቤት",
+      "noPhone": "ስልክ ቁጥር አልተሰጠም",
+      "financialSummary": "የፋይናንስ ማጠቃለያ",
+      "grossAmount": "ጠቅላላ ድምር",
+      "platformFeeLabel": "የመድረክ ክፍያ (12%)",
+      "ownerPayoutLabel": "የባለቤቱ ክፍያ",
+      "timeline": "የጊዜ መስመር",
+      "created": "ተፈጠረ",
+      "confirmed": "ተረጋገጠ",
+      "completed": "ተጠናቀቀ",
+      "cancelled": "ተሰረዘ"
+    },
+    "toasts": {
+      "confirmSuccess": "ቦኪንግ በተሳካ ሁኔታ ተረጋግጧል!",
+      "confirmFailed": "ቦኪንግ ማረጋገጥ አልተሳካም",
+      "cancelSuccess": "ቦኪንግ በተሳካ ሁኔታ ተሰርዟል",
+      "cancelFailed": "ቦኪንግ መሰረዝ አልተሳካም",
+      "completeSuccess": "ቦኪንግ እንደተጠናቀቀ ምልክት ተደርጎበታል!",
+      "completeFailed": "ቦኪንግ ማጠናቀቅ አልተሳካም",
+      "reasonRequired": "እባክዎ የመሰረዝ ምክንያት ያስገቡ",
+      "loadFailed": "ቦኪንጎችን መጫን አልተሳካም"
+    }
+  },
+  "adminCustomers": {
+    "header": {
+      "title": "ደንበኞች",
+      "subtitle": "{{count}} የተመዘገቡ ደንበኞች"
+    },
+    "searchPlaceholder": "ደንበኞችን በስም ወይም በኢሜይል ይፈልጉ…",
+    "emptyText": "ምንም ደንበኞች አልተገኙም",
+    "columns": {
+      "name": "ስም",
+      "idNumber": "የመታወቂያ ቁጥር",
+      "phone": "ስልክ",
+      "city": "ከተማ",
+      "bookings": "ቦኪንጎች",
+      "idVerified": "ማንነት የተረጋገጠ",
+      "status": "ሁኔታ",
+      "joined": "የተቀላቀሉበት",
+      "actions": "ድርጊቶች"
+    },
+    "filters": {
+      "button": "ማጣሪያዎች",
+      "title": "ደንበኞችን አጣሩ",
+      "clear": "ሁሉንም አጽዳ",
+      "active": "ንቁ ማጣሪያዎች",
+      "allVerification": "ሁሉም የማረጋገጫ ሁኔታ",
+      "allBookings": "ሁሉም የቦኪንግ ብዛቶች",
+      "allStatus": "ሁሉም የአካውንት ሁኔታ",
+      "allCities": "ሁሉም ከተሞች",
+      "topCustomers": "ከፍተኛ ደንበኞች",
+      "mediumCustomers": "ንቁ ደንበኞች",
+      "lowCustomers": "አዲስ ደንበኞች"
+    },
+    "modal": {
+      "title": "የደንበኛ መገለጫ",
+      "idNumber": "የመታወቂያ ቁጥር",
+      "phone": "ስልክ",
+      "city": "ከተማ",
+      "totalBookings": "ጠቅላላ ቦኪንጎች",
+      "joined": "የተቀላቀሉበት"
+    },
+    "confirm": {
+      "suspendTitle": "ተጠቃሚን እገዳ",
+      "activateTitle": "ተጠቃሚን አንቃ",
+      "suspendMessage": "\"{{name}}\" ተጠቃሚን እገዳ?",
+      "activateMessage": "\"{{name}}\" ተጠቃሚን ማንቃት?"
+    },
+    "toast": {
+      "success": "የተጠቃሚ ሁኔታ ተሻሽሏል",
+      "error": "ድርጊቱ አልተሳካም"
+    }
+  },
+
+  "adminOwners": {
+    "header": {
+      "title": "የመሳሪያ ባለቤቶች",
+      "subtitle": "{{count}} የተመዘገቡ ባለቤቶች"
+    },
+    "searchPlaceholder": "ባለቤቶችን ፈልግ…",
+    "emptyText": "ምንም ባለቤቶች አልተገኙም",
+    "columns": {
+      "owner": "ባለቤት",
+      "city": "ከተማ",
+      "verified": "የተረጋገጠ",
+      "status": "ሁኔታ",
+      "joined": "የተቀላቀሉበት",
+      "actions": "ድርጊቶች"
+    },
+    "verified": {
+      "verified": "የተረጋገጠ",
+      "unverified": "ያልተረጋገጠ"
+    },
+    "modal": {
+      "title": "የባለቤት መገለጫ",
+      "fields": {
+        "phone": "ስልክ",
+        "city": "ከተማ",
+        "company": "ኩባንያ",
+        "idVerified": "ማንነት የተረጋገጠ",
+        "bio": "ባዮ",
+        "yes": "አዎ",
+        "no": "አይ"
+      }
+    },
+    "confirm": {
+      "activateTitle": "ባለቤትን አንቃ",
+      "suspendTitle": "ባለቤትን እገዳ",
+      "activate": "አንቃ",
+      "suspend": "እገዳ",
+      "message": "ባለቤቱን \"{{name}}\" {{action}}?"
+    },
+    "toast": {
+      "success": "ዘምኗል",
+      "error": "ስህተት"
+    }
+  },
+  "adminReports": {
+    "header": {
+      "title": "ሪፖርቶች እና ትንታኔዎች",
+      "subtitle": "አጠቃላይ ግንዛቤዎች እና የአፈጻጸም መለኪያዎች"
+    },
+    "filters": {
+      "title": "ማጣሪያዎች",
+      "reportType": "የሪፖርት አይነት",
+      "allReports": "ሁሉም ሪፖርቶች",
+      "revenueOnly": "ገቢ ብቻ",
+      "bookingsOnly": "ቦኪንጎች ብቻ",
+      "usersOnly": "ተጠቃሚዎች ብቻ",
+      "timeRange": "የጊዜ ክልል",
+      "last3Months": "ያለፉት 3 ወራት",
+      "last6Months": "ያለፉት 6 ወራት",
+      "last12Months": "ያለፉት 12 ወራት"
+    },
+    "export": {
+      "csv": "ሲኤስቪ",
+      "pdf": "ፒዲኤፍ",
+      "print": "አትም",
+      "title": "የአስተዳዳሪ ሪፖርት - {{date}}",
+      "csvSuccess": "ሲኤስቪ በተሳካ ሁኔታ ወጥቷል",
+      "pdfSuccess": "የህትመት መስኮት ተከፍቷል",
+      "exportFailed": "ማውጣት አልተሳካም",
+      "generatedOn": "በ {{date}} ተዘጋጅቷል",
+      "pdfTitle": "የአስተዳዳሪ ሪፖርት - {{date}}",
+      "pdfHeader": "ኢኩፕሬንት ኢትዮጵያ - የአስተዳዳሪ ሪፖርት",
+      "sections": {
+        "overview": "አጠቃላይ እይታ",
+        "revenueTrend": "የገቢ አዝማሚያ",
+        "bookingTrend": "የቦኪንግ አዝማሚያ",
+        "categoryPerformance": "የምድብ አፈጻጸም"
+      },
+      "headers": {
+        "metric": "መለኪያ",
+        "value": "እሴት",
+        "month": "ወር",
+        "revenue": "ገቢ",
+        "totalBookings": "ጠቅላላ ቦኪንጎች",
+        "completed": "ተጠናቅቋል",
+        "cancelled": "ተሰርዟል",
+        "pending": "በመጠባበቅ ላይ",
+        "category": "ምድብ",
+        "equipmentCount": "የመሳሪያ ብዛት"
+      },
+      "metrics": {
+        "totalRevenue": "ጠቅላላ ገቢ",
+        "monthlyRevenue": "ወርሃዊ ገቢ",
+        "totalBookings": "ጠቅላላ ቦኪንጎች",
+        "completedBookings": "የተጠናቀቁ ቦኪንጎች",
+        "pendingBookings": "በመጠባበቅ ላይ ያሉ",
+        "cancelledBookings": "የተሰረዙ ቦኪንጎች",
+        "totalUsers": "ጠቅላላ ተጠቃሚዎች",
+        "customers": "ደንበኞች",
+        "owners": "ባለቤቶች",
+        "activeEquipment": "ንቁ መሳሪያዎች",
+        "totalEquipment": "ጠቅላላ መሳሪያዎች",
+        "averageRating": "አማካይ ደረጃ"
+        
+      },
+      "footer": "ኢኩፕሬንት ኢትዮጵያ - የአስተዳዳሪ ዳሽቦርድ",
+      "disclaimer": "ይህ በራስ-ሰር የተፈጠረ ሪፖርት ነው"
+    },
+    "dateRange": {
+      "last30Days": "ያለፉት 30 ቀናት",
+      "last90Days": "ያለፉት 90 ቀናት",
+      "last6Months": "ያለፉት 6 ወራት",
+      "last12Months": "ያለፉት 12 ወራት",
+      "allTime": "ሁልጊዜ"
+    },
+    "chartTypes": {
+      "revenue": "ገቢ",
+      "bookings": "ቦኪንጎች",
+      "categories": "ምድቦች"
+    },
+    "kpi": {
+      "totalRevenue": "ጠቅላላ ገቢ",
+      "monthlyRevenue": "ወርሃዊ ገቢ",
+      "totalBookings": "ጠቅላላ ቦኪንጎች",
+      "completionRate": "የማጠናቀቂያ መጠን",
+      "activeEquipment": "ንቁ መሳሪያዎች"
+    },
+    "metrics": {
+      "totalUsers": "ጠቅላላ ተጠቃሚዎች",
+      "completed": "ተጠናቅቋል",
+      "listings": "ዝርዝሮች",
+      "avgRating": "አማካይ ደረጃ",
+      "satisfaction": "እርካታ",
+      "growthRate": "የእድገት መጠን",
+      "completedBookings": "የተጠናቀቁ ቀጠሮዎች",
+      "totalEquipment": "ጠቅላላ መሳሪያዎች"
+    },
+    "charts": {
+      "revenueAnalytics": "የገቢ ትንታኔ",
+      "monthlyRevenueTrend": "ወርሃዊ የገቢ አዝማሚያ",
+      "revenue": "ገቢ",
+      "bookingDistribution": "የቦኪንግ ስርጭት",
+      "statusBreakdown": "የሁኔታ ከፋፍል",
+      "bookingTrend": "የቦኪንግ አዝማሚያ",
+      "monthlyPerformance": "ወርሃዊ አፈጻጸም",
+      "total": "ጠቅላላ",
+      "completed": "ተጠናቅቋል",
+      "cancelled": "ተሰርዟል",
+      "categoryPerformance": "የምድብ አፈጻጸም"
+    },
+    "status": {
+      "completed": "ተጠናቅቋል",
+      "pending": "በመጠባበቅ ላይ",
+      "cancelled": "ተሰርዟል"
+    },
+    "health": {
+      "responseTime": "የምላሽ ጊዜ",
+      "verificationRate": "የማረጋገጫ መጠን",
+      "avgBookingLead": "አማካይ የቦኪንግ ጊዜ",
+      "pendingActions": "በመጠባበቅ ላይ ያሉ",
+      "totalRevenue": "ጠቅላላ ገቢ",
+      "completedBookings": "የተጠናቀቁ ቀጠሮዎች",
+      "activeUsers": "ንቁ ተጠቃሚዎች"
+    },
+    "errors": {
+      "loadFailed": "የሪፖርት ውሂብ መጫን አልተሳካም",
+      "noRevenueData": "ምንም የገቢ ውሂብ የለም",
+      "noBookingData": "ምንም የቦኪንግ ውሂብ የለም",
+      "noCategoryData": "ምንም የምድብ ውሂብ የለም"
+    },
+    "units": "ክፍሎች",
+    "days": "ቀናት",
+    "footer": {
+      "generatedOn": "ሪፖርት የተፈጠረው በ {{date}}",
+      "disclaimer": "ውሂቡ ካልተገለጸ በስተቀር ሁልጊዜ የሚቆጠሩ መለኪያዎችን ይወክላል"
+    }
+  },
+  "adminSettings": {
+    "title": "የመድረክ ቅንብሮች",
+    "subtitle": "አለምአቀፍ የመድረክ ባህሪን ያዋቅሩ",
+    "saveButton": "ለውጦችን አስቀምጥ",
+    "saveSuccess": "ቅንብሮች ተቀምጠዋል!",
+    "saveError": "ቅንብሮችን ማስቀመጥ አልተሳካም",
+    "general": {
+      "title": "አጠቃላይ",
+      "platformName": "የመድረክ ስም",
+      "commissionRate": "ኮሚሽን መጠን (ለምሳሌ 0.12 = 12%)",
+      "maxImages": "ከፍተኛ የምስሎች ብዛት በእያንዳንዱ መሳሪያ",
+      "maintenanceMode": {
+        "title": "የጥገና ሁነታ",
+        "description": "የህዝብ መድረሻን ለጊዜው አሰናክል"
+      }
+    }
+  },
+  "adminProfile": {
+    "title": "የኔ መገለጫ",
+    "form": {
+      "fullName": "ሙሉ ስም",
+      "phone": "ስልክ ቁጥር",
+      "city": "ከተማ",
+      "bio": "ስለእኔ",
+      "submitButton": "ለውጦችን አስቀምጥ",
+      "successMessage": "መገለጫ ተዘምኗል!",
+      "errorMessage": "ዝማኔ አልተሳካም",
+      "nameRequired": "ስም ያስፈልጋል"
+    },
+    "avatar": {
+      "uploadTitle": "ፎቶ ስቀል",
+      "uploadPhoto": "የመገለጫ ፎቶ ስቀል",
+      "changePhoto": "የመገለጫ ፎቶ ቀይር",
+      "uploading": "የመገለጫ ፎቶ በመስቀል ላይ...",
+      "success": "የመገለጫ ፎቶ በተሳካ ሁኔታ ተሻሽሏል!",
+      "errors": {
+        "fileTooLarge": "ምስል ከ5 ሜባ በታች መሆን አለበት",
+        "invalidType": "እባክዎ የምስል ፋይል ይምረጡ",
+        "uploadFailed": "የፎቶ መስቀል አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+      }}
+  },
+    "adminCategories": {
+    "title": "የመሳሪያ ምድቦች",
+    "subtitle": "{{count}} ምድቦች በአጠቃላይ",
+    "addButton": "ምድብ ያክሉ",
+    "searchPlaceholder": "በስም ወይም በሹክሹክ ይፈልጉ...",
+    "emptyText": "ምንም ምድቦች አልተገኙም",
+    "status": {
+      "active": "ንቁ",
+      "inactive": "ንቁ ያልሆነ"
+    },
+    "columns": {
+      "icon": "አዶ",
+      "name": "የምድብ ስም",
+      "slugLabel": "ሹክሹክ",
+      "description": "መግለጫ",
+      "equipment": "መሳሪያዎች",
+      "status": "ሁኔታ",
+      "actions": "ድርጊቶች"
+    },
+    "form": {
+      "nameLabel": "የምድብ ስም",
+      "namePlaceholder": "ለምሳሌ፡ ቆፋሪዎች",
+      "slugLabel": "ሹክሹክ",
+      "slugPlaceholder": "ከስም በራስ-ሰር የሚመነጭ",
+      "slugHelper": "ለዩአርኤል ተስማሚ መለያ",
+      "iconLabel": "አዶ",
+      "iconPlaceholder": "🔧",
+      "iconHelper": "ኢሞጂ ወይም አዶ ኮድ",
+      "sortOrderLabel": "የደረደር ቅደም ተከተል",
+      "sortOrderHelper": "ዝቅተኛ ቁጥሮች ቀድመው ይታያሉ",
+      "descriptionLabel": "መግለጫ",
+      "descriptionPlaceholder": "ይህን ምድብ ይግለጹ...",
+      "activeLabel": "ንቁ",
+      "activeHelper": "ንቁ ያልሆኑ ምድቦች በድረ-ገጹ ላይ አይታዩም"
+    },
+    "modal": {
+      "createTitle": "ምድብ ፍጠር",
+      "editTitle": "ምድብ አርትዕ"
+    },
+    "messages": {
+      "createSuccess": "ምድብ በተሳካ ሁኔታ ተፈጥሯል!",
+      "updateSuccess": "ምድብ በተሳካ ሁኔታ ተዘምኗል!",
+      "deleteSuccess": "ምድብ በተሳካ ሁኔታ ተሰርዟል!"
+    },
+    "errors": {
+      "fetchFailed": "ምድቦችን መጫን አልተሳካም",
+      "deleteFailed": "ምድብ መሰረዝ አልተሳካም",
+      "nameRequired": "የምድብ ስም ያስፈልጋል"
+    },
+    "deleteDialog": {
+      "title": "ምድብ ሰርዝ",
+      "message": "\"{{name}}\" የተባለውን ምድብ መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?",
+      "warning": "⚠️ ይህ ምድብ {{count}} የመሳሪያ ንብረቶች አሉት። መሰረዝ እነዚህን የመሳሪያ ዝርዝሮች ይነካል።"
+    }
+  },
+  "sidebar": {
+    "dashboard": "ዳሽቦርድ",
+    "timeSlots": "የጊዜ ክፍተቶች",
+    "equipment": "መሳሪያዎች",
+    "categories": "ምድቦች",
+    "submissions": "ጥያቄዎች",
+    "bookings": "ቦኪንጎች",
+    "customers": "ደንበኞች",
+    "owners": "ባለቤቶች",
+    "reports": "ሪፖርቶች",
+    "settings": "ቅንብሮች",
+    "profile": "መገለጫ",
+    "admins": "አስተዳዳሪዎች",
+    "addEquipment": "መሳሪያ ጨምር",
+    "mySubmissions": "የኔ ጥያቄዎች",
+    "calendar": "ቀን መቁጠሪያ",
+    "analytics": "ትንታኔ",
+    "search": "መሳሪያ ፈልግ",
+    "myBookings": "የኔ ቦኪንጎች",
+    "rolePanel": {
+      "admin": "የአስተዳዳሪ ፓነል",
+      "superAdmin": "የከፍተኛ አስተዳዳሪ ፓነል",
+      "owner": "የባለቤት ፓነል",
+      "customer": "የደንበኛ ፓነል"
+    },
+    "superAdminLabel": "ከፍተኛ አስተዳዳሪ"
+  },
+  "footer": {
+    "description": "ባለቤቶችን ከንግዶች ጋር የሚያገናኝ የኢትዮጵያ ቀዳሚ የከባድ መሳሪያ ኪራይ መድረክ።",
+    "platform": "መድረክ",
+    "support": "ድጋፍ",
+    "cities": "ከተሞች",
+    "browseEquipment": "መሳሪያዎችን ይመልከቱ",
+    "listEquipment": "መሳሪያ ይዘርዝሩ",
+    "aboutUs": "ስለ እኛ",
+    "contactUs": "ያግኙን",
+    "phone": "+251 911 000 000",
+    "email": "info@equiprent.et",
+    "allRightsReserved": "መብቱ በህግ የተጠበቀ ነው።",
+    "operational": "ሁሉም ስርዓቶች በስራ ላይ ናቸው"
+  },
+  "cities": {
+    "addisAbaba": "አዲስ አበባ",
+    "direDawa": "ድሬ ዳዋ",
+    "hawassa": "ሀዋሳ",
+    "bahirDar": "ባህር ዳር",
+    "mekelle": "መቀሌ",
+    "otherCities": "ሌሎች ከተሞች"
+  }
+
+  
+  
+
+}
