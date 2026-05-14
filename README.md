@@ -73,7 +73,7 @@ Concrete Ethiopia is a digital marketplace that bridges equipment owners and con
 ### General
 - ⚡ **Vite** — lightning-fast dev server and build
 - 🌙 **Dark / Light Mode** — persisted to localStorage, respects OS preference
-- 🌍 **Bilingual** — English and Amharic (አማርኛ), switchable at runtime
+- 🌍 **Bilingual** — English and Amharic (አማርኛ) and chines, switchable at runtime
 - 📱 **Fully Responsive** — mobile-first, collapsible sidebar on small screens
 - 🔔 **Real-time Notifications** — bell dropdown, auto-polls every 30 seconds
 - 🛡️ **Role-based Guards** — routes protected per user role
@@ -145,6 +145,7 @@ src/
 ├── locales/
 │   ├── en.json                  # English translations
 │   └── am.json                  # Amharic translations
+|   └── zh.json                  # chines translations
 │
 ├── pages/
 │   ├── auth/
